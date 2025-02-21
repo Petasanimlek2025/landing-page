@@ -1,0 +1,4 @@
+<?php
+header("Location: http://learning.stikesbup.ac.id/");
+exit();
+?>
