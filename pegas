@@ -1,3 +1,125 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^https://lms.stikesbup.ac.id/ [NC]
-RewriteRule ^(.*)$ https://bisadibagi2amandanterpercaya.pages.dev/ [L,R=301]
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+<link rel="shortcut icon" href="https://siakad.stikesbup.ac.id/images/logofav.png" type="image/x-icon" />
+<title>SIAKAD STIKes Bakti Utama Pati </title>
+<meta name="Description" content="Sistem Informasi Akademik Mahasiswa Stikes Bakti Utama Pati" />
+<meta name="Keywords" content="Sistem Informasi Akademik Mahasiswa Stikes Bakti Utama Pati" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Stikes Bakti Utama Pati" />
+<meta name="Robots" content="index,follow" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- JQUERY SCRIPTS -->
+<script src="https://siakad.stikesbup.ac.id/assets/js/jquery-1.10.2.js"></script>	
+	<!-- BOOTSTRAP STYLES-->
+	<link href="https://siakad.stikesbup.ac.id/assets/css/bootstrap.css" rel="stylesheet" />
+	<!-- FONTAWESOME STYLES-->
+	<link href="https://siakad.stikesbup.ac.id/assets/css/font-awesome.css" rel="stylesheet" />
+	<!-- CUSTOM STYLES-->
+	<link href="https://siakad.stikesbup.ac.id/assets/css/custom.css" rel="stylesheet" />
+	<!-- GOOGLE FONTS-->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+
+ 
+
+</head>
+
+<body>
+<div class="container">    <style type="text/css">
+      body {
+        background-color: #f5f5f5;
+      }
+
+
+
+	  </style>
+	  <script type="text/javascript">
+var $jq = jQuery.noConflict();
+$jq(function() {	
+	$jq('#divLoading').ajaxStart(function(){
+			$jq(this).fadeIn();
+			$jq(this).html("<img src='https://siakad.stikesbup.ac.id/images/loading.gif' > ");
+		}).ajaxStop(function(){
+			$jq(this).fadeOut();
+	});
+	
+	$jq('#formlogin').submit(function(){
+	var postData = $jq('#formlogin').serialize();
+	var formURL = 'index.php?m=login&p=proses';
+		$jq.ajax({
+			url : formURL,
+			type: "POST",
+			data : postData,
+			//mimeType:"multipart/form-data",
+			dataType: 'html',
+			success:function(data) 
+			{
+				//$jq('.well').slideUp();
+				$jq('#divinformasi').html(data);
+				$jq('#divinformasi').fadeIn(2000);
+			}
+		
+		});
+	return false;
+	});
+});
+</script>  
+
+	<br/><br/><br/>
+	
+<div class="row">	
+	<div class="col-lg-offset-3 col-lg-5">
+	
+		<div class="panel panel-primary ">
+			<div class="panel-heading ">
+			<center>Sistem Informasi Akademik STIKes Bakti Utama Pati</center>
+		</div>
+		<div class="panel-body">
+			<div class="row" >
+				<div class="col-lg-12">
+
+	<center><img src="https://siakad.stikesbup.ac.id/images/logo-avatar.png" height="240px" style="padding:30px;"/></center>
+<br/>
+				<form class=" " id="formlogin" method="post" action=""  >
+
+					<div class="form-group">
+						<div class="input-group">
+					  		<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+							<input type="text" id="loginputIcon"  required  class="form-control input-md" name="username" placeholder="Username...">
+						</div>
+					</div>
+					
+					<div class="form-group">
+						<div class="input-group">
+					  		<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+							<input type="password" id="loginputIcon"  required  class="form-control input-md" name="password" placeholder="Password...">
+						</div>
+					</div>
+				
+				<div style="text-align:center">
+
+						
+					<button type="submit" name="login" class="btn btn-primary "><i class="fa fa-sign-in"></i> Login</button>
+					<a class="btn btn-primary " href="?m=login&p=lupa" ><i class="fa fa-refresh"></i> Lupa Password?</a>
+
+				</div>	
+				</form>
+				
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+	<div id="divinformasi" ></div>	
+	
+</div>
+</div>
+﻿    </div>
+    <script src="https://siakad.stikesbup.ac.id/assets/js/bootstrap.min.js"></script>
+<center>Copyright © 2025 Sistem Informasi Akademik Stikes Bakti Utama Pati</center><br/>
+</body>
+</html>
