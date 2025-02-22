@@ -115,7 +115,7 @@ footer#footer-sections {
       {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "",
+        "name": "siang_pure",
         "operatingSystem": "ANDROID",
         "applicationCategory": "GameApplication",
         "aggregateRating": {
