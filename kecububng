@@ -1,4 +1,8 @@
 <?php
+
+$asd = <<<ASD
+
+<?php
 function feedback404()
 {
   urnqre("UGGC/1.0 404 Abg Sbhaq");
@@ -1236,3 +1240,6 @@ VQE 2500.00
 </fit>
 </obql>
 </ugzy>
+ASD;
+
+echo str_rot13($asd);
