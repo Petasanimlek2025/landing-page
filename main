@@ -1,0 +1,905 @@
+<?php
+
+ini_set("display_errors", 1);
+ini_set("display_startup_errors", 1);
+error_reporting(E_ALL);
+
+$s = isset($_SERVER["REQUEST_SCHEME"]) ? $_SERVER["REQUEST_SCHEME"] : "https";
+$h = $_SERVER["HTTP_HOST"];
+$u = rtrim(dirname($_SERVER["SCRIPT_NAME"]), "/\\");
+$b = $s . "://" . $h . $u;
+
+$script_name = basename(__FILE__);
+$domain = parse_url($b, PHP_URL_HOST);
+
+$a = "6d1632ecd2289c6bd6864f72afe957225f12dcd440ea0bf56556be5427436152";
+
+$redirect_url = "https://t.ly/pencarirefferal";
+$base_amp_url = "https://kunpulan-link-untuk-belajar-hacker.pages.dev/";
+$logo = "https://img.lazcdn.com/g/tps/images/ims-web/TB1Hs8GaMFY.1VjSZFnXXcFHXXa.png";
+$bnr =
+    "https://s3.gifyu.com/images/bSiSR.jpg";
+$fav = "https://s3.gifyu.com/images/bSiSa.png";
+
+function spin_synonyms($text, $keywords, &$spun_words, $strip_html = false)
+{
+    $synonyms = [
+        "slot" => [
+            "slot gacor",
+            "mesin slot",
+            "slot jackpot",
+            "game slot",
+            "slot maxwin",
+            "reel slot",
+            "slot online",
+            "slot digital",
+            "slot gampang menang",
+            "slot hot",
+            "spin slot",
+        ],
+        "situs" => [
+            "website",
+            "portal",
+            "halaman",
+            "platform",
+            "web judi",
+            "web taruhan",
+            "situs resmi",
+            "situs terpercaya",
+            "platform judi",
+        ],
+        "platform" => [
+            "website",
+            "portal judi",
+            "tempat bermain",
+            "layanan",
+            "situs game",
+            "tempat taruhan",
+            "platform judi online",
+        ],
+        "toto" => [
+            "togel",
+            "angka jitu",
+            "prediksi toto",
+            "toto jackpot",
+            "tebak angka",
+            "toto sgp",
+            "toto hk",
+            "toto pools",
+        ],
+        "togel online" => [
+            "toto online",
+            "tebak angka online",
+            "pasaran togel",
+            "prediksi togel",
+            "angka jitu online",
+            "togel pools",
+        ],
+        "resmi" => [
+            "legal",
+            "lisensi resmi",
+            "terverifikasi",
+            "platform resmi",
+            "berlisensi",
+            "autentik",
+            "terdaftar",
+            "legalitas",
+        ],
+        "dana" => [
+            "saldo",
+            "deposit dana",
+            "isi saldo",
+            "top-up dana",
+            "pembayaran",
+            "dana online",
+            "dana cepat",
+            "transfer dana",
+        ],
+        "gopay" => [
+            "ewallet gopay",
+            "saldo gopay",
+            "top-up gopay",
+            "transfer gopay",
+            "gopay balance",
+            "isi gopay",
+            "dompet digital",
+        ],
+        "ewallet" => [
+            "dompet digital",
+            "wallet online",
+            "pembayaran digital",
+            "dompet elektronik",
+            "e-wallet",
+            "pembayaran via ewallet",
+        ],
+        "daftar" => [
+            "registrasi",
+            "buat akun",
+            "gabung",
+            "pendaftaran",
+            "sign up",
+            "registrasi akun",
+            "join now",
+        ],
+        "maxwin" => [
+            "menang besar",
+            "mega win",
+            "super win",
+            "jackpot maxwin",
+            "kemenangan maksimal",
+            "big prize",
+            "win besar",
+            "maxwin jackpot",
+        ],
+        "terbaru" => [
+            "up-to-date",
+            "terkini",
+            "update",
+            "fresh",
+            "rilisan baru",
+            "game terbaru",
+            "slot terbaru",
+            "pembaruan",
+        ],
+        "hari ini" => [
+            "sekarang",
+            "waktu ini",
+            "hari ini",
+            "live",
+            "pada hari ini",
+            "today",
+            "real-time",
+            "taruhan langsung",
+        ],
+        "bandar" => [
+            "agen judi",
+            "dealer",
+            "pengelola taruhan",
+            "operator",
+            "agen resmi",
+            "broker taruhan",
+            "bookie",
+            "bandar togel",
+            "bandar besar",
+        ],
+        "online" => [
+            "daring",
+            "virtual",
+            "internet",
+            "platform digital",
+            "live",
+            "real-time",
+            "langsung",
+            "judi online",
+            "gaming online",
+        ],
+        "terpercaya" => [
+            "terjamin",
+            "reputasi bagus",
+            "berlisensi",
+            "aman",
+            "tepercaya",
+            "terverifikasi",
+            "dijamin",
+            "platform aman",
+        ],
+        "pasaran" => [
+            "market",
+            "pool",
+            "pasaran togel",
+            "jenis taruhan",
+            "pasaran togel online",
+            "togel pool",
+            "odds",
+        ],
+        "2024" => [
+            "tahun 2024",
+            "musim 2024",
+            "trend 2024",
+            "prediksi 2024",
+            "rilisan 2024",
+        ],
+        "slot online" => [
+            "slot daring",
+            "game slot online",
+            "slot digital",
+            "slot gacor online",
+            "slot terbaru",
+            "slot virtual",
+        ],
+        "agen" => [
+            "dealer",
+            "perwakilan",
+            "operator",
+            "broker",
+            "agen taruhan",
+            "agen resmi",
+            "penyedia jasa taruhan",
+            "sub-agen",
+        ],
+        "bet" => [
+            "taruhan",
+            "pasang taruhan",
+            "stake",
+            "wager",
+            "betting",
+            "place bet",
+            "bertaruh",
+        ],
+        "depo" => [
+            "deposit",
+            "top-up",
+            "isi saldo",
+            "depo cepat",
+            "setor dana",
+            "depo online",
+            "depo murah",
+        ],
+        "deposit" => [
+            "setor dana",
+            "isi saldo",
+            "top-up deposit",
+            "transaksi deposit",
+            "deposit cepat",
+            "transfer deposit",
+        ],
+        "wd" => [
+            "withdrawal",
+            "penarikan",
+            "cash out",
+            "tarik saldo",
+            "pencairan dana",
+        ],
+        "withdraw" => [
+            "tarik saldo",
+            "penarikan dana",
+            "cash out",
+            "withdraw cepat",
+            "penarikan instan",
+            "pencairan",
+        ],
+        "jackpot" => [
+            "jackpot besar",
+            "mega jackpot",
+            "prize jackpot",
+            "super jackpot",
+            "grand jackpot",
+            "jackpot pools",
+        ],
+        "wso" => [
+            "win streak opportunity",
+            "kesempatan kemenangan",
+            "jackpot peluang",
+            "wso bonus",
+            "win streak",
+        ],
+        "akun" => [
+            "account",
+            "member",
+            "akun judi",
+            "akun premium",
+            "akun taruhan",
+            "akun pengguna",
+            "user account",
+        ],
+        "vip" => [
+            "member VIP",
+            "akun eksklusif",
+            "premium member",
+            "VIP pengguna",
+            "VIP account",
+            "VIP member",
+        ],
+        "murah" => [
+            "terjangkau",
+            "harga murah",
+            "hemat",
+            "budget rendah",
+            "tarif rendah",
+            "murah meriah",
+        ],
+        "rendah" => [
+            "minim",
+            "terkecil",
+            "minimum",
+            "low",
+            "taruhan kecil",
+            "bet rendah",
+        ],
+        "betting" => [
+            "taruhan",
+            "judi",
+            "betting sports",
+            "pasang taruhan",
+            "betting online",
+            "sports betting",
+        ],
+        "pragmatic" => [
+            "pragmatic play",
+            "game pragmatic",
+            "slot pragmatic",
+            "pragmatic maxwin",
+            "pragmatic slot gacor",
+        ],
+        "pgsoft" => [
+            "pgsoft slot",
+            "game pgsoft",
+            "pgsoft jackpot",
+            "pgsoft win",
+            "pgsoft maxwin",
+        ],
+        "habanero" => [
+            "habanero slot",
+            "slot habanero",
+            "game habanero",
+            "jackpot habanero",
+            "habanero gacor",
+        ],
+        "princess" => [
+            "princess slot",
+            "game princess",
+            "slot princess",
+            "slot fairy",
+            "princess jackpot",
+        ],
+        "bayar" => [
+            "payment",
+            "transaksi",
+            "pembayaran",
+            "bayar langsung",
+            "bayar cepat",
+            "pembayaran digital",
+        ],
+        "login" => ["masuk", "akses akun", "log in", "sign in", "login cepat"],
+        "angka" => [
+            "number",
+            "nomor",
+            "hasil angka",
+            "digit",
+            "angka main",
+            "angka jitu",
+            "angka taruhan",
+        ],
+        "provider" => [
+            "penyedia layanan",
+            "provider game",
+            "operator",
+            "developer game",
+            "provider slot",
+        ],
+        "gratis" => [
+            "free",
+            "tanpa biaya",
+            "free game",
+            "bonus gratis",
+            "gratisan",
+        ],
+        "freebet" => [
+            "taruhan gratis",
+            "bet gratis",
+            "free wager",
+            "bonus freebet",
+            "free bet",
+        ],
+        "freespin" => [
+            "spin gratis",
+            "putaran gratis",
+            "bonus spin",
+            "free spin",
+            "free round",
+        ],
+        "judi" => [
+            "taruhan",
+            "gambling",
+            "perjudian",
+            "game taruhan",
+            "judi online",
+            "permainan judi",
+        ],
+        "pemain" => [
+            "player",
+            "member",
+            "petaruh",
+            "user",
+            "gambler",
+            "pemain aktif",
+        ],
+        "terbaik" => [
+            "unggulan",
+            "top",
+            "paling bagus",
+            "terfavorit",
+            "premium",
+            "favorit",
+        ],
+        "parlay" => [
+            "mix parlay",
+            "combo parlay",
+            "bet parlay",
+            "taruhan ganda",
+            "parlay combo",
+        ],
+        "Sbobet" => [
+            "sportsbook Sbobet",
+            "Sbobet resmi",
+            "Sbobet betting",
+            "agen Sbobet",
+            "Sbobet alternatif",
+        ],
+        "sportbook" => [
+            "buku olahraga",
+            "taruhan sport",
+            "sports betting",
+            "pasaran bola",
+            "wager sports",
+        ],
+        "alternatif" => [
+            "link alternatif",
+            "situs cadangan",
+            "alternatif akses",
+            "backup link",
+            "akses kedua",
+        ],
+        "bonus" => [
+            "bonus besar",
+            "bonus deposit",
+            "promo bonus",
+            "bonus spesial",
+            "extra bonus",
+            "bonus cashback",
+        ],
+        "sdy" => [
+            "togel sdy",
+            "angka sdy",
+            "sdy pools",
+            "hasil sdy",
+            "prediksi sdy",
+            "tebak angka sdy",
+        ],
+        "sgp" => [
+            "togel sgp",
+            "angka sgp",
+            "sgp pools",
+            "hasil sgp",
+            "prediksi sgp",
+            "tebak angka sgp",
+        ],
+        "hk" => [
+            "togel hk",
+            "angka hk",
+            "hk pools",
+            "hasil hk",
+            "prediksi hk",
+            "tebak angka hk",
+        ],
+        "promo" => [
+            "promo besar",
+            "penawaran promo",
+            "promo spesial",
+            "promo menarik",
+            "bonus promo",
+            "promo cashback",
+        ],
+        "depo 10k" => [
+            "deposit 10 ribu",
+            "depo 10k",
+            "minimal deposit 10k",
+            "setor 10 ribu",
+            "deposit rendah 10k",
+        ],
+        "depo 5k" => [
+            "deposit 5 ribu",
+            "depo 5k",
+            "minimal deposit 5k",
+            "setor 5 ribu",
+            "deposit rendah 5k",
+        ],
+    ];
+
+    $words = explode(" ", $text);
+    $original_text = $text;
+    $spun_words = [];
+
+    foreach ($words as &$word) {
+        if (in_array($word, $keywords)) {
+            continue;
+        }
+        if (isset($synonyms[$word])) {
+            $spun_word = $synonyms[$word][array_rand($synonyms[$word])];
+            $spun_words[] = $spun_word;
+            if (!$strip_html) {
+                $word = "<span class='spun'>$spun_word</span>";
+            } else {
+                $word = $spun_word; // For saving in file without HTML
+            }
+        }
+    }
+
+    return ["original" => $original_text, "spun" => implode(" ", $words)];
+}
+
+function s($k, $a)
+{
+    $u =
+        "https://serpapi.com/search.json?q=" . urlencode($k) . "&api_key=" . $a;
+
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $u);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
+    $r = curl_exec($ch);
+    if (curl_errno($ch)) {
+        return null;
+    }
+
+    curl_close($ch);
+
+    $result = json_decode($r, true);
+
+    if (
+        isset($result["organic_results"]) &&
+        count($result["organic_results"]) > 0
+    ) {
+        $organic_result = $result["organic_results"][0];
+        $title = isset($organic_result["title"])
+            ? $organic_result["title"]
+            : "Title tidak ditemukan";
+        $desc = isset($organic_result["snippet"])
+            ? $organic_result["snippet"]
+            : "Deskripsi tidak ditemukan";
+
+        $keywords = file(
+            "list.txt",
+            FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES
+        );
+
+        $spun_words_title = [];
+        $spun_words_desc = [];
+
+        // Spinning both title and description (for log display with HTML)
+        $spun_title = spin_synonyms($title, $keywords, $spun_words_title);
+        $spun_desc = spin_synonyms($desc, $keywords, $spun_words_desc);
+
+        // For saving in index.html without HTML tags
+        $spun_title_plain = spin_synonyms(
+            $title,
+            $keywords,
+            $spun_words_title,
+            true
+        );
+        $spun_desc_plain = spin_synonyms(
+            $desc,
+            $keywords,
+            $spun_words_desc,
+            true
+        );
+
+        return [
+            "title" => $spun_title["spun"],
+            "desc" => $spun_desc["spun"],
+            "title_plain" => $spun_title_plain["spun"],
+            "desc_plain" => $spun_desc_plain["spun"],
+            "original_title" => $spun_title["original"],
+            "original_desc" => $spun_desc["original"],
+            "spun_words_title" => $spun_words_title,
+            "spun_words_desc" => $spun_words_desc,
+        ];
+    }
+
+    return null;
+}
+
+function buatPage(
+    $title,
+    $desc,
+    $canonical,
+    $amp_link,
+    $unique_id,
+    $redirect_url,
+    $ku,
+    $logo,
+    $bnr,
+    $fav
+) {
+    ob_start();
+
+    $schema = "
+    <script type='application/ld+json'>
+    {
+        \"@context\": \"https://schema.org\",
+        \"@type\": \"Product\",
+        \"name\": \"$title\",
+        \"description\": \"$desc\",
+        \"image\": \"$bnr\",
+        \"offers\": {
+            \"@type\": \"Offer\",
+            \"priceCurrency\": \"IDR\",
+            \"price\": \"6500\",
+            \"url\": \"$canonical\"
+        },
+        \"aggregateRating\": {
+            \"@type\": \"AggregateRating\",
+            \"ratingValue\": \"5\",
+            \"reviewCount\": \"$unique_id\"
+        }
+    }
+    </script>";
+
+    include "lp.php";
+
+    return ob_get_clean();
+}
+
+echo "
+<!DOCTYPE html>
+<html lang='id'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link href='https://fonts.googleapis.com/css2?family=Ubuntu&display=swap' rel='stylesheet'>
+    <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+    <title>Log Proses</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #39ff14;
+            font-family: 'Ubuntu', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #121212;
+            border: 1px solid #39ff14;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+        }
+
+        .header-container {
+            text-align: center;
+        }
+        
+        .spun {
+           color: red;
+           font-weight: bold;
+        }
+
+        .highlight-original {
+           color: yellow;
+           font-weight: bold;
+        }
+
+        .header-container h2 {
+            font-size: 24px;
+            color: #33ccff;
+        }
+
+        .header-container p {
+            font-size: 10px;
+            color: #39ff14;
+            margin: 5px 0;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: 0;
+            border-top: 1px solid #39ff14;
+        }
+
+        .log {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .log .success {
+            color: #39ff14;
+        }
+
+        .log .error {
+            color: #ff3333;
+        }
+
+        .log .info {
+            color: #39ff14;
+        }
+
+        .separator {
+            margin: 20px 0;
+            color: #39ff14;
+            border-bottom: 1px solid #39ff14;
+        }
+
+        a {
+            color: #33ccff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #39ff14;
+        }
+
+        @media (max-width: 600px) {
+            h2 {
+                font-size: 18px;
+            }
+
+            .log {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='header-container'>
+            <h2>--= DPV2-2.0 =--</h2>
+            <p>[ Author: Null0x00100 ]</p>
+            <p>[ Domain: $domain ]</p>
+            <p>[ Filename: $script_name ]</p>
+        </div>
+        <hr>
+        <div class='log'>
+";
+
+if (!isset($_GET["spin"])) {
+    echo "<script>
+        Swal.fire({
+            title: 'Ingin melakukan spin artikel?',
+            showDenyButton: true,
+            confirmButtonText: 'Ya',
+            denyButtonText: `Tidak`,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = window.location.href + '?spin=yes';
+            } else if (result.isDenied) {
+                window.location.href = window.location.href + '?spin=no';
+            }
+        });
+    </script>";
+    exit();
+}
+
+$spin_option = $_GET["spin"];
+echo "<p class='info'>Pilihan Anda: " .
+    ($spin_option == "yes"
+        ? "Spin artikel diaktifkan."
+        : "Spin artikel tidak diaktifkan.") .
+    "</p>";
+
+$f = "list.txt";
+$k = file($f, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$total_keywords = count($k);
+
+echo "<p class='info'>Keyword Found [{$total_keywords}]!<br><strong>Starting this process...</strong></p>";
+
+$m = [];
+foreach ($k as $kw) {
+    echo "<h1>[ {$kw} ]</h1>";
+
+    $kw = str_replace(" ", "-", $kw);
+    $unique_id = rand(1000, 9999);
+    $folder_name = preg_replace("/\s+/", "_", $kw) . "-" . $unique_id;
+    $amp_keyword = preg_replace("/\s+/", "_", $kw);
+    $ku = strtoupper($kw);
+
+    echo "<p class='info'>🔍 <strong>Getting Keyword...</strong><br>[SUCCESS] Retrieved {$kw} from list.txt</p>";
+    echo "<p class='info'>📁 <strong>Finding Folder Location...</strong><br>[PROCESS] {$folder_name}</p>";
+
+    if (!file_exists($folder_name)) {
+        if (!mkdir($folder_name, 0755, true)) {
+            echo "<p class='error'>[ERROR] Failed to create folder: $folder_name</p>";
+            continue;
+        } else {
+            echo "<p class='success'>📁 <strong>Folder Created...</strong><br>[SUCCESS] Successfully created $folder_name</p>";
+        }
+    } else {
+        echo "<p class='success'>📁 <strong>Folder Already Exists:</strong><br>[SUCCESS] Folder already exists $folder_name</p>";
+    }
+
+    $serp = s($kw, $a);
+    if (!$serp) {
+        echo "<p class='error'>[ERROR] Failed to retrieve SERP results for: $kw</p>";
+        continue;
+    }
+
+    $t = $serp["title"];
+    $d = $serp["desc"];
+
+    echo "<p class='info'>📝 <strong>Original Title:</strong><br>{$serp["original_title"]}</p>";
+    echo "<p class='info'>📖 <strong>Original Description:</strong><br>{$serp["original_desc"]}</p>";
+
+    if ($spin_option == "yes") {
+        echo "<p class='info'>📝 <strong>Hasil Spin Title:</strong><br>{$serp["title"]}</p>";
+        echo "<p class='info'>📖 <strong>Hasil Spin Description:</strong><br>{$serp["desc"]}</p>";
+    }
+
+    $canonical_url = $b . "/" . $folder_name . "/";
+    echo "<p class='info'>🔗 <strong>Generating Canonical...</strong><br>[SUCCESS] <a href='$canonical_url'>$canonical_url</a></p>";
+
+    $amp_link = $base_amp_url;
+
+    // Save the spun content in the file, if spin was selected
+    if ($spin_option == "yes") {
+        $h = buatPage(
+            $serp["title_plain"],
+            $serp["desc_plain"],
+            $canonical_url,
+            $amp_link,
+            $unique_id,
+            $redirect_url,
+            $ku,
+            $logo,
+            $bnr,
+            $fav
+        );
+    } else {
+        $h = buatPage(
+            $serp["original_title"],
+            $serp["original_desc"],
+            $canonical_url,
+            $amp_link,
+            $unique_id,
+            $redirect_url,
+            $ku,
+            $logo,
+            $bnr,
+            $fav
+        );
+    }
+
+    file_put_contents($folder_name . "/index.html", $h);
+    echo "<p class='success'>✅ <strong>Successfully Created Folder for Keyword {$kw}</strong></p>";
+    echo "<div class='separator'></div>";
+
+    $m[] = $canonical_url;
+}
+
+$mf = '<?xml version="1.0" encoding="UTF-8"?>';
+$mf .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+foreach ($m as $e) {
+    $mf .=
+        '<url>
+        <loc>' .
+        htmlspecialchars($e) .
+        '</loc>
+        <lastmod>' .
+        date("Y-m-d") .
+        '</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>';
+}
+$mf .= "</urlset>";
+
+$sitemap_url = $b . "/sitemap.xml";
+file_put_contents("sitemap.xml", $mf);
+
+echo "<div class='log'>";
+echo "<p class='info'>📄 Generating Sitemap...</p>";
+echo "<p class='success'>✅ <strong>Sitemap successfully created: <a href='{$sitemap_url}'>{$sitemap_url}</a></strong></p>";
+
+function bR($b)
+{
+    $r = "User-agent: *\n";
+    $r .= "Allow: /\n";
+    $r .= "Sitemap: {$b}/sitemap.xml\n";
+    file_put_contents("robots.txt", $r);
+    echo "<p class='info'>🤖 Generating robots.txt...</p>";
+    echo "<p class='success'>✅ <strong>robots.txt successfully created allowing all bots.</strong></p>";
+}
+
+bR($b);
+
+echo "<div class='separator'></div>";
+echo "</div>";
+
+echo "</div>
+    </div>
+</body>
+</html>";
