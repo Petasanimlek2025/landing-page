@@ -702,239 +702,185 @@ $ampnya_logo = "https://iili.io/3nSkzdu.png/logo-black.webp?news" . $BRANDS . ".
 
 </div>
 
-  <script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "<?php echo $BRANDS;?>",
-		"logo": "<?php echo $ampnya_logo;?>",
-		"image":"<?php echo $ampnya_image;?>",
-		"url": "<?php echo $urlpath;?>"
-	}
-  </script>
-
-  <script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@type": "WebSite",
-		"name": "<?php echo $BRANDS;?>",
-		"logo": "<?php echo $ampnya_logo;?>",
-		"image":"<?php echo $ampnya_image;?>",
-		"potentialAction":
-			{
-				"@type": "SearchAction",
-				"target": "/search?keyword={search_term_string}",
-				"query-input": "required name=search_term_string"
-			},
-		"url": "<?php echo $urlpath;?>"
-	}
-  </script>
-
 <script type="application/ld+json">
-      {
-        "@type": "Product",
-		"@context": "https://schema.org/",
-        "name": "<?php echo $BRANDS;?>",
-		"image":"<?php echo $ampnya_image;?>",
-		"category":"Sepatu dan Pakaian Pria > Pakaian Pria",
-        "brand":
-			{
-				"@type":"Brand",
-				"name":"<?php echo $BRANDS;?>",
-				"url":"<?php echo $urlpath;?>"
-			},
-		"sku":"150632510_ID-169176025",
-		"mpn":150632510,
-        "description": " <?php echo $BRANDS ?> adalah portal pendaftaran online universitas stikes bakti utama pati tahun ajaran 2025/2026 jurusan kebidanan dan kedokteran.",
-		"url": "<?php echo $urlpath;?>",
-		"aggregateRating": {
-			"@type": "AggregateRating",
-			"ratingValue": "5.0",
-			"reviewCount": "8999000"
-		},
-        "offers": [{
-			"@type" : "Offer",
-			"availability" : "https://schema.org/InStock",
-			"itemCondition" : "https://schema.org/NewCondition",
-			"seller":
-				{
-					"@type":"Organization",
-					"name":"<?php echo $BRANDS;?>"
-				},
-			"price" : 20000,
-			"priceCurrency" : "IDR",
-			"priceValidUntil" : "2034-12-31T23:59",
-			"url" : "<?php echo $urlpath;?>",
-			"hasMerchantReturnPolicy": {
-				"@type": "MerchantReturnPolicy",
-				"returnPolicyCountry": "ID",
-				"applicableCountry": "ID",
-				"returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-				"merchantReturnDays": 1,
-				"returnMethod": "https://schema.org/ReturnByMail",
-				"returnFees": "https://schema.org/FreeReturn"
-				},
-			"shippingDetails": {
-				"@type": "OfferShippingDetails",
-				"deliveryTime": {
-				"@type": "ShippingDeliveryTime",
-				"businessDays": {
-					"@type": "OpeningHoursSpecification",
-					"dayOfWeek": [
-                    "https://schema.org/Monday",
-                    "https://schema.org/Tuesday",
-                    "https://schema.org/Wednesday",
-                    "https://schema.org/Thursday",
-                    "https://schema.org/Friday",
-					"https://schema.org/Saturday",
-					"https://schema.org/Sunday"
-					]
-				},
-				"cutoffTime": "00:00:00Z",
-				"handlingTime": {
-					"@type": "QuantitativeValue",
-					"minValue": 1,
-					"maxValue": 3,
-					"unitCode": "d"
-				},
-				"transitTime": {
-					"@type": "QuantitativeValue",
-					"minValue": 1,
-					"maxValue": 3,
-					"unitCode": "d"
-				}
-			},
-			"shippingRate": {
-				"@type": "MonetaryAmount",
-				"value": "20000",
-				"currency": "IDR"
-			},
-			"shippingDestination": {
-				"@type": "DefinedRegion",
-				"addressCountry": "ID"
-			}
-		}
-            }
-		],
-		"review": [
-			{
-		"@type": "Review",
-		"author": {
-		"@type": "Person",
-		"name": "<?php echo $BRANDS;?>"
-			},
-		"datePublished": "2025-02-14",
-		"reviewBody": " <?php echo $BRANDS ?> adalah portal pendaftaran online universitas stikes bakti utama pati tahun ajaran 2025/2026 jurusan kebidanan dan kedokteran.",
-		"name": "<?php echo $BRANDS;?>",
-		"reviewRating": {
-			"@type": "Rating",
-			"bestRating": "99",
-			"ratingValue": "98",
-			"worstRating": "97"
-						}
-			}
-		]
-      }
-</script>
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "<?php echo $BRANDS;?>",
+    "logo": "<?php echo $ampnya_logo;?>",
+    "image": "<?php echo $ampnya_image;?>",
+    "url": "<?php echo $urlpath;?>"
+  }
+  </script>
   
-  <script type="application/ld+json" data-rh="true">
-      {
-        "@context": "http://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-          "@type": "ListItem",
-          "position": 1,
-          "item": {
-            "@id": "<?php echo $urlpath;?>",
-            "name": "<?php echo $BRANDS;?>"
-          }
-        }, {
-          "@type": "ListItem",
-          "position": 2,
-          "item": {
-            "@id": "<?php echo $urlpath;?>",
-            "name": "<?php echo $BRANDS;?> login"
-          }
-        }, {
-          "@type": "ListItem",
-          "position": 3,
-          "item": {
-            "@id": "<?php echo $urlpath;?>",
-            "name": "<?php echo $BRANDS;?> slot"
-          }
-        }, {
-          "@type": "ListItem",
-          "position": 4,
-          "item": {
-            "@id": "<?php echo $urlpath;?>",
-            "name": "situs <?php echo $BRANDS;?>"
-          }
-        }, {
-          "@type": "ListItem",
-          "position": 5,
-          "item": {
-            "@id": "<?php echo $urlpath;?>",
-            "name": "link alternatif <?php echo $BRANDS;?>"
-          }
-        }, {
-          "@type": "ListItem",
-          "position": 6,
-          "item": {
-            "@id": "<?php echo $urlpath;?>",
-            "name": "<?php echo $BRANDS;?>"
-          }
-        }]
-      }
-    </script>
-	
-<script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "<?php echo $urlpath;?>",
-        "operatingSystem": "ANDROID",
-        "applicationCategory": "GameApplication",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5",
-          "bestRating": "5",
-          "ratingCount": "8999000"
-        },
-        "review": {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": 5,
-            "worstRating": "1"
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "<?php echo $BRANDS;?>",
+    "url": "<?php echo $urlpath;?>",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "/search?keyword={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "<?php echo $BRANDS;?>",
+    "image": "<?php echo $ampnya_image;?>",
+    "category": "Sepatu dan Pakaian Pria > Pakaian Pria",
+    "brand": {
+      "@type": "Brand",
+      "name": "<?php echo $BRANDS;?>",
+      "url": "<?php echo $urlpath;?>"
+    },
+    "sku": "150632510_ID-169176025",
+    "mpn": 150632510,
+    "description": "<?php echo $BRANDS ?> adalah portal pendaftaran online universitas stikes bakti utama pati tahun ajaran 2025/2026 jurusan kebidanan dan kedokteran.",
+    "url": "<?php echo $urlpath;?>",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 8999000
+    },
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": {
+        "@type": "Organization",
+        "name": "<?php echo $BRANDS;?>"
+      },
+      "price": "20000.00",
+      "priceCurrency": "IDR",
+      "priceValidUntil": "2034-12-31",
+      "url": "<?php echo $urlpath;?>",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "returnPolicyCountry": "ID",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 1,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "cutoffTime": "00:00:00Z",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 3,
+            "unitCode": "d"
           },
-          "author": {
-            "@type": "Person",
-            "name": "<?php echo $BRANDS;?>",
-            "reviewBody": " <?php echo $BRANDS ?> adalah portal pendaftaran online universitas stikes bakti utama pati tahun ajaran 2025/2026 jurusan kebidanan dan kedokteran."
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 3,
+            "unitCode": "d"
           }
         },
-        "offers": {
-          "@type": "Offer",
-          "price": " 20000.00",
-          "priceCurrency": "IDR"
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "20000",
+          "currency": "IDR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "ID"
         }
       }
-</script>
-
-<script type="application/ld+json">
-{
-	"@context":"https://schema.org",
-	"@type":"VideoObject",
-	"name":"<?php echo $BRANDS;?>",
-	"description":" <?php echo $BRANDS ?> adalah portal pendaftaran online universitas stikes bakti utama pati tahun ajaran 2025/2026 jurusan kebidanan dan kedokteran.",
-	"thumbnailUrl":"<?php echo $ampnya_image;?>",
-	"uploadDate":"2025-02-15T10:00:00+00:00Z",
-	"duration":"PT30S",
-	"contentUrl":"https://www.youtube.com/watch?v=A2_gUHEWGhc",
-	"embedUrl":"https://www.youtube.com/watch?v=A2_gUHEWGhc"
-}
-</script>
+    },
+    "review": {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "<?php echo $BRANDS;?>"
+      },
+      "datePublished": "2025-02-14",
+      "reviewBody": "<?php echo $BRANDS ?> adalah portal pendaftaran online universitas stikes bakti utama pati tahun ajaran 2025/2026 jurusan kebidanan dan kedokteran.",
+      "name": "<?php echo $BRANDS;?>",
+      "reviewRating": {
+        "@type": "Rating",
+        "bestRating": 99,
+        "ratingValue": 98,
+        "worstRating": 97
+      }
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "<?php echo $urlpath;?>",
+          "name": "<?php echo $BRANDS;?>"
+        }
+      }
+    ]
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "<?php echo $BRANDS;?>",
+    "operatingSystem": "ANDROID",
+    "applicationCategory": "GameApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "bestRating": 5,
+      "ratingCount": 8999000
+    },
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5,
+        "worstRating": 1
+      },
+      "author": {
+        "@type": "Person",
+        "name": "<?php echo $BRANDS;?>"
+      },
+      "reviewBody": "<?php echo $BRANDS ?> adalah portal pendaftaran online universitas stikes bakti utama pati tahun ajaran 2025/2026 jurusan kebidanan dan kedokteran."
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "20000.00",
+      "priceCurrency": "IDR"
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "<?php echo $BRANDS;?>",
+    "description": "<?php echo $BRANDS ?> adalah portal pendaftaran online universitas stikes bakti utama pati tahun ajaran 2025/2026 jurusan kebidanan dan kedokteran.",
+    "thumbnailUrl": "<?php echo $ampnya_image;?>",
+    "uploadDate": "2025-02-15T10:00:00+00:00",
+    "duration": "PT30S",
+    "contentUrl": "https://www.youtube.com/watch?v=A2_gUHEWGhc",
+    "embedUrl": "https://www.youtube.com/watch?v=A2_gUHEWGhc"
+  }
+  </script>
   
     <script type="5e90a40a2a274c6f57d2d593-text/javascript">
     window.__bl ={};
