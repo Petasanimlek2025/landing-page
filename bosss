@@ -8,7 +8,7 @@ function denied()
     echo"<h1>under repair.</h1>";
 }
 
-$filename = "list.txt";
+$filename = "daftar.txt";
 
 if (isset($_GET['news'])) { 
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
