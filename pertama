@@ -44,8 +44,8 @@ if (isset($_GET['berita'])) {
 }
 $ampnya = "https://semogabisarakingsatu.pages.dev/" . $BRANDS . ".html";
 $ampnya_icon = "https://iili.io/3nSvmSn.png/icon.webp?news" . $BRANDS . ".html";
-$ampnya_image = "https://iili.io/3nUgnpe.png/slot-gacor.webp?news" . $BRANDS . ".html";
-$ampnya_logo = "https://iili.io/3nSkzdu.png/logo-black.webp?news" . $BRANDS . ".html";
+$ampnya_image = "https://iili.io/3nSkzdu.png/logo-black.webp?news" . $BRANDS . ".html";
+$ampnya_logo = "https://iili.io/3nUgnpe.png/slot-gacor.webp?news" . $BRANDS . ".html";
 ?>
 <!-- Versi Ke Dui May Poipet -->
 <!DOCTYPE HTML>
