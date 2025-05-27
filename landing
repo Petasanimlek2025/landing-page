@@ -1,1680 +1,14 @@
 <?php
-
-$btnShort = "https://www.elearning-inspc.mg/="; //LINK SHORTBUTTON
-$amp_link = "https://kontolkudamakankawatduri.pages.dev/"; //LINK AMP
-
 function feedback404()
 {
-    $asd = <<<ASD
-
-
-<!DOCTYPE html>
-
-<html  dir="ltr" lang="en" xml:lang="en">
-<head>
-    <title>Home | ENT : Institut National de Santé Publique et Communautaire</title>
-    <link rel="shortcut icon" href="https://www.elearning-inspc.mg/pluginfile.php/1/core_admin/favicon/64x64/1747651601/logo.png" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="moodle, Home | ENT : Institut National de Santé Publique et Communautaire" />
-<link rel="stylesheet" type="text/css" href="https://www.elearning-inspc.mg/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://www.elearning-inspc.mg/theme/styles.php/almondb/1747651601_1/all" />
-<link rel="stylesheet" type="text/css" href="https://www.elearning-inspc.mg/theme/almondb/style/frontpage.css" />
-<link rel="stylesheet" type="text/css" href="https://www.elearning-inspc.mg/theme/almondb/style/splide.min.css" />
-<script>
-//<![CDATA[
-var M = {}; M.yui = {};
-M.pageloadstarttime = new Date();
-M.cfg = {"wwwroot":"https:\/\/www.elearning-inspc.mg","homeurl":{},"sesskey":"zn0soYAKdV","sessiontimeout":"28800","sessiontimeoutwarning":"1200","themerev":"1747651601","slasharguments":1,"theme":"almondb","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1747651602","admin":"admin","svgicons":true,"usertimezone":"Indian\/Antananarivo","courseId":1,"courseContextId":2,"contextid":2,"contextInstanceId":1,"langrev":1747651602,"templaterev":"1747651602"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
-var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
-if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
-YUI_config = {"debug":false,"base":"https:\/\/www.elearning-inspc.mg\/lib\/yuilib\/3.18.1\/","comboBase":"https:\/\/www.elearning-inspc.mg\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/www.elearning-inspc.mg\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/www.elearning-inspc.mg\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/www.elearning-inspc.mg\/theme\/yui_combo.php?m\/1747651602\/","combine":true,"comboBase":"https:\/\/www.elearning-inspc.mg\/theme\/yui_combo.php?","ext":false,"root":"m\/1747651602\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_oublog-tagselector":{"requires":["base","node","autocomplete","autocomplete-filters","autocomplete-highlighters"]},"moodle-mod_oublog-savecheck":{"requires":["base","node","io","panel","moodle-core-notification-alert"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/www.elearning-inspc.mg\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/www.elearning-inspc.mg\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1747651602\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/www.elearning-inspc.mg\/lib\/javascript.php\/1747651602\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/www.elearning-inspc.mg\/lib\/javascript.php\/1747651602\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
-M.yui.loader = {modules: {}};
-
-//]]>
-</script>
-<meta name="description" content="Bienvenue à l&#039;Institut National de Santé Publique et Communautaire de Madagascar, votre destination principale pour l&#039;apprentissage en ligne dans le domaine de la santé. Notre plateforme d&#039;elearning offre des cours interactifs et des ressources de pointe conçus pour renforcer les compétences des professionnels de la santé et des acteurs communautaires à travers Madagascar. Que vous soyez un praticien expérimenté cherchant à actualiser vos connaissances ou un débutant désireux d&#039;explorer de nouveaux domaines, notre catalogue diversifié de cours couvre une gamme étendue de sujets, allant de la prévention des maladies à la gestion des crises sanitaires. Rejoignez-nous dans notre mission commune d&#039;améliorer la santé publique et le bien-être de nos communautés." />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-    
-        /* theme-color */
-        .header-area, .footer-header-underline, .hybtn, .item-icon i {
-            border-color: #802a00;
-        }
-        .hytext, .main-menu li.active a, a:hover, .main-menu li a:hover, .footer-menu li a:hover, 
-        .hybtn:hover, .icon-icon i, .item-icon i:hover, .video-img-thumbnail a:hover, 
-        .blog-tags a:hover, .blog-btn .read-more-btn:hover, .author-content a:hover, .address-line p a:hover {
-            color: #802a00;
-        }
-        .hybtn, button.active, .icon-box-content, .item-icon i, .theme-bg, .course-inner::after, .project-inner::after, 
-        .social-links li:hover, #scrollUp, .scrollUp {
-            background-color: #802a00;
-        }
-        .box:hover{text-decoration:none;box-shadow:0 0 10px 3px #cff1ff; border-color:#802a00}
-
-    .block03design2 {
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-rendering: optimizelegibility;
-        position: relative;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        background-color: #ffffff;
-    }
-    .block03design2 .fdb-box {
-        height:200px;
-        background: #ffffff;
-        padding: 2rem 2rem;
-        overflow: hidden;
-        color: #444444;
-        border-radius: 0.25rem;
-        box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2) !important;
-    }
-    .block03design2 .fdb-touch {
-        border-top: solid 0.3125rem #802a00;
-    z-index: 2;
-    }
-    .fdb-box h6 {
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 10px;
-    }
-    .block03design3 .boxhy {
-        padding: 30px;
-        background: white;
-        width: 100%;
-        height: 100%;
-        border: 1px solid #802a00;
-        border-radius: 0;
-        transition: 0.4s all;
-    }
-    .block03design3 .boxhy-wrap:hover .boxhy {
-        filter: blur(3px);
-        opacity: 0.5;
-        transform: scale(.98);
-        box-shadow: none;
-    }
-    .block03design3 .boxhy-wrap:hover .boxhy:hover {
-        transform: scale(1);
-        filter: blur(0px);
-        opacity: 1;
-        box-shadow: 0 8px 20px 0 rgba(0,0,0,0.125);
-    }
-    .block04design1__arrow {
-        z-index: 1;
-        width: 2em;
-        height: 2em;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        padding: 0;
-        opacity: .7;
-        font-size: 1rem;
-    }
-    .block06design2 .img-area img {
-        position:absolute;
-        margin-top: 100px;
-        right: 0;
-        bottom: 0;
-        height: 440px;
-        content: "";
-        z-index: 1
-    }
-    .block06design2 .choose-area {
-        background: #802a00
-    }
-    .block06design2 .choose-content p {
-        color: white;
-        font-size: 14px;
-        margin-bottom: 20px
-    }
-    .block07design1 .card-body h6 {
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .block07 .splide__container {
-        position: relative;
-        box-sizing: border-box;
-    }
-    .block07 .splide__list {
-        margin: 0 !important;
-        padding: 0 !important;
-        width: -webkit-max-content;
-        width: max-content;
-        will-change: auto;
-    }
-    .block07 .splide.is-active .splide__list {
-        display: flex;
-        align-items: flex-start;
-    }
-    .block07 .splide__pagination {
-        display: inline-flex;
-        align-items: center;
-        width: 40%;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 40px;
-    }
-    .block07 .splide__pagination li {
-        list-style-type: none;
-        display: inline-block;
-        line-height: 1;
-        margin: 0;
-    }
-    .block07 .splide__pagination li button {
-        background-color: transparent;
-        border: 1px solid #802a00;
-        height: 10px;
-        margin: 0 7px;
-        width: 10px;
-        border-radius: 50%;
-    }
-    .block07 .splide__pagination li button.is-active {
-        background-color: #802a00;
-    }
-    .splide {
-        visibility: hidden;
-    }
-    .block07 .splide,
-    .block07 .splide__slide {
-        position: relative;
-        outline: none;
-    }
-    .block07 .splide__slide {
-        box-sizing: border-box;
-        list-style-type: none !important;
-        margin: 0;
-        flex-shrink: 0;
-    }
-    .block07 .splide__slide img {
-        vertical-align: bottom;
-    }
-    .block07 .splide__slider {
-        position: relative;
-    }
-    .block07 .splide__track {
-        position: relative;
-        z-index: 0;
-        overflow: hidden;
-        padding-top: 2em;
-        padding-bottom: 2em;
-    }
-    .block07 .splide--draggable > .splide__track > .splide__list > .splide__slide {
-        -webkit-user-select: none;
-        user-select: none;
-    }
-    .block07 .splide--ttb > .splide__track > .splide__list {
-        display: block;
-    }
-    .block07 .splide--ttb > .splide__pagination {
-        width: auto;
-    }
-    .block07 .splide__arrow--next {
-        right: 0em;
-    }
-    .block07 .splide__arrow--prev {
-        left: 0em;
-    }
-    .block07 .splide__arrow {
-        top: 1%;
-        background:  #802a00;
-    }
-    .hy__container {
-        padding: 0;
-        margin-bottom: 2.35765%;
-        background-color: #fff;
-        border-radius: 0.2rem;
-        border: 1px solid rgba(0, 0, 0, 0.125);
-    }
-    .hy__container .hy__image img {
-        object-fit: cover;
-        width: 100%;
-        border-radius: 2px 2px 0 0;
-    }
-    .hy__container h6 {
-        font-size: 16px;
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-    .hy__total {
-        font-weight: 600;
-    }
-    .hy__info {
-        padding: 0.5em;
-    }
-    .hy__image {
-        margin: 0;
-    }
-    .hy__overlay {
-        position: absolute;
-        bottom: 10px;
-        left: 10px;
-        right: 10px;
-        background-color: #802a00;
-        overflow: auto;
-        width: auto;
-        height: 50%;
-        -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-        transform: scale(0);
-        -webkit-transition: .5s ease;
-        transition: .5s ease;
-        border-radius: 2px;
-        opacity: 0.9;
-        scrollbar-color: rgb(136, 136, 136)  #802a00; 
-    }
-    .hy__overlay::-webkit-scrollbar-thumb {
-        background: rgb(136, 136, 136);
-        border-radius: 10px;
-    }
-    .hy__container:hover .hy__overlay {
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        transform: scale(1);
-    }
-    .hy__text {
-        color: white;
-        font-size: 16px;
-        padding : 25px;
-    }
-    .block08design3 .card {
-        border-radius: 0.2rem;
-    }
-    .block08design3 .card, .card-img-top {
-        border-top-left-radius: 0.2rem ;
-        border-top-right-radius: 0.2rem ;
-    }
-    .block08design3 .card-body h6 {
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .block08design4 .card {
-        border-radius: 0.2rem;
-    }
-    .block08design4 .card, .card-img-top {
-        border-top-left-radius: 0.2rem ;
-        border-bottom-left-radius: 0.2rem ;
-        border-top-right-radius: 0;
-    }
-    .block08design4 .card-body h6 {
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .block08design4 .card-body {
-        padding: 1.0rem 0.2rem .5rem 0.01rem;
-    }
-    @media (max-width: 767.98px) {
-        .block08design4 .card .card-body {
-            padding: 0.625rem;
-        }
-    }
-    .teachers .social li a:hover,.teachers .teacher-content h4 span {
-        color: #802a00;
-    }
-    .teachers .social,.teachers .teacher-content:hover {
-        background: #802a00;
-    }
-
-    .teachers {
-        background: #fff;
-    }
-    .teachers .teachers-slider{
-        margin-top:30px;
-    }
-    .teachers .single-teacher {
-        position: relative;
-        margin-bottom: 30px;
-    }
-    .teachers .teacher-head {
-        position: relative;
-    }
-    .teachers .teacher-head.overlay::before {
-        opacity: 0;
-        z-index: 1;
-        visibility: hidden;
-    }
-    .teachers .single-teacher:hover .teacher-head.overlay:before{
-        opacity:0.8;
-        visibility:visible
-    }
-    .teachers .teacher-head img{
-        height:100%;
-        width:100%;
-        text-align:center;
-    }
-    .teachers .social {
-        width: 75px;
-        position: absolute;
-        top: 15px;
-        text-align: center;
-        padding: 15px 0;
-        opacity: 0;
-        visibility: hidden;
-        -webkit-transition: all 0.3s ease 0s;
-        -moz-transition: all 0.3s ease 0s;
-        transition: all 0.3s ease 0s;
-        left: 15px;
-        z-index: 2;
-        -webkit-transform: translateY(-100%);
-        -moz-transform: translateY(-100%);
-        transform: translateY(-100%);
-    }
-    .teachers .single-teacher:hover .social{
-        opacity:1;
-        visibility:visible;
-        transform: translateY(0%);
-    }
-    .teachers .social li {
-        display: block;
-        margin-bottom: 10px;
-    }
-    .teachers .social li:last-child{
-        margin:0;
-    }
-    .teachers .social li a {
-        color: #fff;
-        font-size: 14px;
-        width: 60px;
-        height: 30px;
-        line-height: 30px;
-        border: 1px solid #fff;
-        display: inline-block;
-    }
-    .teachers .social li a:hover{
-        border-color:transparent;
-        background:#fff;
-    }
-    .teachers .teacher-content {
-        background: #fff;
-        padding: 12px 30px;
-        text-align: center;
-        position: absolute;
-        bottom: -15px;
-        left: 15px;
-        z-index: 33;
-        -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-        -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-        -webkit-transition:all 0.3s ease 0s;
-        -moz-transition:all 0.3s ease 0s;
-        transition:all 0.3s ease 0s;
-    }
-    .teachers .single-teacher:hover .teacher-content,
-    .teachers .single-teacher.active .teacher-content{
-        transform:scale(1.0);
-        opacity:1;
-        visibility:visible;
-    }
-    .teachers .teacher-content:hover h4,
-    .teachers .teacher-content:hover span{
-        color:#fff;
-    }
-    .teachers .teacher-content h4 {
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .teachers .teacher-content a {
-        text-decoration: none;
-    }
-    .teachers .teacher-content h4 span {
-        display: block;
-        font-weight: 400;
-        font-size: 15px;
-        margin-top: 5px;
-        -webkit-transition:all 0.3s ease 0s;
-        -moz-transition:all 0.3s ease 0s;
-        transition:all 0.3s ease 0s;
-    }
-    .overlay{
-        position:relative
-    }
-    .overlay::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0.8;
-        background: #20232E;
-        content: "";
-        -webkit-transition: all 0.3s ease 0s;
-        -moz-transition: all 0.3s ease 0s;
-        transition: all 0.3s ease 0s;
-    }
-
-    .splide__container {
-        position: relative;
-        box-sizing: border-box;
-    }
-    .splide__list {
-        margin: 0 !important;
-        padding: 0 !important;
-        width: -webkit-max-content;
-        width: max-content;
-        will-change: auto;
-    }
-    .splide.is-active .splide__list {
-        display: flex;
-        align-items: flex-start;
-    }
-    .splide__pagination {
-        display: inline-flex;
-        align-items: center;
-        width: 40%;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 40px;
-    }
-    .splide__pagination li {
-        list-style-type: none;
-        display: inline-block;
-        line-height: 1;
-        margin: 0;
-    }
-    .splide__pagination li button {
-        background-color: transparent;
-        border: 1px solid #802a00;
-        height: 10px;
-        margin: 0 7px;
-        width: 10px;
-        border-radius: 50%;
-    }
-    .splide__pagination li button.is-active {
-        background-color: #802a00;
-    }
-    .splide {
-        visibility: hidden;
-    }
-    .splide,
-    .splide__slide {
-        position: relative;
-        outline: none;
-    }
-    .splide__slide {
-        box-sizing: border-box;
-        list-style-type: none !important;
-        margin: 0;
-        flex-shrink: 0;
-    }
-    .splide__slide img {
-        vertical-align: bottom;
-    }
-    .splide__slider {
-        position: relative;
-    }
-    .splide__track {
-        position: relative;
-        z-index: 0;
-        overflow: hidden;
-        padding-top: 2em;
-        padding-bottom: 2em;
-    }
-    .splide--draggable > .splide__track > .splide__list > .splide__slide {
-        -webkit-user-select: none;
-        user-select: none;
-    }
-    .splide--ttb > .splide__track > .splide__list {
-        display: block;
-    }
-    .splide--ttb > .splide__pagination {
-        width: auto;
-    }
-    .splide__arrow--next {
-        right: 0em;
-    }
-    .splide__arrow--prev {
-        left: 0em;
-    }
-    .splide__arrow {
-        top: 1%;
-        background:  #802a00;
-    }
-
-    .block09design1 {
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-rendering: optimizelegibility;
-        position: relative;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        overflow: hidden;
-        background-color: #ffffff;
-    }
-    .block09design1 .fdb-box {
-        background: #ffffff;
-        padding: 3rem 4rem;
-        overflow: hidden;
-        color: #444444;
-        border: 1px solid  #802a00;
-        border-radius: 0.25rem;
-    }
-    .block09design1 .fdb-touch {
-        border-top: solid 0.3125rem #802a00;
-        z-index: 2;
-    }
-    .block09design1 h6 {
-            font-size: 16px;
-            font-weight: 700;
-            margin-bottom: 10px;
-    }
-    .block-text-box {
-        padding: 15px 0;
-        color: #ffffff;
-        border-radius: 0.25rem;
-        background: #802a00;
-        opacity: 0.9;
-    }
-
-    .block09 .single-box {
-        height: 150px;
-        background-size: cover;
-        padding-top:35px;
-        position: relative;
-        z-index: 1;
-        overflow: hidden;
-    }
-    .block09 .single-box-color {
-        height: 100px;
-        background-size: cover;
-        padding-top:35px;
-        position: relative;
-        z-index: 1;
-        overflow: hidden;
-    }
-
-    .block09design2 img {
-        opacity: 0.5;
-    }
-    .block09design2 h6 {
-        font-size: 16px;
-        font-weight: 700;
-        margin-top: 3px;
-        margin-bottom: 3px;
-    }
-    .block09design3 img {
-        opacity: 0.5;
-    }
-    .block09design3 h6 {
-        font-size: 16px;
-        font-weight: 700;
-        margin-top: 3px;
-        margin-bottom: 3px;
-    }
-    .block09 .single-box-alt {
-        font-size: 13px; 
-        font-weight: 500;
-        height: 50px;
-        position:absolute; 
-        left:0px;
-        right:0px;
-        bottom:0px; 
-        width:100%;
-        opacity: 0.9;
-    }
-    .block09 .single-box-alt-color {
-        font-size: 13px; 
-        font-weight: 500;
-        height: 50px;
-        position:absolute; 
-        left:0px;
-        right:0px;
-        bottom:25%; 
-        width:100%;
-        opacity: 0.9;
-    }
-
-    .block09 .splide__container {
-        position: relative;
-        box-sizing: border-box;
-    }
-    .block09 .splide__list {
-        margin: 0 !important;
-        padding: 0 !important;
-        width: -webkit-max-content;
-        width: max-content;
-        will-change: auto;
-    }
-    .block09 .splide.is-active .splide__list {
-        display: flex;
-        align-items: flex-start;
-    }
-    .block09 .splide__pagination {
-        display: inline-flex;
-        align-items: center;
-        width: 40%;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 40px;
-    }
-    .block09 .splide__pagination li {
-        list-style-type: none;
-        display: inline-block;
-        line-height: 1;
-        margin: 0;
-    }
-    .block09 .splide__pagination li button {
-        background-color: transparent;
-        border: 1px solid #802a00;
-        height: 10px;
-        margin: 0 7px;
-        width: 10px;
-        border-radius: 50%;
-    }
-    .block09 .splide__pagination li button.is-active {
-        background-color: #802a00;
-    }
-    .block09 .splide {
-        visibility: hidden;
-    }
-    .block09 .splide,
-    .block09 .splide__slide {
-        position: relative;
-        outline: none;
-    }
-    .block09 .splide__slide {
-        box-sizing: border-box;
-        list-style-type: none !important;
-        margin: 0;
-        flex-shrink: 0;
-    }
-    .block09 .splide__slide img {
-        vertical-align: bottom;
-    }
-    .block09 .splide__slider {
-        position: relative;
-    }
-    .block09 .splide__track {
-        position: relative;
-        z-index: 0;
-        overflow: hidden;
-        padding-top: 2em;
-        padding-bottom: 2em;
-    }
-    .block09 .splide--draggable > .splide__track > .splide__list > .splide__slide {
-        -webkit-user-select: none;
-        user-select: none;
-    }
-    .block09 .splide--ttb > .splide__track > .splide__list {
-        display: block;
-    }
-    .block09 .splide--ttb > .splide__pagination {
-        width: auto;
-    }
-    .block09 .splide__arrow--next {
-        right: 0em;
-    }
-    .block09 .splide__arrow--prev {
-        left: 0em;
-    }
-    .block09 .splide__arrow {
-        top: 1%;
-        background:  #802a00;
-    }
-    @media only screen and (max-width: 576px) {
-        .block19design2 .col-xs {
-            width: 50%;
-        }
-    }
-    .setupbutton{
-        position: relative; 
-        bottom: 20px;
-        margin-left: 20px;
-    }
-    .setup1 {
-        display: block;
-    }
-    .setup1 #page {
-        margin-top: 40px;
-        margin-bottom: 45px;
-    }
-    .setup1 #page-content{
-        height: auto;
-    }
-    .setup1 #region-main {
-    height: auto;
-    padding-bottom : 40px;
-    overflow-x: auto;
-    overflow-y: visible;
-    }
-    .setup1 #region-main #site-news-forum {
-    display: block !important;
-    }
-    .setup1 #region-main #frontpage-available-course-list{
-        display: block !important;
-    }
-    .setup1 #region-main #frontpage-course-list{
-        display: block !important;
-    }
-    .setup1 #region-main #frontpage-category-names{
-        display: block !important;
-    }
-    .setup1 #region-main #frontpage-category-combo{
-        display: block !important;
-    }
-    .setup1 #region-main .simplesearchform {
-        display: none !important;
-    }
-    .setup1 #region-main .buttons{
-        display: none !important;
-    }
-    .setup1 #region-main .skip-block-to{
-        display: none !important;
-    }
-    .setup1 #region-main .box{
-        padding-top : 0px !important;
-        padding-bottom : 0px !important;
-    }
-    </style>
-    
-
-</head>
-
-<body  id="page-site-index" class="limitedwidth format-site course path-site chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam www-elearning-inspc-mg pagelayout-frontpage course-1 context-2 notloggedin theme uses-drawers">
-
-<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
-<!-- Start Header Area -->
-         
-         <nav id="navheader" class="navbar header-area navbar-static-top navbar-light bg-hynavbar navbar-expand
-             fixed-top header-wrapper moodle-has-zindex educard-font" aria-label="Site navigation">
-             
-             <div class="container-fluid" >
-                 <button class="navbar-toggler aabtn d-block d-lg-none px-1 my-1 border-0" data-toggler="drawers" 
-                     data-action="toggle" data-target="theme_boost-drawers-primary">
-                     <span class="navbar-toggler-icon"></span>
-                     <span class="sr-only">Side panel</span>
-                 </button>
-                 <a href="https://www.elearning-inspc.mg/" class="navbar-brand d-none d-xl-flex align-items-center m-0 mr-4 p-0 aabtn">
-         
-                             <img src="https://www.elearning-inspc.mg/pluginfile.php/1/core_admin/logo/0x200/1747651601/logo-full.png" class="logo mr-1" alt="ENT-INSPC">
-                 </a>
-                     <div class="primary-navigation">
-                     </div>
-         
-                 <div class="navbar-nav d-none d-lg-flex my-1 px-1">
-                     <!-- page_heading_menu -->
-                     
-                     <div class="navbar-nav mr-auto">
-                         <div class= 'navbar-nav'><div class='nav-item'><a class='nav-item nav-link' href='https://www.elearning-inspc.mg/' target='_self'>ACCUEIL</a><div></div></div><div class='position-relative nav-item' id='dropdown-custom-6832de6f38046'><a class='dropdown-toggle nav-link' id='drop-down-6832de6f38046' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' href='#' title='FORMATIONS' aria-controls='drop-down-menu-6832de6f38046'>FORMATIONS</a><div class='dropdown-menu' role='menu'
-                                id='drop-down-menu-6832de6f38046' aria-labelledby='drop-down-6832de6f38046'><a class='dropdown-item' role='menuitem'
-                                href='/local/almondbpage/?id=a3' target='_self'  title='DIPLÔMANTES'>DIPLÔMANTES</a><a class='dropdown-item' role='menuitem'
-                                href='/local/almondbpage/?id=a5' target='_self'  title='CONTINUES'>CONTINUES</a></div></div><div class='position-relative nav-item' id='dropdown-custom-6832de6f3804b'><a class='dropdown-toggle nav-link' id='drop-down-6832de6f3804b' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' href='#' title='INSPC' aria-controls='drop-down-menu-6832de6f3804b'>INSPC</a><div class='dropdown-menu' role='menu'
-                                id='drop-down-menu-6832de6f3804b' aria-labelledby='drop-down-6832de6f3804b'><a class='dropdown-item' role='menuitem'
-                                href='/course/index.php?categoryid=29' target='_self'  title='BUREAUTIQUES ET EPI INFO'>BUREAUTIQUES ET EPI INFO</a><a class='dropdown-item' role='menuitem'
-                                href='/course/index.php?categoryid=34' target='_self'  title='MÉTHODOLOGIE DE RECHERCHE'>MÉTHODOLOGIE DE RECHERCHE</a><a class='dropdown-item' role='menuitem'
-                                href='/course/index.php?categoryid=35' target='_self'  title='SANTE COMMUNAUTAIRE'>SANTE COMMUNAUTAIRE</a><a class='dropdown-item' role='menuitem'
-                                href='/course/index.php?categoryid=24' target='_self'  title='DIRECTION DE LA SANTÉ FAMILIALE'>DIRECTION DE LA SANTÉ FAMILIALE</a><a class='dropdown-item' role='menuitem'
-                                href='/course/index.php?categoryid=32' target='_self'  title='PROGRAMME NATIONAL DE LUTTE CONTRE LE SIDA'>PROGRAMME NATIONAL DE LUTTE CONTRE LE SIDA</a></div></div><div class='nav-item'><a class='nav-item nav-link' href='/local/staticpage/view.php?page=contact' target='_self'>CONTACT</a><div></div></div></div>
-                     </div>
-                 </div>
-         
-                 <div id="usernavigation" class="navbar-nav ml-auto">
-                         <div id="searchinput-navbar-6832de6f448de6832de6f429463" class="simplesearchform">
-    <div class="collapse" id="searchform-navbar">
-        <form autocomplete="off" action="https://www.elearning-inspc.mg/search/index.php" method="get" accept-charset="utf-8" class="mform form-inline searchform-navbar">
-                <input type="hidden" name="context" value="2">
-            <div class="input-group">
-                <label for="searchinput-6832de6f448de6832de6f429463">
-                    <span class="sr-only">Search</span>
-                </label>
-                    <input type="text"
-                       id="searchinput-6832de6f448de6832de6f429463"
-                       class="form-control withclear"
-                       placeholder="Search"
-                       aria-label="Search"
-                       name="q"
-                       data-region="input"
-                       autocomplete="off"
-                    >
-                    <a class="btn btn-close"
-                        data-action="closesearch"
-                        data-toggle="collapse"
-                        href="#searchform-navbar"
-                        role="button"
-                    >
-                        <i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">Close</span>
-                    </a>
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-submit" data-action="submit">
-                        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">Search</span>
-                    </button>
-                </div>
-            </div>
-        </form>
-    </div>
-    <a
-        class="btn btn-open rounded-0 nav-link"
-        data-toggle="collapse"
-        data-action="opensearch"
-        href="#searchform-navbar"
-        role="button"
-        aria-expanded="false"
-        aria-controls="searchform-navbar"
-        title="Toggle search input"
-    >
-        <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
-        <span class="sr-only">Toggle search input</span>
-    </a>
-</div>
-                         <div class="divider border-left h-75 align-self-center mx-1"></div>
-                         <div class="langmenu">
-                             <div class="dropdown show">
-                                 <a href="#" role="button" id="lang-menu-toggle" data-toggle="dropdown" aria-label="Language" aria-haspopup="true" aria-controls="lang-action-menu" class="btn dropdown-toggle">
-                                     <i class="icon fa fa-language fa-fw mr-1" aria-hidden="true"></i>
-                                     <span class="langbutton">
-                                         English ‎(en)‎
-                                     </span>
-                                     <b class="caret"></b>
-                                 </a>
-                                 <div role="menu" aria-labelledby="lang-menu-toggle" id="lang-action-menu" class="dropdown-menu dropdown-menu-right">
-                                             <a href="#" class="dropdown-item pl-5" role="menuitem" aria-current="true"
-                                                     >
-                                                 English ‎(en)‎
-                                             </a>
-                                             <a href="https://www.elearning-inspc.mg/?lang=fr" class="dropdown-item pl-5" role="menuitem" 
-                                                     lang="fr" >
-                                                 Français ‎(fr)‎
-                                             </a>
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="divider border-left h-75 align-self-center mx-1"></div>
-         
-                     <div class="d-flex align-items-stretch usermenu-container" data-region="usermenu">
-                             <div class="usermenu" 
-                                 data-toggle="tooltip" data-placement="bottom" 
-                                 >
-                                     <span class="login pl-2">
-                                             <a href="https://www.elearning-inspc.mg/login/index.php">Log in</a>
-                                     </span>
-                             </div>
-                     </div>
-                 </div>
-             </div>
-         </nav>
-
-<div  class="drawer drawer-left drawer-primary d-print-none not-initialized" data-region="fixed-drawer" id="theme_boost-drawers-primary" data-preference="" data-state="show-drawer-primary" data-forceopen="0" data-close-on-resize="1">
-    <div class="drawerheader">
-        <button
-            class="btn drawertoggle icon-no-margin hidden"
-            data-toggler="drawers"
-            data-action="closedrawer"
-            data-target="theme_boost-drawers-primary"
-            data-toggle="tooltip"
-            data-placement="right"
-            title="Close drawer"
-        >
-            <i class="icon fa fa-times fa-fw " aria-hidden="true"  ></i>
-        </button>
-        <div class="drawerheadercontent hidden">
-            
-        </div>
-    </div>
-    <div class="drawercontent drag-container" data-usertour="scroller">
-                <div class="list-group">
-                <a href="https://www.elearning-inspc.mg/" class="list-group-item list-group-item-action active " aria-current="true">
-                    Home
-                </a>
-                <a id="drop-down-1" href="#" class="list-group-item list-group-item-action icons-collapse-expand collapsed d-flex" data-toggle="collapse" data-target="#drop-down-menu-1" aria-expanded="false" aria-controls="drop-down-menu-1">
-                    FORMATIONS
-                    <span class="ml-auto expanded-icon icon-no-margin mx-2">
-                        <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">
-                            Collapse
-                        </span>
-                    </span>
-                    <span class="ml-auto collapsed-icon icon-no-margin mx-2">
-                        <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">
-                            Expand
-                        </span>
-                    </span>
-                </a>
-                <div class="collapse list-group-item p-0 border-0" role="menu" id="drop-down-menu-1" aria-labelledby="drop-down-1">
-                             <a href="https://www.elearning-inspc.mg/local/almondbpage/?id=a3" class="pl-5 bg-light list-group-item list-group-item-action">DIPLÔMANTES</a>
-                             <a href="https://www.elearning-inspc.mg/local/almondbpage/?id=a5" class="pl-5 bg-light list-group-item list-group-item-action">CONTINUES</a>
-                </div>
-                <a id="drop-down-4" href="#" class="list-group-item list-group-item-action icons-collapse-expand collapsed d-flex" data-toggle="collapse" data-target="#drop-down-menu-4" aria-expanded="false" aria-controls="drop-down-menu-4">
-                    INSPC
-                    <span class="ml-auto expanded-icon icon-no-margin mx-2">
-                        <i class="icon fa fa-caret-down fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">
-                            Collapse
-                        </span>
-                    </span>
-                    <span class="ml-auto collapsed-icon icon-no-margin mx-2">
-                        <i class="icon fa fa-caret-right fa-fw " aria-hidden="true"  ></i>
-                        <span class="sr-only">
-                            Expand
-                        </span>
-                    </span>
-                </a>
-                <div class="collapse list-group-item p-0 border-0" role="menu" id="drop-down-menu-4" aria-labelledby="drop-down-4">
-                             <a href="https://www.elearning-inspc.mg/course/index.php?categoryid=29" class="pl-5 bg-light list-group-item list-group-item-action">BUREAUTIQUES ET EPI INFO</a>
-                             <a href="https://www.elearning-inspc.mg/course/index.php?categoryid=34" class="pl-5 bg-light list-group-item list-group-item-action">MÉTHODOLOGIE DE RECHERCHE</a>
-                             <a href="https://www.elearning-inspc.mg/course/index.php?categoryid=35" class="pl-5 bg-light list-group-item list-group-item-action">SANTE COMMUNAUTAIRE</a>
-                             <a href="https://www.elearning-inspc.mg/course/index.php?categoryid=24" class="pl-5 bg-light list-group-item list-group-item-action">DIRECTION DE LA SANTÉ FAMILIALE</a>
-                             <a href="https://www.elearning-inspc.mg/course/index.php?categoryid=32" class="pl-5 bg-light list-group-item list-group-item-action">PROGRAMME NATIONAL DE LUTTE CONTRE LE SIDA</a>
-                </div>
-                <a href="https://www.elearning-inspc.mg/local/staticpage/view.php?page=contact" class="list-group-item list-group-item-action  " >
-                    CONTACT
-                </a>
-        </div>
-
-    </div>
-</div>
-         <div class="hy-pt-55"></div>
-<!-- End Header Area -->
-<!-- Start Slider Area  -->
-        <div style="margin-top:0px;"></div>
-        <div id="slider4" class="container-fluid p-0">
-            <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-                 <ol class="carousel-indicators">
-                        <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" style="min-height: 300px;">
-                        <img class="position-relative w-100" src="//www.elearning-inspc.mg/pluginfile.php/1/theme_almondb/sliderimage1/1747651601/carrossel.jpg" alt="slide-0" style="min-height: 300px; object-fit: cover; height:350px;">
-                        <div class="carousel-caption d-flex align-items-center justify-content-center">
-                            <div class="p-6" style="width: 100%; max-width: 900px;">
-                                
-                                <div class="h1 font-weight-bold display-3 mb-md-4">Plus qu'un métier, une vocation.</div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!-- End Slider Area -->
-<!-- Start section -->
-    <!-- Start section -->
-    
-<section id="block01">
-    <div class="hire-us-area theme-bg" >
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-9 col-12">
-                    <div class="hire-us-content">
-                        <div class="text_to_html"><h2><strong style="color:#fff;">Concours INSPC 2025</strong></h2><p style="color:#fff;">Assurez-vous de finaliser vos préparatifs et de soumettre votre candidature avant la date limite. C'est votre chance de briller et de démontrer votre excellence. Ne manquez pas cette opportunité unique de faire valoir vos compétences et de vous démarquer.</p></div> 
-                    </div>  
-                </div>
-                <div class="col-lg-3 col-md-3  offset-lg-2 col-12 text-right">
-                    <a class="hybtn hire-us-button" href="/local/almondbpage/?id=a2">Plus d'informations</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    
-    
-    
-    
-    
-    
-    
-    
-<section id="block06">
-        <div class="block06design1 working-with-us-area white-bg" >
-            <div class="container"> 
-                <div class="row">
-                    <div class="col-md-5 d-none d-md-block">
-                        <div class="hire-us-img">
-                            <img src="//www.elearning-inspc.mg/pluginfile.php/1/theme_almondb/sliderimageblock06img/1747651601/DG_INSPC%20%281%29.png" alt="">
-                        </div>
-                    </div>
-        			<div class="col-md-7 col-12 text-center d-flex align-items-center">
-                        <div class="hire-us-content hytext">
-                            <div class="section-title-fp">
-                                <h4>MOT DU DIRECTEUR GENERAL</h4>
-                            </div>
-                            <div class="pt-2 pb-2"><div class="text_to_html"><p style="color:#333;text-align:justify;">Chers apprenants et membres de notre communauté,</p><p style="color:#333;text-align:justify;">C'est avec une grande fierté que je m'adresse à vous aujourd'hui en tant que Directeur Général de notre plateforme d'apprentissage en ligne.</p><p style="color:#333;text-align:justify;">Nous vivons à une époque où l'accès à l'information et à l'éducation n'a jamais été aussi crucial. Dans un monde en constante évolution, la capacité à apprendre de manière continue est devenue une compétence essentielle pour réussir, que ce soit sur le plan professionnel ou personnel.</p><p style="color:#333;text-align:justify;">Notre plateforme d'Espace Numérique de Travail (ENT) s'engage à être votre partenaire dans cette quête de connaissance et de développement. Nous sommes déterminés à vous offrir une expérience d'apprentissage de la plus haute qualité, en mettant à votre disposition des cours élaborés par des experts de renommée mondiale, des ressources pédagogiques innovantes et un accompagnement personnalisé tout au long de votre parcours.</p><p style="color:#333;text-align:justify;">Merci de votre confiance et de votre engagement envers notre plateforme. Ensemble, nous sommes l'avenir de l'apprentissage.</p><p style="text-align:right;"><span style="color:#802a00;font-size:14px;font-style:italic;">Dr HANITRINIALA Sahondranirina Pâquerette<br />Directeur Général de l'Institut National de Santé Publique et Communautaire - INSPC</span></p></div></div>
-                            <a href="" class="hybtn hire-us-btn" style="pointer-events: none;"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div></section>
-    
-    
-    
-    
-<section id="block19">
-        <div class="block19design1 hy-pt-40 hy-pb-40">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12" >
-                        <div class="section-title-fp hytext text-center hy-pb-40">
-                            <h4>NOS PARTENAIRES</h4>
-                        </div>    
-                        <div class="item-content text-center hy-pt-5">    
-                            <div class="text_to_html">Nous sommes fiers de collaborer avec un réseau diversifié de partenaires stratégiques, allant des institutions académiques de renom et des entreprises innovantes aux organisations à but non lucratif engagées dans des causes sociales et humanitaires. Ces partenariats nous permettent de tirer parti de ressources complémentaires, d'expertise spécialisée et de perspectives variées pour atteindre nos objectifs communs et créer un impact positif dans nos domaines d'intervention.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>    
-            <div class="container">
-                <div class="row align-items-center">
-                <!--  -->
-                    <!-- <div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10"> -->
-                        <!-- <a href="https://themesalmond.com/"><img src="https://www.elearning-inspc.mg/theme/image.php/almondb/theme/1747651601/almondb/block19/1" style="width:100%;" alt=""></a> -->
-                    <!-- </div> -->
-                <!--  -->
-                    <!-- <div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10"> -->
-                        <!-- <a href="https://themesalmond.com/"><img src="https://www.elearning-inspc.mg/theme/image.php/almondb/theme/1747651601/almondb/block19/2" style="width:100%;" alt=""></a> -->
-                    <!-- </div> -->
-                <!--  -->
-                    <!-- <div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10"> -->
-                        <!-- <a href="https://themesalmond.com/"><img src="https://www.elearning-inspc.mg/theme/image.php/almondb/theme/1747651601/almondb/block19/3" style="width:100%;" alt=""></a> -->
-                    <!-- </div> -->
-                <!--  -->
-                    <!-- <div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10"> -->
-                        <!-- <a href="https://themesalmond.com/"><img src="https://www.elearning-inspc.mg/theme/image.php/almondb/theme/1747651601/almondb/block19/4" style="width:100%;" alt=""></a> -->
-                    <!-- </div> -->
-                <!--  -->
-                    <!-- <div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10"> -->
-                        <!-- <a href="https://themesalmond.com/"><img src="https://www.elearning-inspc.mg/theme/image.php/almondb/theme/1747651601/almondb/block19/5" style="width:100%;" alt=""></a> -->
-                    <!-- </div> -->
-                <!--  -->
-                    <!-- <div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10"> -->
-                        <!-- <a href="https://themesalmond.com/"><img src="https://www.elearning-inspc.mg/theme/image.php/almondb/theme/1747651601/almondb/block19/6" style="width:100%;" alt=""></a> -->
-                    <!-- </div> -->
-                <!--      -->
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.afd.fr/fr"><img src="/theme/almondb/images_partners/afd.jpg" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://afenet.net/"><img src="/theme/almondb/images_partners/afenet.png" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.auf.org/"><img src="/theme/almondb/images_partners/auf.png" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.afdb.org/fr"><img src="/theme/almondb/images_partners/bad.jpeg" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://bngrc.gov.mg/"><img src="/theme/almondb/images_partners/bngrc.jpg" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://web.facebook.com/CBMGMadagascar/?locale=fr_FR&_rdc=1&_rdr"><img src="/theme/almondb/images_partners/cbm.png" style="width:60%;" alt=""></a>
-        			</div>
-                </div>
-        		
-        		<div class="row align-items-center">
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.commissionoceanindien.org/"><img src="/theme/almondb/images_partners/coi.jpg" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.rki.de/"><img src="/theme/almondb/images_partners/cropped-RKI-logo.png" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.crs.org/our-work-overseas/where-we-work/madagascar"><img src="/theme/almondb/images_partners/crs.jpg" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://facmedtananarive.org/cms/"><img src="/theme/almondb/images_partners/fma.png" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.facebook.com/p/IOSTM-100063884692614/"><img src="/theme/almondb/images_partners/iostm.png" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="http://www.mesupres.gov.mg/"><img src="/theme/almondb/images_partners/mesupres.png" style="width:60%;" alt=""></a>
-        			</div>
-                </div>
-        		
-        		<div class="row align-items-center">
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.who.int/fr"><img src="/theme/almondb/images_partners/oms.jpg" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://office-nutrition.mg/"><img src="/theme/almondb/images_partners/onn.jpg" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.santesud.org/"><img src="/theme/almondb/images_partners/sante_sud.jpg" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://response.reliefweb.int/madagascar/water-sanitation-hygiene"><img src="/theme/almondb/images_partners/wash.jpg" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://wateraidmadagascar.mg/"><img src="/theme/almondb/images_partners/wateraid.png" style="width:60%;" alt=""></a>
-        			</div>
-        			
-        			<div class="text-center col-xs col-sm col-sm-4 col-md hy-pt-10 hy-pb-10">
-        				<a href="https://www.unicef.org/madagascar/"><img src="/theme/almondb/images_partners/unicef.jpg" style="width:60%;" alt=""></a>
-        			</div>
-                </div>
-        		
-            </div>
-        </div></section>
-    
-<section id="block20">
-    <footer class="footer-header-underline hy-pt-60 hy-pb-20 black-bg"  >
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <div class="footer-logo">
-
-
-                            <div class="widget-title footer-site-name">
-                                ENT - INSPC
-                            </div> 
-                            <div class="footer-dec">
-                            <p>L'institut National de Santé Publique intègre désormais l'ENT comme un pilier essentiel de son approche pédagogique, offrant ainsi des formations accessibles à distance pour renforcer les compétences des professionnels de la santé et promouvoir la prévention des maladies à l'échelle mondiale.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 ">
-                    <div class="footer-widget">
-                        <div class="widget-title footer-header-underline">
-                            <h6>Contactez-Nous</h6>
-                        </div>
-                        <div class="address-line">
-                            <div class="text_to_html"><ul class="footer-1-footer17" style="color:#fff;"><li class="footer-1-footer18"><span class="sc-iqcoie"><i class="fa fa-map-marker"></i> Ex-Ecole de Médecine de Befelatanana – Mahamasina<br />
-        </span></li><li class="footer-1-footer18"><span class="sc-iqcoie"><i class="fa fa-paper-plane"></i> BP : 176<br />
-        </span></li><li class="footer-1-footer18"><span class="sc-iqcoie"><span><i class="fa fa-envelope-open-o"></i><a href="mailto:info@inspc.mg" style="color:#fff;"> info@inspc.mg</a></span></span></li></ul></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <div class="widget-title footer-header-underline">
-                            <h6>Informations légales</h6>
-                        </div>
-                        <ul class="footer-menu">
-                            <li><a class="text-decoration-none" href="#" target="_blank"><ul class="footer-1-footer17"></a></li><li><a class="text-decoration-none" href="#" target="_blank"><li class="footer-1-footer18"></a></li><li><a class="text-decoration-none" href="#" target="_blank"><span class="sc-iqcoie "></a></li><li><a class="text-decoration-none" href="#" target="_blank"><a class="footer-1-footer22" tabindex="inherit" href="/local/almondbpage/?id=a1" data-testid="footerLink"><span>Guide d'utilisation</span></a></a></li><li><a class="text-decoration-none" href="#" target="_blank"></span></a></li><li><a class="text-decoration-none" href="#" target="_blank"></li></a></li><li><a class="text-decoration-none" href="#" target="_blank"><li class="footer-1-footer18"></a></li><li><a class="text-decoration-none" href="#" target="_blank"><span class="sc-iqcoie "></a></li><li><a class="text-decoration-none" href="#" target="_blank"><a class="footer-1-footer22" tabindex="inherit" href="/local/almondbpage/?id=a4" data-testid="footerLink"><span>Conditions générales d'utilisation</span></a></a></li><li><a class="text-decoration-none" href="#" target="_blank"></span></a></li><li><a class="text-decoration-none" href="#" target="_blank"></li></a></li><li><a class="text-decoration-none" href="#" target="_blank"></ul></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <div class="widget-title footer-header-underline">
-                            <h6>Liens utiles</h6>
-                        </div>
-                        <ul class="footer-menu">
-                        <li><a class="text-decoration-none" href="#" target="_blank"><ul class="footer-1-footer17"></a></li><li><a class="text-decoration-none" href="#" target="_blank"><li class="footer-1-footer18"></a></li><li><a class="text-decoration-none" href="#" target="_blank"><span class="sc-iqcoie "></a></li><li><a class="text-decoration-none" href="#" target="_blank"><a class="footer-1-footer22" tabindex="inherit" href="https://www.presidence.gov.mg/" data-testid="footerLink"><span>Présidence de la République</span></a></a></li><li><a class="text-decoration-none" href="#" target="_blank"></span></a></li><li><a class="text-decoration-none" href="#" target="_blank"></li></a></li><li><a class="text-decoration-none" href="#" target="_blank"><li class="footer-1-footer18"></a></li><li><a class="text-decoration-none" href="#" target="_blank"><span class="sc-iqcoie "></a></li><li><a class="text-decoration-none" href="#" target="_blank"><a class="footer-1-footer22" tabindex="inherit" href="https://www.primature.gov.mg/" data-testid="footerLink"><span>Primature</span></a></a></li><li><a class="text-decoration-none" href="#" target="_blank"></span></a></li><li><a class="text-decoration-none" href="#" target="_blank"></li></a></li><li><a class="text-decoration-none" href="#" target="_blank"><!--li class="footer-1-footer18"></a></li><li><a class="text-decoration-none" href="#" target="_blank"><span class="sc-iqcoie "></a></li><li><a class="text-decoration-none" href="#" target="_blank"><span></a></li><li><a class="text-decoration-none" href="#" target="_blank"><a class="footer-1-footer22" tabindex="inherit" href="https://www.sante.gov.mg/" target="_blank" data-testid="footerLink"><span>Ministère de la Santé</span></a></a></li><li><a class="text-decoration-none" href="#" target="_blank"></span></a></li><li><a class="text-decoration-none" href="#" target="_blank"></span></a></li><li><a class="text-decoration-none" href="#" target="_blank"></li--></a></li><li><a class="text-decoration-none" href="#" target="_blank"><li class="footer-1-footer18"></a></li><li><a class="text-decoration-none" href="#" target="_blank"><span class="sc-iqcoie "></a></li><li><a class="text-decoration-none" href="#" target="_blank"><a class="footer-1-footer22" tabindex="inherit" href="https://www.inspc.mg/" data-testid="footerLink"><span>Institut National de Santé Publique et Communautaire</span></a></a></li><li><a class="text-decoration-none" href="#" target="_blank"></span></a></li><li><a class="text-decoration-none" href="#" target="_blank"></li></a></li><li><a class="text-decoration-none" href="#" target="_blank"></ul></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="copyright-area black-bg">
-        <div class="container">
-            <div class="row ">
-                <div class="col-12 text-center hy-pt-10 social-links">
-                    <div class="text_to_html"><ul><li><a href="https://www.facebook.com/inspc/" target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook-f"></i></a></li></ul></div>
-                </div>
-                <div class="col-12 text-center">
-                    <div class="copyright-area">
-                        <div class="small">
-                            <div class="text_to_html">Copyright © 2024 Conçu par INSPC. Tous les droits sont réservés.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="theme-info">
-        </div>
-    </div>
-</section>
-    <!-- End section -->
-<!-- End section -->
-<div>
-    <a role="button" href="#" aria-label="Go to top">
-        <i class="fa fa-angle-up scrollUp"></i>
-    </a>
-</div>
-
-<div class="setup1">    
-    <div class="modal fade" id="setup1Modal" tabindex="-1" aria-labelledby="setup1ModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="setup1ModalLabel">...</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class= "hy-pt-1">
-                        <div id="navbarHeader">
-                            <div id="page-wrapper" class="container">
-                                <div>
-    <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
-</div><script src="https://www.elearning-inspc.mg/lib/javascript.php/1747651602/lib/polyfills/polyfill.js"></script>
-<script src="https://www.elearning-inspc.mg/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"></script><script src="https://www.elearning-inspc.mg/lib/javascript.php/1747651602/lib/javascript-static.js"></script>
-<script>
-//<![CDATA[
-document.body.className += ' jsenabled';
-//]]>
-</script>
-
-
-                                <div id="page" class="">
-                                    <div id="page-content" class="row d-print-block">
-                                        <div id="region-main-box" class="col-12">
-                                            <section id="region-main" aria-label="Content">
-                                                <span class="notifications" id="user-notifications"></span>
-                                                <div role="main"><span id="maincontent"></span><div class="course-content">
-    <div class="sitetopic">
-        <ul class="topics frontpage">
-                <li id="section-1"
-                    class="section course-section main  clearfix
-                             
-                            "
-                    data-sectionid="1"
-                    data-sectionreturnid="1"
-                    data-for="section"
-                    data-id="1"
-                    data-number="1"
-                >
-                    <div class="course-section-header d-flex"
-                        data-for="section_title"
-                        data-id="1"
-                        data-number="1"
-                    >
-                            <div data-region="sectionbadges" class="sectionbadges d-flex align-items-center">
-                            </div>
-                            </div>
-                            <div id="coursecontentcollapse1"
-                                class="content 
-                                    
-                                ">
-                                <div class=" my-3" data-for="sectioninfo">
-                                        <div class="section_availability">
-                                        </div>
-                            </div>
-                                    <ul class="section m-0 p-0 img-text " data-for="cmlist">
-                                        </ul>
-                            
-                    </div>
-                </li>
-        </ul>
-    </div>
-</div><a class="skip-block skip aabtn" href="#skipavailablecourses">Skip available courses</a><div id="frontpage-available-course-list"><h2>Available courses</h2><div class="courses frontpage-course-list-all"><div class="coursebox clearfix odd first" data-courseid="8" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=8">CENTRE DE SANTE AMI DES JEUNES</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/78/course/overviewfiles/DSFA.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/8a966e1479abf27944f754e8ac27feba?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='DSFA MSAN'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2393&amp;course=1"> DSFA MSAN</a></div></li><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/551e762dfe18498009cdf78212843655?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Enseignant MSAN'/><a href="https://www.elearning-inspc.mg/user/view.php?id=7&amp;course=1"> Enseignant MSAN</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>Les jeunes sont des personnes ayant entre 15 et 24 ans et les adolescents sont des personnes entre 10 et 19 ans. Ensemble, ils forment la catégorie la plus importante des jeunes personnes, celles âgées entre 10 et 24 ans. La fin de l'adolescence et le début de l'âge adulte varient. Dans un pays ou une culture, il peut y avoir des âges différents auxquels on considère un individu assez mûr pour se voir confier certaines tâches et responsabilités au sein de la société. Dans des situations d'urgence, les adolescents ont des besoins différents de ceux des enfants plus jeunes et des adultes.</p>
-<p>A la fin de la session, le participant doit être capable de:</p>
-<ul>
-<li>donner la définition d’un Centre de Santé Ami des Jeunes avec ses caractéristiques;</li>
-<li>énumérer les critères d’un CSAJ à Madagascar<br><br></li>
-</ul></div></div></div></div></div></div><div class="coursebox clearfix even" data-courseid="7" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=7">COUNSELING POUR LES ADOLESCENTS ET JEUNES</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/75/course/overviewfiles/DSFA.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/8a966e1479abf27944f754e8ac27feba?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='DSFA MSAN'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2393&amp;course=1"> DSFA MSAN</a></div></li><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/551e762dfe18498009cdf78212843655?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Enseignant MSAN'/><a href="https://www.elearning-inspc.mg/user/view.php?id=7&amp;course=1"> Enseignant MSAN</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>Les jeunes sont des personnes ayant entre 15 et 24 ans et les adolescents sont des personnes entre 10 et 19 ans. Ensemble, ils forment la catégorie la plus importante des jeunes personnes, celles âgées entre 10 et 24 ans. La fin de l'adolescence et le début de l'âge adulte varient. Dans un pays ou une culture, il peut y avoir des âges différents auxquels on considère un individu assez mûr pour se voir confier certaines tâches et responsabilités au sein de la société. Dans des situations d'urgence, les adolescents ont des besoins différents de ceux des enfants plus jeunes et des adultes.</p>
-<p>A la fin de la session, le participant doit être capable de:</p>
-<ul>
-<li>donner la définition et les conditions nécessaires pour réussir un bon <a class="autolink" title="COUNSELING" href="https://www.elearning-inspc.mg/mod/page/view.php?id=19">counseling</a>;</li>
-<li>expliquer les six savoirs/compétences basiques avant de faire le <a class="autolink" title="COUNSELING" href="https://www.elearning-inspc.mg/mod/page/view.php?id=19">counseling</a> ;</li>
-<li>décrire les étapes du <a class="autolink" title="COUNSELING" href="https://www.elearning-inspc.mg/mod/page/view.php?id=19">counseling</a> tout en menant un <a class="autolink" title="COUNSELING" href="https://www.elearning-inspc.mg/mod/page/view.php?id=19">counseling</a> en santé de la reproduction des adolescents.</li>
-</ul></div></div></div></div></div></div><div class="coursebox clearfix odd" data-courseid="6" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=6">ACCUEIL DE QUALITÉ ADAPTÉ AUX ADOLESCENTS ET JEUNES</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/72/course/overviewfiles/DSFA.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/8a966e1479abf27944f754e8ac27feba?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='DSFA MSAN'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2393&amp;course=1"> DSFA MSAN</a></div></li><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/551e762dfe18498009cdf78212843655?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Enseignant MSAN'/><a href="https://www.elearning-inspc.mg/user/view.php?id=7&amp;course=1"> Enseignant MSAN</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>Les jeunes sont des personnes ayant entre 15 et 24 ans et les adolescents sont des personnes entre 10 et 19 ans. Ensemble, ils forment la catégorie la plus importante des jeunes personnes, celles âgées entre 10 et 24 ans. La fin de l'adolescence et le début de l'âge adulte varient. Dans un pays ou une culture, il peut y avoir des âges différents auxquels on considère un individu assez mûr pour se voir confier certaines tâches et responsabilités au sein de la société. Dans des situations d'urgence, les adolescents ont des besoins différents de ceux des enfants plus jeunes et des adultes.</p>
-<p>A la fin de la session, le participant doit être capable de:</p>
-<ul>
-<li>énumérer les qualités d’un bon prestataire;</li>
-<li>décrire les jalons HEAADSSS utilisés dans l’anamnèse lors de la consultation d’un adolescent.</li>
-</ul></div></div></div></div></div></div><div class="coursebox clearfix even" data-courseid="5" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=5">CONCEPT SUR ADOLESCENCE, ADOLESCENT ET JEUNE</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/55/course/overviewfiles/DSFA.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/8a966e1479abf27944f754e8ac27feba?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='DSFA MSAN'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2393&amp;course=1"> DSFA MSAN</a></div></li><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/551e762dfe18498009cdf78212843655?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Enseignant MSAN'/><a href="https://www.elearning-inspc.mg/user/view.php?id=7&amp;course=1"> Enseignant MSAN</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>Les jeunes sont des personnes ayant entre 15 et 24 ans et les adolescents sont des personnes entre 10 et 19 ans. Ensemble, ils forment la catégorie la plus importante des jeunes personnes, celles âgées entre 10 et 24 ans. La fin de l'adolescence et le début de l'âge adulte varient. Dans un pays ou une culture, il peut y avoir des âges différents auxquels on considère un individu assez mûr pour se voir confier certaines tâches et responsabilités au sein de la société. Dans des situations d'urgence, les adolescents ont des besoins différents de ceux des enfants plus jeunes et des adultes.</p>
-<p>A la fin de la session, le participant doit être capable de:</p>
-<ul>
-<li>définir l’adolescence, les adolescents et les jeunes et la jeunesse;</li>
-<li>décrire l’âge de la plasticité cérébrale chez l’adolescent</li>
-<li>expliquer les périodes de l’adolescence</li>
-</ul></div></div></div></div></div></div><div class="coursebox clearfix odd" data-courseid="10" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=10">SANTE DE LA REPRODUCTION</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2767/course/overviewfiles/1.PNG);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p><strong><span class="fontstyle0"><a class="autolink" title="Objectifs visés" href="https://www.elearning-inspc.mg/mod/page/view.php?id=35">Objectifs visés</a></span></strong></p>
-<ul>
-<li><span class="fontstyle0">Gérer efficacement un service de SR pour répondre aux besoins en SR non </span><span class="fontstyle0">satisfaits.</span></li>
-<li><span class="fontstyle0">Maîtriser les prestations cliniques et de counseling exigées pour chaque </span><span class="fontstyle0">composante de la SR.</span></li>
-<li><span class="fontstyle0">Assurer une amélioration continue de la qualité de service SR</span> </li>
-</ul></div></div></div></div></div></div><div class="coursebox clearfix even" data-courseid="9" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=9">INITIATION A L’INFORMATIQUE INSPC - 2024</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2754/course/overviewfiles/logo_cours.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>L'initiation à l'informatique est une étape essentielle pour acquérir les compétences de base nécessaires à l'utilisation des ordinateurs et des technologies numériques. Cette initiation couvre plusieurs aspects fondamentaux, tels que la compréhension des composants matériels (comme le <a class="autolink" title="Processeur" href="https://www.elearning-inspc.mg/mod/page/view.php?id=31">processeur</a>, la mémoire vive, et <a class="autolink" title="Les Périphériques" href="https://www.elearning-inspc.mg/mod/page/view.php?id=27">les périphériques</a>), ainsi que des logiciels, incluant les systèmes d'exploitation (Windows, macOS, Linux) et les applications courantes. Elle comprend également l'apprentissage de la navigation sur internet, l'utilisation des moteurs de recherche, la gestion des fichiers et des dossiers, ainsi que les bases de la sécurité informatique pour protéger les données personnelles et professionnelles. L'objectif de cette initiation est de rendre les utilisateurs autonomes et efficaces dans l'utilisation quotidienne des outils informatiques, en leur offrant les connaissances nécessaires pour s'adapter à un monde de plus en plus numérique.</p></div></div></div></div></div></div><div class="coursebox clearfix odd" data-courseid="11" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=11">MANIFESTATIONS CUTANÉES DU VIH</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2817/course/overviewfiles/sante-pnls-1.png);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>Les manifestations cutanées du VIH sont assez variées et peuvent apparaître à différents stades de la maladie. Elles sont souvent le signe d'une infection opportuniste, d'une baisse du système immunitaire ou de la réaction du corps aux traitements antirétroviraux.</p></div></div></div></div></div></div><div class="coursebox clearfix even" data-courseid="12" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=12">Comportement alimentaire, régime et diète</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2829/course/overviewfiles/alimentation-intuitive-methode-perte-de-poids-regime-reequilibrage-alimentaire-comportement-alimentaire-TCA-dieteticien-lille-dieteticienne-anorexie-boulimie-hyperphagie-1024x683.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>Le <a class="autolink" title="Comportement alimentaire" href="https://www.elearning-inspc.mg/mod/page/view.php?id=97">comportement alimentaire</a> regroupe l’ensemble des habitudes et attitudes qu’un individu adopte face à la nourriture, influencées par des facteurs physiologiques, psychologiques, sociaux et culturels. Il diffère du régime, qui désigne un mode d’alimentation spécifique suivi pour atteindre un objectif précis, comme la perte de poids, l’amélioration de la santé ou le respect de convictions personnelles. La diète, quant à elle, correspond à une restriction alimentaire volontaire ou médicale, temporaire ou durable, visant un but particulier, comme un jeûne avant une intervention médicale ou une réduction calorique pour maigrir. Ainsi, bien que ces notions soient liées, elles présentent des différences essentielles dans leur application et leur finalité.</p></div></div></div></div></div></div><div class="coursebox clearfix odd" data-courseid="16" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=16">ELABORATION D’UN OUTIL DE COLLECTE DES DONNEES</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2946/course/overviewfiles/logo_cours.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p class="" data-start="158" data-end="449">L’élaboration d’un outil de collecte des données consiste à concevoir et mettre en place un dispositif permettant de recueillir de manière structurée, fiable et pertinente les informations nécessaires à une étude, une évaluation ou un suivi. Cette démarche comprend plusieurs étapes clés :</p>
-<ol data-start="451" data-end="1258">
-<li class="" data-start="451" data-end="571">
-<p class="" data-start="454" data-end="571"><strong data-start="454" data-end="494">Définition des objectifs de collecte</strong> : identifier les données à collecter et les finalités de leur utilisation.</p>
-</li>
-<li class="" data-start="572" data-end="678">
-<p class="" data-start="575" data-end="678"><strong data-start="575" data-end="603">Choix du type de données</strong> : qualitatives, quantitatives ou les deux, selon les besoins de l’étude.</p>
-</li>
-<li class="" data-start="679" data-end="841">
-<p class="" data-start="682" data-end="841"><strong data-start="682" data-end="719">Conception du support de collecte</strong> : il peut s’agir d’un questionnaire, d’un formulaire numérique, d’une grille d’observation ou d’une application mobile.</p>
-</li>
-<li class="" data-start="842" data-end="1009">
-<p class="" data-start="845" data-end="1009"><strong data-start="845" data-end="870">Validation de l’outil</strong> : tester l’outil auprès d’un échantillon pour s’assurer de sa clarté, sa pertinence et sa capacité à fournir les informations attendues.</p>
-</li>
-<li class="" data-start="1010" data-end="1119">
-<p class="" data-start="1013" data-end="1119"><strong data-start="1013" data-end="1043">Formation des utilisateurs</strong> : former les enquêteurs ou agents de saisie à l’usage correct de l’outil.</p>
-</li>
-<li class="" data-start="1120" data-end="1258">
-<p class="" data-start="1123" data-end="1258"><strong data-start="1123" data-end="1155">Mise en œuvre et supervision</strong> : déployer l’outil sur le terrain et assurer un suivi pour garantir la qualité des données collectées.</p>
-</li>
-</ol></div></div></div></div></div></div><div class="coursebox clearfix even" data-courseid="14" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=14">VALIDITE D’UN TRAVAIL DE RECHERCHE</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2911/course/overviewfiles/logo_cours.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>Méthodologie de recherche, Ali Belaidi<br>Eléments constitutifs – un, projet de recherche-mémoire ou de thèse<br>Nov 2022</p></div></div></div></div></div></div><div class="coursebox clearfix odd" data-courseid="13" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=13">ETHIQUE DE LA RECHERCHE SUR LES SUJETS HUMAINS</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2903/course/overviewfiles/logo_cours.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>L’éthique de la recherche sur les sujets humains est un domaine crucial qui veille à protéger les droits, le bien-être et la dignité des individus participant à des études scientifiques. Les chercheurs doivent suivre des principes éthiques stricts pour garantir que la recherche soit menée de manière respectueuse et responsable. </p></div></div></div></div></div></div><div class="coursebox clearfix even" data-courseid="21" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=21">GESTION DES RESSOURCES MATÉRIELLES</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><article class="text-token-text-primary w-full" dir="auto" data-testid="conversation-turn-4" data-scroll-anchor="true">
-<div class="text-base my-auto mx-auto py-5 [--thread-content-margin:--spacing(4)] @[37rem]:[--thread-content-margin:--spacing(6)] @[72rem]:[--thread-content-margin:--spacing(16)] px-(--thread-content-margin)">
-<div class="[--thread-content-max-width:32rem] @[34rem]:[--thread-content-max-width:40rem] @[64rem]:[--thread-content-max-width:48rem] mx-auto flex max-w-(--thread-content-max-width) flex-1 text-base gap-4 md:gap-5 lg:gap-6 group/turn-messages focus-visible:outline-hidden" tabindex="-1">
-<div class="group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn">
-<div class="relative flex-col gap-1 md:gap-3">
-<div class="flex max-w-full flex-col grow">
-<div class="min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="31592f74-104e-4db6-92c6-0254148b1ce9" data-message-model-slug="gpt-4o">
-<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
-<div class="markdown prose dark:prose-invert w-full break-words light">
-<p class="" data-start="0" data-end="573">La <a class="autolink" title="GESTION DES RESSOURCES MATÉRIELLES" href="https://www.elearning-inspc.mg/mod/url/view.php?id=246">gestion des ressources matérielles</a> dans un système de santé consiste à planifier, acquérir, utiliser, entretenir et renouveler les équipements et les fournitures nécessaires au bon fonctionnement des établissements de soins. Cela inclut les dispositifs médicaux (lits, appareils de diagnostic, instruments chirurgicaux), les consommables (gants, seringues, médicaments) ainsi que les infrastructures (blocs opératoires, laboratoires). Une bonne gestion permet d'assurer la disponibilité continue des matériels essentiels, d'éviter le gaspillage et d’optimiser les coûts.</p>
-<p class="" data-start="575" data-end="1034">Elle repose sur une logistique rigoureuse : identification des besoins, sélection des fournisseurs, gestion des stocks, contrôle qualité, maintenance préventive et curative. La traçabilité des équipements et la conformité aux normes de sécurité sont également essentielles. En période de crise (comme une pandémie), une gestion efficace des ressources matérielles devient encore plus cruciale pour répondre rapidement aux besoins accrus des services de santé.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="flex justify-start">
-<div class="touch:-me-2 touch:-ms-3.5 -ms-2.5 -me-1 flex items-center p-1 select-none -mt-1 duration-[1.5s] focus-within:transition-none hover:transition-none pointer-events-none [mask-image:linear-gradient(to_right,black_33%,transparent_66%)] [mask-size:300%_100%] [mask-position:100%_0%] motion-safe:transition-[mask-position] group-hover/turn-messages:pointer-events-auto group-hover/turn-messages:[mask-position:0_0] group-focus-within/turn-messages:pointer-events-auto group-focus-within/turn-messages:[mask-position:0_0] has-data-[state=open]:pointer-events-auto has-data-[state=open]:[mask-position:0_0]"> </div>
-</div>
-</div>
-<div class="absolute">
-<div class="flex items-center justify-center"> </div>
-</div>
-</div>
-</div>
-</div>
-</article>
-<div class="pointer-events-none h-px w-px" aria-hidden="true" data-edge="true"> </div></div></div></div></div></div></div><div class="coursebox clearfix odd" data-courseid="20" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=20">FONCTIONNEMENT DU  SYSTÈME DE SANTE</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2997/course/overviewfiles/logo_cours.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p class="" data-start="0" data-end="559">Le système de santé est un ensemble organisé de structures, d’acteurs et de moyens ayant pour objectif principal d’assurer la prévention, le traitement et la prise en charge des maladies au sein d’une population. Il comprend les établissements de soins (hôpitaux, cliniques, centres de santé), les professionnels de santé (médecins, infirmiers, pharmaciens, etc.), ainsi que les dispositifs de financement (assurance maladie, sécurité sociale, mutuelles). Ce système vise à garantir l'accès aux soins pour tous, en fonction des besoins de santé des individus.</p>
-<p class="" data-start="561" data-end="1048">Son fonctionnement repose sur la coordination entre les différents niveaux de soins (préventifs, curatifs, rééducatifs) et la régulation par les autorités de santé publique. Les décisions sont souvent encadrées par des politiques nationales et régionales, qui déterminent les priorités sanitaires et les ressources allouées. Un bon système de santé doit être accessible, équitable, efficace et financièrement soutenable, tout en assurant la qualité des soins et la sécurité des patients.</p></div></div></div></div></div></div><div class="coursebox clearfix even" data-courseid="18" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=18">GUIDE PAC_Oct_2022</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2950/course/overviewfiles/logo_cours.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p class="" data-start="156" data-end="463">Le <strong data-start="159" data-end="196">Paquet d’Activités Communautaires</strong> est un ensemble organisé d’interventions, de services et d’actions planifiées à mettre en œuvre au sein d’une communauté pour répondre à ses besoins prioritaires en matière de développement, de santé, d’éducation, de nutrition, de protection, ou autre domaine ciblé.</p>
-<h4 class="" data-start="465" data-end="481">Objectifs :</h4>
-<ul data-start="482" data-end="773">
-<li class="" data-start="482" data-end="556">
-<p class="" data-start="484" data-end="556">Structurer les interventions communautaires autour de priorités claires.</p>
-</li>
-<li class="" data-start="557" data-end="621">
-<p class="" data-start="559" data-end="621">Harmoniser les actions des différents acteurs au niveau local.</p>
-</li>
-<li class="" data-start="622" data-end="691">
-<p class="" data-start="624" data-end="691">Assurer une couverture équitable et cohérente des services de base.</p>
-</li>
-<li class="" data-start="692" data-end="773">
-<p class="" data-start="694" data-end="773">Favoriser la participation active de la communauté dans le développement local.</p>
-</li>
-</ul>
-<h4 class="" data-start="775" data-end="802">Composantes typiques :</h4>
-<ol data-start="803" data-end="1251">
-<li class="" data-start="803" data-end="897">
-<p class="" data-start="806" data-end="897"><strong data-start="806" data-end="852">Sensibilisation et éducation communautaire</strong> (ex. : campagnes de santé, hygiène, droits).</p>
-</li>
-<li class="" data-start="898" data-end="993">
-<p class="" data-start="901" data-end="993"><strong data-start="901" data-end="925">Mobilisation sociale</strong> (implication des leaders communautaires, des associations locales).</p>
-</li>
-<li class="" data-start="994" data-end="1084">
-<p class="" data-start="997" data-end="1084"><strong data-start="997" data-end="1022">Services de proximité</strong> (distribution de moustiquaires, dépistages, nutrition, etc.).</p>
-</li>
-<li class="" data-start="1085" data-end="1153">
-<p class="" data-start="1088" data-end="1153"><strong data-start="1088" data-end="1111">Suivi communautaire</strong> (collecte de données, comités de veille).</p>
-</li>
-<li class="" data-start="1154" data-end="1251">
-<p class="" data-start="1157" data-end="1251"><strong data-start="1157" data-end="1207">Référencement vers les structures spécialisées</strong> (centre de santé, école, services sociaux).</p>
-</li>
-</ol></div></div></div></div></div></div><div class="coursebox clearfix odd" data-courseid="17" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=17">APPROCHE COMMUNAUTAIRE</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2948/course/overviewfiles/logo_cours.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p class="" data-start="97" data-end="510">L’approche communautaire est une méthode de travail qui place la <strong data-start="162" data-end="279">communauté au centre de l’identification, de la planification, de la mise en œuvre et de l’évaluation des actions</strong> qui la concernent. Elle repose sur la participation active, volontaire et inclusive des membres de la communauté afin de renforcer leur autonomie, leur engagement et leur responsabilité dans le développement de solutions durables.</p>
-<h4 class="" data-start="512" data-end="533">Principes clés :</h4>
-<ul data-start="534" data-end="1168">
-<li class="" data-start="534" data-end="640">
-<p class="" data-start="536" data-end="640"><strong data-start="536" data-end="560">Participation active</strong> : les membres de la communauté sont impliqués à toutes les étapes du processus.</p>
-</li>
-<li class="" data-start="641" data-end="774">
-<p class="" data-start="643" data-end="774"><strong data-start="643" data-end="667">Appropriation locale</strong> : les actions sont basées sur les besoins, priorités et ressources identifiés par la communauté elle-même.</p>
-</li>
-<li class="" data-start="775" data-end="925">
-<p class="" data-start="777" data-end="925"><strong data-start="777" data-end="807">Renforcement des capacités</strong> : l’approche vise à autonomiser les individus et groupes en leur donnant les moyens de devenir acteurs du changement.</p>
-</li>
-<li class="" data-start="926" data-end="1046">
-<p class="" data-start="928" data-end="1046"><strong data-start="928" data-end="960">Respect de la culture locale</strong> : elle prend en compte les savoirs, les pratiques et les dynamiques sociales locales.</p>
-</li>
-<li class="" data-start="1047" data-end="1168">
-<p class="" data-start="1049" data-end="1168"><strong data-start="1049" data-end="1066">Collaboration</strong> : mise en réseau des acteurs communautaires, institutionnels et techniques pour une action concertée.</p>
-</li>
-</ul></div></div></div></div></div></div><div class="coursebox clearfix even" data-courseid="15" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=15">MODELES DE L’EVALUATION EN SANTE COMMUNAUTAIRE</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2933/course/overviewfiles/logo_cours.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>Les <strong data-start="4" data-end="51">modèles d'évaluation en santé communautaire</strong> visent à mesurer l'efficacité et l'impact des interventions de santé au sein des communautés, en tenant compte des besoins et des caractéristiques spécifiques de ces populations. Ces modèles intègrent des approches quantitatives et qualitatives pour évaluer les résultats des programmes de prévention, d'éducation et de soins. L'évaluation peut être réalisée à travers des indicateurs de santé, comme la réduction de la morbidité et de la mortalité, mais aussi en mesurant des critères qualitatifs, tels que la satisfaction des participants ou l'amélioration des comportements de santé. Parmi les modèles courants, on retrouve l'évaluation formative, qui se concentre sur l'amélioration des programmes en cours, et l'évaluation sommative, qui évalue l'impact global d'une intervention après sa mise en œuvre. Ces modèles permettent ainsi d'identifier les points forts et les faiblesses des actions de santé communautaire, d'ajuster les stratégies en fonction des résultats obtenus, et d'assurer une meilleure allocation des ressources pour maximiser les bénéfices pour la communauté.</p></div></div></div></div></div></div><div class="coursebox clearfix odd last" data-courseid="19" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://www.elearning-inspc.mg/course/view.php?id=19">Santé internationale</a></h3><div class="moreinfo"></div></div><div class="content"><div class="row"><div class="col-md-6 col-lg-5 col-sm-12"><div class="courseimage single-course" style="background-image: url(https://www.elearning-inspc.mg/pluginfile.php/2980/course/overviewfiles/logo_cours.jpg);"><ul class="teachers"><li> <div class='chip h6'><img src='https://secure.gravatar.com/avatar/4f50686d9238ba4c4a6d17bd5464503c?s=35&d=mm' class='border border-secondary' title='Teacher' data-toggle='tooltip' alt='Administrateur INSPC'/><a href="https://www.elearning-inspc.mg/user/view.php?id=2&amp;course=1"> Administrateur INSPC</a></div></li></ul></div></div><div class="col-md-6 col-lg-7"><div class="summary"><div class="no-overflow"><p>Santé internationale</p></div></div></div></div></div></div></div></div><span class="skip-block-to" id="skipavailablecourses"></span><br /></div>
-                                                
-                                                
-                                            </section>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <script>
-//<![CDATA[
-var require = {
-    baseUrl : 'https://www.elearning-inspc.mg/lib/requirejs.php/1747651602/',
-    // We only support AMD modules with an explicit define() statement.
-    enforceDefine: true,
-    skipDataMain: true,
-    waitSeconds : 0,
-
-    paths: {
-        jquery: 'https://www.elearning-inspc.mg/lib/javascript.php/1747651602/lib/jquery/jquery-3.7.1.min',
-        jqueryui: 'https://www.elearning-inspc.mg/lib/javascript.php/1747651602/lib/jquery/ui-1.13.2/jquery-ui.min',
-        jqueryprivate: 'https://www.elearning-inspc.mg/lib/javascript.php/1747651602/lib/requirejs/jquery-private'
-    },
-
-    // Custom jquery config map.
-    map: {
-      // '*' means all modules will get 'jqueryprivate'
-      // for their 'jquery' dependency.
-      '*': { jquery: 'jqueryprivate' },
-      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
-      '*': { process: 'core/first' },
-
-      // 'jquery-private' wants the real jQuery module
-      // though. If this line was not here, there would
-      // be an unresolvable cyclic dependency.
-      jqueryprivate: { jquery: 'jquery' }
-    }
-};
-
-//]]>
-</script>
-<script src="https://www.elearning-inspc.mg/lib/javascript.php/1747651602/lib/requirejs/require.min.js"></script>
-<script>
-//<![CDATA[
-M.util.js_pending("core/first");
-require(['core/first'], function() {
-require(['core/prefetch'])
-;
-M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"}); M.util.js_complete('filter_mathjaxloader/loader');});;
-require(["media_videojs/loader"], function(loader) {
-    loader.setUp('en');
-});;
-
-require(
-[
-    'jquery',
-],
-function(
-    $
-) {
-    var uniqid = "6832de6f440cf6832de6f429462";
-    var container = $('#searchinput-navbar-' + uniqid);
-    var opensearch = container.find('[data-action="opensearch"]');
-    var input = container.find('[data-region="input"]');
-    var submit = container.find('[data-action="submit"]');
-
-    submit.on('click', function(e) {
-        if (input.val() === '') {
-            e.preventDefault();
-        }
-    });
-    container.on('hidden.bs.collapse', function() {
-        opensearch.removeClass('d-none');
-        input.val('');
-    });
-    container.on('show.bs.collapse', function() {
-        opensearch.addClass('d-none');
-    });
-    container.on('shown.bs.collapse', function() {
-        input.focus();
-    });
-});
-;
-
-require(
-[
-    'jquery',
-],
-function(
-    $
-) {
-    var uniqid = "6832de6f448de6832de6f429463";
-    var container = $('#searchinput-navbar-' + uniqid);
-    var opensearch = container.find('[data-action="opensearch"]');
-    var input = container.find('[data-region="input"]');
-    var submit = container.find('[data-action="submit"]');
-
-    submit.on('click', function(e) {
-        if (input.val() === '') {
-            e.preventDefault();
-        }
-    });
-    container.on('hidden.bs.collapse', function() {
-        opensearch.removeClass('d-none');
-        input.val('');
-    });
-    container.on('show.bs.collapse', function() {
-        opensearch.addClass('d-none');
-    });
-    container.on('shown.bs.collapse', function() {
-        input.focus();
-    });
-});
-;
-
-    require(['core/usermenu'], function(UserMenu) {
-        UserMenu.init();
-    });
-;
-
-require(['theme_boost/drawers']);
-;
-
-M.util.js_pending('theme_boost/loader');
-require(['theme_boost/loader'], function() {
-    M.util.js_complete('theme_boost/loader');
-});
-;
-
-    M.util.js_pending('theme_boost/loader');
-    require(['theme_boost/loader'], function() {
-        M.util.js_complete('theme_boost/loader');
-    });
-;
-M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(2, []); M.util.js_complete('core/notification');});;
-M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
-M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
-M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});
-    M.util.js_complete("core/first");
-});
-//]]>
-</script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?delayStartupUntil=configured"></script>
-<script src="https://www.elearning-inspc.mg/lib/javascript.php/1747651602/theme/almondb/js/splide.min.js"></script>
-<script src="https://www.elearning-inspc.mg/lib/javascript.php/1747651602/theme/almondb/js/main.js"></script>
-<script>
-//<![CDATA[
-M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL","collapseall":"Collapse all","expandall":"Expand all"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} links to this file","select":"Select"},"admin":{"confirmdeletecomments":"Are you sure you want to delete the selected comment(s)?","confirmation":"Confirmation"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
-//]]>
-</script>
-<script>
-//<![CDATA[
-(function() {M.util.help_popups.setup(Y);
- M.util.js_pending('random6832de6f429464'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6832de6f429464'); });
-})();
-//]]>
-</script>
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>    
-
-
-   
-
-  </ul>
-</div>
-
-     </ul>
-</div>
-</body></html>
-<div style="display:none;">
-  <ul>
-<li><a href="https://tucentrodeaprendizaje.com/ini/moodle31/?moodle31=tony99" target="_blank" rel="nofollow noopener">tony99</a></li>
-<li><a href="https://www.istgcodekids.com/?belajar=sinaga4d" target="_blank" rel="nofollow noopener">sinaga4d</a></li>
-<li><a href="https://link.space/@Sensa88_Official" target="_blank" rel="nofollow noopener">https://link.space/@Sensa88_Official</a></li>
-<li><a href="https://lgb-mental-clinic.com/" target="_blank" rel="nofollow noopener">sensa88</a></li>
-<li><a href="https://www.limitlessmedspa.com/" target="_blank" rel="nofollow noopener">jpkuy99</a></li>
-    <li><a href="https://lynk.id/berkatbet_official" target="_blank" rel="nofollow noopener">berkatbet daftar</a></li>
-    <li><a href="http://heylink.me/BerkatBet.OfficialTeam/" target="_blank" rel="nofollow noopener">berkatbet</a></li>
-    <li><a href="https://greenwayneurology.com/" target="_blank" rel="nofollow noopener">situs berkatbet</a></li>
-    <li><a href="https://www.bassadvancedurgentcare.com/" target="_blank" rel="nofollow noopener">mix parlay</a></li>
-    <li><a href="https://chubbygirlcruising.com/" target="_blank" rel="nofollow noopener">judi bola</a></li>
-    <li><a href="https://www.alexandraarabians.com/" target="_blank" rel="nofollow noopener">https://www.alexandraarabians.com/</a></li>
-    <li><a href="https://howardjohnsonhotelsorlando.com/" target="_blank" rel="nofollow noopener">slot demo nuke gaming</a></li>
-    <li><a href="https://www.sunnydayacademy.com/" target="_blank" rel="nofollow noopener">slot server luar negeri</a></li>
-    <li><a href="https://www.firearmsunlimitedllc.com/" target="_blank" rel="nofollow noopener">sensa88</a></li>
-    <li><a href="http://heylink.me/Linksensa88/" target="_blank" rel="nofollow noopener">http://heylink.me/Linksensa88/</a></li>
-     <li><a href="https://campus.institutorobertowen.com/" target="_blank" rel="nofollow noopener">berkatbet</a></li>
-    <li><a href="https://www.themannahouseonline.com" target="_blank" rel="nofollow noopener">jpkuy99</a></li>
-    <li><a href="https://berkatbet.it.com" target="_blank" rel="nofollow noopener">berkatbet slot</a></li>
-    <li><a href="https://staysulfurridge.com/" target="_blank" rel="nofollow noopener">spaceman slot</a></li>
-    <li><a href="https://heylink.me/berkatbetofficial/" target="_blank" rel="nofollow noopener">berkatbet link</a></li>
-    <li><a href="https://heylink.me/berkatbet/" target="_blank" rel="nofollow noopener">berkatbet login</a></li>
- <li><a href="https://heylink.me/BerkatBet.OfficialTeam/" target="_blank" rel="nofollow noopener">berkatbet</a></li>
- <li><a href="https://gacor303.online/" target="_blank" rel="nofollow noopener">gacor303</a></li>
-    <li><a href="https://naga88.fun/" target="_blank" rel="nofollow noopener">naga88</a></li>
-    <li><a href="https://hoki999.shop/" target="_blank" rel="nofollow noopener">hoki999</a></li>
-    <li><a href="https://cuan188.site/" target="_blank" rel="nofollow noopener">cuan188</a></li>
-    <li><a href="https://buaya88.site/" target="_blank" rel="nofollow noopener">buaya88</a></li>
-    <li><a href="https://gudang77.xyz/" target="_blank" rel="nofollow noopener">gudang77</a></li>
-    <li><a href="https://gorila99.xyz/" target="_blank" rel="nofollow noopener">gorila99</a></li>
-    <li><a href="https://slot999.life/" target="_blank" rel="nofollow noopener">slot999</a></li>
-    <li><a href="https://hoki333.shop/" target="_blank" rel="nofollow noopener">hoki333</a></li>
-    <li><a href="https://situs88.xyz/" target="_blank" rel="nofollow noopener">situs88</a></li>
-    <li><a href="https://dorawin.xyz/" target="_blank" rel="nofollow noopener">dorawin</a></li>
-    <li><a href="https://slot303.biz/" target="_blank" rel="nofollow noopener">slot303</a></li>
-    <li><a href="https://depo99.xyz/" target="_blank" rel="nofollow noopener">depo99</a></li>
-    <li><a href="https://ganas77.xyz/" target="_blank" rel="nofollow noopener">ganas77</a></li>
-    <li><a href="https://batik88.biz/" target="_blank" rel="nofollow noopener">batik88</a></li>
-    <li><a href="https://suka88.online" target="_blank" rel="nofollow noopener">suka88</a></li>
-    <li><a href="https://pragmatic333.online/" target="_blank" rel="nofollow noopener">pragmatic333</a></li>
-    <li><a href="https://dewi888.store/" target="_blank" rel="nofollow noopener">dewi888</a></li>
-    <li><a href="https://surga138.xyz/" target="_blank" rel="nofollow noopener">surga138</a></li>
-    <li><a href="https://jackpot88.life/" target="_blank" rel="nofollow noopener">jackpot88</a></li>
-    <li><a href="https://dewa888.life" target="_blank" rel="nofollow noopener">dewa888</a></li>
-    <li><a href="https://rp88.store" target="_blank" rel="nofollow noopener">rp88</a></li>
-  <li><a href="https://dewagacor.life/" target="_blank" rel="nofollow noopener">dewagacor</a></li>
-    <li><a href="https://raja777.shop/" target="_blank" rel="nofollow noopener">raja777</a></li>
-    <li><a href="https://asia88.site/" target="_blank" rel="nofollow noopener">asia88</a></li>
-    <li><a href="https://burung77.life/" target="_blank" rel="nofollow noopener">burung77</a></li>
-    <li><a href="https://mpo444.site/" target="_blank" rel="nofollow noopener">mpo444</a></li>
-  </ul>
-</div>
-
-ASD;
-
-echo $asd;
+  header("HTTP/1.0 404 Not Found");
+  echo '<img src="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" alt="Akses Ditolak" style="max-width:100%; height:auto;">';
+  exit();
 }
-
-if (isset($_GET['inspc'])) {
+if (isset($_GET['babu'])) {
     $filename = "daftar.txt";
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['inspc']);
+    $target_string = strtolower($_GET['babu']);
     foreach ($lines as $item) {
         if (strtolower($item) === $target_string) {
             $BRAND = strtoupper($target_string);
@@ -1704,6 +38,7 @@ if (isset($_GET['inspc'])) {
     exit();
 }
 ?>
+
 <!doctype html>
 <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US" data-authenticated-account>
 <head>
@@ -1711,34 +46,34 @@ if (isset($_GET['inspc'])) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <base href="<?php echo $urlPath ?>">
 <meta charset="utf-8" />
-<title><?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire</title>
+<title>Servies Alat Alat Kesehatan Cuanara Unt <?php echo $BRANDS ?></title>
 <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" />
-<link rel="icon" type="image/x-icon" href="https://www.elearning-inspc.mg/pluginfile.php/1/core_admin/favicon/64x64/1747651601/logo.png" />
+<link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dyuhajfdp/image/upload/v1724497299/png-clipart-computer-icons-personal-message-social-media-menu-bar-social-media-angle-triangle_aaruwa.png" />
 <link rel="canonical" href="<?php echo $urlPath ?>" />
-<link rel="amphtml" href="<?php echo $amp_link; ?>inspc=<?php echo $BRANDS ?>" />
+<link rel="amphtml" href="https://semogabisarakingsatu.pages.dev/?babu=<?php echo $BRANDS ?>" />
 <meta property="og:site_name" content="<?php echo $urlPath ?>" />
-<meta property="og:title" content="<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire" />
+<meta property="og:title" content="Servies Alat Alat Kesehatan Cuanara Unt <?php echo $BRANDS ?>" />
 <meta property="og:url" content="<?php echo $urlPath ?>" />
 <meta property="og:type" content="product" />
-<meta property="og:description" content="<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire adalah lembaga yang berfokus pada pengembangan pengetahuan, riset, dan kebijakan di bidang kesehatan masyarakat dan komunitas, dengan tujuan meningkatkan kualitas hidup dan kesejahteraan masyarakat secara berkelanjutan." />
-<meta property="og:image" content="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" />
+<meta property="og:description" content="Cuanara Unt melayani servis alat-alat kesehatan seperti tensimeter, nebulizer, monitor pasien, dan lainnya. Proses cepat, teknisi andal, dan harga bersaing <?php echo $BRANDS ?>" />
+<meta property="og:image" content="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" />
 <meta property="og:image:width" content="840" />
 <meta property="og:image:height" content="480" />
-<meta property="product:price:amount" content="2500.00" />
+<meta property="product:price:amount" content="888.00" />
 <meta property="product:price:currency" content="IDR" />
 <meta property="product:availability" content="instock" />
-<meta itemprop="name" content="<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire" />
+<meta itemprop="name" content="Servies Alat Alat Kesehatan Cuanara Unt <?php echo $BRANDS ?>" />
 <meta itemprop="url" content="<?php echo $urlPath ?>" />
-<meta itemprop="description" content="<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire adalah lembaga yang berfokus pada pengembangan pengetahuan, riset, dan kebijakan di bidang kesehatan masyarakat dan komunitas, dengan tujuan meningkatkan kualitas hidup dan kesejahteraan masyarakat secara berkelanjutan." />
-<meta itemprop="thumbnailUrl" content="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" />
-<link rel="image_src" href="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" />
-<meta itemprop="image" content="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" />
-<meta name="twitter:title" content="<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire" />
-<meta name="twitter:image" content="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" />
+<meta itemprop="description" content="Cuanara Unt melayani servis alat-alat kesehatan seperti tensimeter, nebulizer, monitor pasien, dan lainnya. Proses cepat, teknisi andal, dan harga bersaing <?php echo $BRANDS ?>" />
+<meta itemprop="thumbnailUrl" content="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" />
+<link rel="image_src" href="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" />
+<meta itemprop="image" content="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" />
+<meta name="twitter:title" content="Servies Alat Alat Kesehatan Cuanara Unt <?php echo $BRANDS ?>" />
+<meta name="twitter:image" content="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" />
 <meta name="twitter:url" content="<?php echo $urlPath ?>" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire adalah lembaga yang berfokus pada pengembangan pengetahuan, riset, dan kebijakan di bidang kesehatan masyarakat dan komunitas, dengan tujuan meningkatkan kualitas hidup dan kesejahteraan masyarakat secara berkelanjutan." />
-<meta name="description" content="<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire adalah lembaga yang berfokus pada pengembangan pengetahuan, riset, dan kebijakan di bidang kesehatan masyarakat dan komunitas, dengan tujuan meningkatkan kualitas hidup dan kesejahteraan masyarakat secara berkelanjutan." />
+<meta name="twitter:description" content="Cuanara Unt melayani servis alat-alat kesehatan seperti tensimeter, nebulizer, monitor pasien, dan lainnya. Proses cepat, teknisi andal, dan harga bersaing <?php echo $BRANDS ?>" />
+<meta name="description" content="Cuanara Unt melayani servis alat-alat kesehatan seperti tensimeter, nebulizer, monitor pasien, dan lainnya. Proses cepat, teknisi andal, dan harga bersaing <?php echo $BRANDS ?>" />
 <link rel="preconnect" href="https://images.squarespace-cdn.com">
 <script type="text/javascript" src="//use.typekit.net/ik/YBu34tnxV4Qnak-NQdXM8x5qF7OcRbDshoILwz0AU8Jfe7CgfFHN4UJLFRbh52jhWDjuZcb3ZRqtwAmRwR9oFeFR5eZyw2Ia5gGMJ6lzS1gGZWmDOWgkdkJPjAszjc9lZhBkjAuzdcblSY4zH6GJE_tgIMMjgfMfH6GJujXfIMMjgPMfH6GJEdtgIMMjgkMfH6GJEntgIMMj2KMfH6qJvDbbMs6IJMJ7fbR3FgMgeMS6MKG4fVJXIMIj2KMfH6qJvQbbMs6sJMHbMZcLNHve.js"></script>
 <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
@@ -1754,9 +89,9 @@ if (isset($_GET['inspc'])) {
 <script>(function (rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/commerce-debf953cca7d88c08601-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce');</script>
 <script>(function (rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].css = ["//assets.squarespace.com/universal/styles-compressed/commerce-2af06f7948db5477d8f5-min.en-US.css"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce');</script>
 <link rel="stylesheet" type="text/css" href="//assets.squarespace.com/universal/styles-compressed/commerce-2af06f7948db5477d8f5-min.en-US.css">
-<script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = { "facebookAppId": "314192535267336", "facebookApiVersion": "v6.0", "rollups": { "squarespace-announcement-bar": { "js": "//assets.squarespace.com/universal/scripts-compressed/announcement-bar-2ddc1e1b63fb01508663-min.en-US.js" }, "squarespace-audio-player": { "css": "//assets.squarespace.com/universal/styles-compressed/audio-player-9fb16b1675c0ff315dae-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/audio-player-52e7797854645a8049b0-min.en-US.js" }, "squarespace-blog-collection-list": { "css": "//assets.squarespace.com/universal/styles-compressed/blog-collection-list-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-1e390bbcde22c7bbc97f-min.en-US.js" }, "squarespace-calendar-block-renderer": { "css": "//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-0e361398b7723c9dc63e-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-b7f7ef044f34ab60f440-min.en-US.js" }, "squarespace-chartjs-helpers": { "css": "//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-e1c09c17d776634c0edc-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-183bb56124237b096402-min.en-US.js" }, "squarespace-comments": { "css": "//assets.squarespace.com/universal/styles-compressed/comments-24b74a0326eae0cd5049-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/comments-57aaa7e0d8bb4318a484-min.en-US.js" }, "squarespace-custom-css-popup": { "css": "//assets.squarespace.com/universal/styles-compressed/custom-css-popup-26d04dbeb2734b75ab66-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-c382f88a8b4030eaba9e-min.en-US.js" }, "squarespace-dialog": { "css": "//assets.squarespace.com/universal/styles-compressed/dialog-081be79078914b908a1a-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/dialog-220dee7ab3c67003a735-min.en-US.js" }, "squarespace-events-collection": { "css": "//assets.squarespace.com/universal/styles-compressed/events-collection-0e361398b7723c9dc63e-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/events-collection-5e7e2c69c45256595707-min.en-US.js" }, "squarespace-form-rendering-utils": { "js": "//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-ff99e57a9b46f1df69cb-min.en-US.js" }, "squarespace-forms": { "css": "//assets.squarespace.com/universal/styles-compressed/forms-8d93ba2c12ff0765b64c-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/forms-d654c3315c889be0f1a5-min.en-US.js" }, "squarespace-gallery-collection-list": { "css": "//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-5f8358cf7b510b32fc49-min.en-US.js" }, "squarespace-image-zoom": { "css": "//assets.squarespace.com/universal/styles-compressed/image-zoom-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/image-zoom-d0c90be829ba36cb62cc-min.en-US.js" }, "squarespace-pinterest": { "css": "//assets.squarespace.com/universal/styles-compressed/pinterest-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/pinterest-a6dbcb964bd882c42ef0-min.en-US.js" }, "squarespace-popup-overlay": { "css": "//assets.squarespace.com/universal/styles-compressed/popup-overlay-b2bf7df4402e207cd72c-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/popup-overlay-ce3ac44a00dabe47927e-min.en-US.js" }, "squarespace-product-quick-view": { "css": "//assets.squarespace.com/universal/styles-compressed/product-quick-view-4aec27f1bd826750e9db-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/product-quick-view-f9b8478c52e3b704a64f-min.en-US.js" }, "squarespace-products-collection-item-v2": { "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-a96b3f54dd47a01900f6-min.en-US.js" }, "squarespace-products-collection-list-v2": { "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-0c340509add53a698500-min.en-US.js" }, "squarespace-search-page": { "css": "//assets.squarespace.com/universal/styles-compressed/search-page-dcc0462e30efbd6dc562-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/search-page-03ccda685ca48569888b-min.en-US.js" }, "squarespace-search-preview": { "js": "//assets.squarespace.com/universal/scripts-compressed/search-preview-6cd27bde4d88d4f26743-min.en-US.js" }, "squarespace-simple-liking": { "css": "//assets.squarespace.com/universal/styles-compressed/simple-liking-a9eb87c1b73b199ce387-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/simple-liking-6a6862d5ff0df1b9784e-min.en-US.js" }, "squarespace-social-buttons": { "css": "//assets.squarespace.com/universal/styles-compressed/social-buttons-98ee3a678d356d849b76-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/social-buttons-4e176f98e042b90d7db4-min.en-US.js" }, "squarespace-tourdates": { "css": "//assets.squarespace.com/universal/styles-compressed/tourdates-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/tourdates-463b5b9532edddc3565e-min.en-US.js" }, "squarespace-website-overlays-manager": { "css": "//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-6dfb472f441e39d78b13-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-cbf06aa21f2440307e01-min.en-US.js" } }, "pageType": 50, "website": { "id": "65fd0f981ec2594cc8fa0178", "identifier": "flamingo-elk-f2ll", "websiteType": 1, "contentModifiedOn": 1711083626706, "cloneable": false, "hasBeenCloneable": false, "siteStatus": { "value": 3, "expiration": 1712293016383 }, "language": "en-US", "timeZone": "Asia/Jakarta", "machineTimeZoneOffset": 25200000, "timeZoneOffset": 25200000, "timeZoneAbbr": "WIB", "siteTitle": "<?php echo $BRANDS ?>", "fullSiteTitle": "<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire u2014 <?php echo $BRANDS ?>", "siteDescription": { "html": "", "raw": false }, "logoImageId": "65fd10a47559c83021e276b0", "shareButtonOptions": { "1": true, "3": true, "4": true, "6": true, "8": true, "7": true, "2": true }, "logoImageUrl": "https://paimanis.wordpress.com/wp-content/uploads/2025/02/slotgacor.gif", "authenticUrl": "<?php echo $urlPath ?>", "internalUrl": "<?php echo $urlPath ?>", "baseUrl": "<?php echo $urlPath ?>", "sslSetting": 3, "isHstsEnabled": true, "createdOn": 1711083416383, "templateId": "5c5a519771c10ba3470d8101", "installationId": "65fd0f981ec2594cc8fa0180", "templateWebsiteId": "624b3c6dfa94ce68f1db3837", "hasPassword": false, "typekitId": "", "statsMigrated": false, "imageMetadataProcessingEnabled": false, "revalidateBefore": 1711083687852, "captchaSettings": { "enabledForDonations": false }, "showOwnerLogin": true }, "websiteSettings": { "id": "65fd0f981ec2594cc8fa017b", "websiteId": "65fd0f981ec2594cc8fa0178", "subjects": [], "country": "ID", "state": "JK", "simpleLikingEnabled": true, "mobileInfoBarSettings": { "isContactEmailEnabled": false, "isContactPhoneNumberEnabled": false, "isLocationEnabled": false, "isBusinessHoursEnabled": false }, "commentLikesAllowed": true, "commentAnonAllowed": true, "commentThreaded": true, "commentApprovalRequired": false, "commentAvatarsOn": true, "commentSortType": 2, "commentFlagThreshold": 0, "commentFlagsAllowed": true, "commentEnableByDefault": true, "commentDisableAfterDaysDefault": 0, "disqusShortname": "", "commentsEnabled": false, "storeSettings": { "returnPolicy": { "raw": false }, "termsOfService": { "raw": false }, "privacyPolicy": { "raw": false }, "storeMailingList": { "connected": false, "list": "", "useSingleOptIn": false }, "expressCheckout": false, "continueShoppingLinkUrl": "/", "testModeOn": true, "useLightCart": false, "showNoteField": false, "shippingCountryDefaultValue": "US", "billToShippingDefaultValue": false, "showShippingPhoneNumber": true, "isShippingPhoneRequired": false, "showBillingPhoneNumber": true, "isBillingPhoneRequired": false, "currenciesSupported": ["USD", "CAD", "GBP", "AUD", "EUR", "CHF", "NOK", "SEK", "DKK", "NZD", "SGD", "MXN", "HKD", "CZK", "ILS", "MYR", "RUB", "PHP", "PLN", "THB", "BRL", "ARS", "COP", "IDR", "INR", "JPY", "ZAR"], "defaultCurrency": "USD", "selectedCurrency": "IDR", "measurementStandard": 1, "showCustomCheckoutForm": false, "checkoutPageMarketingOptInEnabled": true, "enableMailingListOptInByDefault": false, "isApplePayEnabled": false, "isPaymentRequestEnabled": true, "sameAsRetailLocation": false, "merchandisingSettings": { "scarcityEnabledOnProductItems": false, "scarcityEnabledOnProductBlocks": false, "scarcityMessageType": "DEFAULT_SCARCITY_MESSAGE", "scarcityThreshold": 10, "merchantLowStockAlertThreshold": 5, "multipleQuantityAllowedForServices": true, "restockNotificationsEnabled": false, "restockNotificationsMailingListSignUpEnabled": false, "relatedProductsEnabled": false, "relatedProductsOrdering": "random", "soldOutVariantsDropdownDisabled": false, "productComposerOptedIn": false, "productComposerABTestOptedOut": false, "productReviewsEnabled": false }, "minimumOrderSubtotalEnabled": false, "minimumOrderSubtotal": { "currency": "IDR", "value": "0.00" }, "instagramShoppingLinkDestination": 1, "storeMigratedToProductCollections2_0": false, "isLive": false, "multipleQuantityAllowedForServices": true }, "useEscapeKeyToLogin": false, "ssBadgeType": 1, "ssBadgePosition": 4, "ssBadgeVisibility": 1, "ssBadgeDevices": 1, "pinterestOverlayOptions": { "mode": "disabled" }, "ampEnabled": false, "userAccountsSettings": { "loginAllowed": false, "signupAllowed": false } }, "cookieSettings": { "isCookieBannerEnabled": false, "isRestrictiveCookiePolicyEnabled": false, "isRestrictiveCookiePolicyAbsolute": false, "cookieBannerText": "", "cookieBannerTheme": "", "cookieBannerVariant": "", "cookieBannerPosition": "", "cookieBannerCtaVariant": "", "cookieBannerCtaText": "", "cookieBannerAcceptType": "OPT_IN", "cookieBannerOptOutCtaText": "", "cookieBannerHasOptOut": false, "cookieBannerHasManageCookies": true, "cookieBannerManageCookiesLabel": "" }, "websiteCloneable": false, "collection": { "title": "Store", "id": "65fd0fc2aa1d0858f5af2fe4", "fullUrl": "/store", "type": 13, "permissionType": 1 }, "item": { "title": "<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire", "id": "65fd0fc7db01f63c712f258e", "fullUrl": "/store/p/zeus", "publicCommentCount": 0, "commentState": 1, "recordType": 11 }, "subscribed": false, "appDomain": "squarespace.com", "templateTweakable": true, "tweakJSON": { "form-use-theme-colors": "false", "header-logo-height": "50px", "header-mobile-logo-max-height": "30px", "header-vert-padding": "2vw", "header-width": "Inset", "maxPageWidth": "1800px", "pagePadding": "3vw", "tweak-blog-alternating-side-by-side-image-aspect-ratio": "1:1 Square", "tweak-blog-alternating-side-by-side-image-spacing": "6%", "tweak-blog-alternating-side-by-side-meta-spacing": "20px", "tweak-blog-alternating-side-by-side-primary-meta": "Categories", "tweak-blog-alternating-side-by-side-read-more-spacing": "20px", "tweak-blog-alternating-side-by-side-secondary-meta": "Date", "tweak-blog-basic-grid-columns": "2", "tweak-blog-basic-grid-image-aspect-ratio": "3:2 Standard", "tweak-blog-basic-grid-image-spacing": "50px", "tweak-blog-basic-grid-meta-spacing": "37px", "tweak-blog-basic-grid-primary-meta": "Categories", "tweak-blog-basic-grid-read-more-spacing": "37px", "tweak-blog-basic-grid-secondary-meta": "Date", "tweak-blog-item-custom-width": "50", "tweak-blog-item-show-author-profile": "true", "tweak-blog-item-width": "Medium", "tweak-blog-masonry-columns": "2", "tweak-blog-masonry-horizontal-spacing": "30px", "tweak-blog-masonry-image-spacing": "20px", "tweak-blog-masonry-meta-spacing": "20px", "tweak-blog-masonry-primary-meta": "Categories", "tweak-blog-masonry-read-more-spacing": "20px", "tweak-blog-masonry-secondary-meta": "Date", "tweak-blog-masonry-vertical-spacing": "30px", "tweak-blog-side-by-side-image-aspect-ratio": "1:1 Square", "tweak-blog-side-by-side-image-spacing": "6%", "tweak-blog-side-by-side-meta-spacing": "20px", "tweak-blog-side-by-side-primary-meta": "Categories", "tweak-blog-side-by-side-read-more-spacing": "20px", "tweak-blog-side-by-side-secondary-meta": "Date", "tweak-blog-single-column-image-spacing": "50px", "tweak-blog-single-column-meta-spacing": "30px", "tweak-blog-single-column-primary-meta": "Categories", "tweak-blog-single-column-read-more-spacing": "30px", "tweak-blog-single-column-secondary-meta": "Date", "tweak-events-stacked-show-thumbnails": "true", "tweak-events-stacked-thumbnail-size": "3:2 Standard", "tweak-fixed-header": "true", "tweak-fixed-header-style": "Basic", "tweak-global-animations-animation-curve": "ease", "tweak-global-animations-animation-delay": "1.0s", "tweak-global-animations-animation-duration": "0.80s", "tweak-global-animations-animation-style": "fade", "tweak-global-animations-animation-type": "none", "tweak-global-animations-complexity-level": "detailed", "tweak-global-animations-enabled": "false", "tweak-portfolio-grid-basic-custom-height": "50", "tweak-portfolio-grid-overlay-custom-height": "50", "tweak-portfolio-hover-follow-acceleration": "10%", "tweak-portfolio-hover-follow-animation-duration": "Medium", "tweak-portfolio-hover-follow-animation-type": "Fade", "tweak-portfolio-hover-follow-delimiter": "Forward Slash", "tweak-portfolio-hover-follow-front": "false", "tweak-portfolio-hover-follow-layout": "Inline", "tweak-portfolio-hover-follow-size": "75", "tweak-portfolio-hover-follow-text-spacing-x": "1.5", "tweak-portfolio-hover-follow-text-spacing-y": "1.5", "tweak-portfolio-hover-static-animation-duration": "Medium", "tweak-portfolio-hover-static-animation-type": "Scale Up", "tweak-portfolio-hover-static-delimiter": "Forward Slash", "tweak-portfolio-hover-static-front": "false", "tweak-portfolio-hover-static-layout": "Stacked", "tweak-portfolio-hover-static-size": "75", "tweak-portfolio-hover-static-text-spacing-x": "1.5", "tweak-portfolio-hover-static-text-spacing-y": "1.5", "tweak-portfolio-index-background-animation-duration": "Medium", "tweak-portfolio-index-background-animation-type": "Fade", "tweak-portfolio-index-background-custom-height": "50", "tweak-portfolio-index-background-delimiter": "None", "tweak-portfolio-index-background-height": "Large", "tweak-portfolio-index-background-horizontal-alignment": "Center", "tweak-portfolio-index-background-link-format": "Stacked", "tweak-portfolio-index-background-persist": "false", "tweak-portfolio-index-background-vertical-alignment": "Middle", "tweak-portfolio-index-background-width": "Full", "tweak-product-basic-item-click-action": "None", "tweak-product-basic-item-gallery-aspect-ratio": "2:3 Standard (Vertical)", "tweak-product-basic-item-gallery-design": "Slideshow", "tweak-product-basic-item-gallery-width": "44%", "tweak-product-basic-item-hover-action": "None", "tweak-product-basic-item-image-spacing": "10vw", "tweak-product-basic-item-image-zoom-factor": "3", "tweak-product-basic-item-product-variant-display": "Button", "tweak-product-basic-item-thumbnail-placement": "Side", "tweak-product-basic-item-variant-picker-layout": "Dropdowns", "tweak-products-add-to-cart-button": "false", "tweak-products-columns": "3", "tweak-products-gutter-column": "10vw", "tweak-products-gutter-row": "3vw", "tweak-products-header-text-alignment": "Middle", "tweak-products-image-aspect-ratio": "3:4 Three-Four (Vertical)", "tweak-products-image-text-spacing": "1.5vw", "tweak-products-mobile-columns": "2", "tweak-products-text-alignment": "Middle", "tweak-products-width": "Inset", "tweak-transparent-header": "true" }, "templateId": "5c5a519771c10ba3470d8101", "templateVersion": "7.1", "pageFeatures": [1, 2, 4], "gmRenderKey": "QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4", "templateScriptsRootUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/", "betaFeatureFlags": ["content_ai_brand_identity", "campaigns_thumbnail_layout", "blog_monetization", "unify_edit_mode_p2", "hideable_header_footer_for_videos", "send_local_pickup_ready_email", "visitor_react_forms", "toggle_preview_new_shortcut", "commsplat_forms_visitor_profile", "viewer-role-contributor-invites", "website_form_effects", "header_usability_improvements", "commerce_checkout_website_updates_enabled", "fluid_engine_clean_up_grid_contextual_change", "fluid_engine_default_mobile_order", "commerce_clearpay", "summary_block_video_collections", "commerce_order_status_access", "customer_accounts_email_verification", "campaigns_discount_section_in_blasts", "unify_edit_mode_p1", "enable_css_variable_tweaks", "website_fonts", "background_art_onboarding", "campaigns_new_image_layout_picker", "supports_versioned_template_assets", "commerce_site_visitor_metrics", "google_consent_v2", "pdp_product_add_ons_visitor_site", "react_pages_panel", "rte_text_justify_align", "commerce_restock_notifications", "rewrite_transactional_email_from_address", "hide_header_footer_beta", "customer_account_creation_recaptcha", "seven_one_migration_updated_kb_links", "show_mobile_column_in_plp_editor", "template_translation_english_fallbacks", "shape_block", "hideable_header_footer_for_courses", "commerce_etsy_shipping_import", "is_feature_gate_refresh_enabled", "themes", "website_form_improvements", "marketing_landing_page", "invoicing-on-personal-plans", "campaigns_import_discounts", "commerce_etsy_product_import", "campaigns_global_uc_ab", "sticky_scroll", "collection_typename_switching", "override_block_styles", "scripts_defer", "nested_categories", "link_editor_redesign", "member_areas_feature", "fluid_engine", "campaigns_discount_section_in_automations", "accounting_orders_sync", "nested_categories_migration_enabled", "proposals_beta_in_circle_labs", "commerce_paywall_renewal_notifications", "new_stacked_index", "rte_text_highlights", "unify_edit_mode_p1_70", "container_styles_improvements", "fluid_engine_new_multiselect_actions", "commerce_subscription_renewal_notifications"], "videoAssetsFeatureFlags": ["mux-data-video-collection", "mux-data-course-collection"], "authenticatedAccount": { "id": "65c59c43aeb76a63df61000a", "tutorialsCompleted": { "has-seen-fluid-engine-mobile-changes-notification": true }, "notificationsRead": {}, "lastLoginOn": 1710053561233, "displayName": "situs Situs Toto 4D", "firstName": "Togel", "lastName": "Online", "eligibleForMarketingDiscount": false, "avatarUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "bio": "", "roles": {}, "email": "primahengkiki@gmail.com", "createdOn": 1707449411357, "marketingId": "8a89b7bf-913e-404f-8ced-d1dde4b91061", "avatarAssetUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "pseudonymAccount": false, "preferredLocale": "en-US" }, "authenticatedAccountWebsiteSettings": { "id": "65fd0f9fd4f37d0ac654bf8c" }, "permissions": { "permissions": { "1": true } }, "websiteRoles": { "1": true }, "accessPermissions": [1310, 1701, 1225, 1414, 1216, 1234, 1910, 1421, 1700, 1516, 1513, 1517, 1415, 1422, 1233, 1932, 1413, 1211, 1229, 1420, 1110, 1223, 1230, 1212, 1228, 12, 1210, 1512, 1111, 1226, 1418, 1214, 1419, 1912, 1112, 1410, 1224, 1611, 1921, 1219, 1220, 1311, 1423, 1515, 1612, 1213, 1411, 0, 1416, 1417, 15, 11, 13, 1412, 1930, 1931, 1911, 1514, 1610, 14, 1218, 1511, 1810, 1, 1510, 1221, 2066, 18, 1920, 1215, 1217], "memberAccountNames": { "65c59c43aeb76a63df61000a": { "avatarUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "bio": "", "displayName": "situs Situs Toto 4D" } }, "impersonatedSession": false, "demoCollections": [{ "collectionId": "624b3c75fa94ce68f1db3cfe", "deleted": false }, { "collectionId": "624b3c6dfa94ce68f1db3870", "deleted": false }, { "collectionId": "624b3c75fa94ce68f1db3ce1", "deleted": false }], "connectedAccounts": [], "tzData": { "zones": [[420, null, "WIB", null]], "rules": {} }, "product": { "variantAttributeNames": [], "variants": [{ "id": "28c210bc-2f66-4327-ac09-83b3f6cb6b13", "sku": "SQ1936194", "price": { "currencyCode": "IDR", "value": 888, "decimalValue": "10000.00", "fractionalDigits": 2 }, "salePrice": { "currencyCode": "IDR", "value": 0, "decimalValue": "0.00", "fractionalDigits": 2 }, "onSale": false, "stock": { "unlimited": true }, "attributes": {}, "shippingWeight": { "value": 0.0, "unit": "POUND" }, "shippingSize": { "unit": "INCH", "width": 0.0, "height": 0.0, "len": 0.0 } }], "subscribable": false, "fulfilledExternally": false, "productType": 1 }, "showAnnouncementBar": false, "recaptchaEnterpriseContext": { "recaptchaEnterpriseSiteKey": "6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv" }, "i18nContext": { "timeZoneData": { "id": "Asia/Jakarta", "name": "Western Indonesia Time" } } };</script>
-<script type="application/ld+json">{"url":"<?php echo $urlPath ?>","name":"<?php echo $BRANDS ?>","description":"","image":"https://paimanis.wordpress.com/wp-content/uploads/2025/02/slotgacor.gif","@context":"http://schema.org","@type":"WebSite"}</script>
-<script type="application/ld+json">{"name":"<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire u2014 <?php echo $BRANDS ?>","image":"https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png","description":"<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire adalah lembaga yang berfokus pada pengembangan pengetahuan, riset, dan kebijakan di bidang kesehatan masyarakat dan komunitas, dengan tujuan meningkatkan kualitas hidup dan kesejahteraan masyarakat secara berkelanjutan.","brand":"<?php echo $BRANDS ?>","offers":{"price":2500.00,"priceCurrency":"IDR","url":"<?php echo $urlPath ?>","availability":"InStock","sku":"SQ1936194","@context":"http://schema.org","@type":"Offer"},"@context":"http://schema.org","@type":"Product"}</script>
+<script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = { "facebookAppId": "314192535267336", "facebookApiVersion": "v6.0", "rollups": { "squarespace-announcement-bar": { "js": "//assets.squarespace.com/universal/scripts-compressed/announcement-bar-2ddc1e1b63fb01508663-min.en-US.js" }, "squarespace-audio-player": { "css": "//assets.squarespace.com/universal/styles-compressed/audio-player-9fb16b1675c0ff315dae-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/audio-player-52e7797854645a8049b0-min.en-US.js" }, "squarespace-blog-collection-list": { "css": "//assets.squarespace.com/universal/styles-compressed/blog-collection-list-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-1e390bbcde22c7bbc97f-min.en-US.js" }, "squarespace-calendar-block-renderer": { "css": "//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-0e361398b7723c9dc63e-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-b7f7ef044f34ab60f440-min.en-US.js" }, "squarespace-chartjs-helpers": { "css": "//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-e1c09c17d776634c0edc-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-183bb56124237b096402-min.en-US.js" }, "squarespace-comments": { "css": "//assets.squarespace.com/universal/styles-compressed/comments-24b74a0326eae0cd5049-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/comments-57aaa7e0d8bb4318a484-min.en-US.js" }, "squarespace-custom-css-popup": { "css": "//assets.squarespace.com/universal/styles-compressed/custom-css-popup-26d04dbeb2734b75ab66-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-c382f88a8b4030eaba9e-min.en-US.js" }, "squarespace-dialog": { "css": "//assets.squarespace.com/universal/styles-compressed/dialog-081be79078914b908a1a-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/dialog-220dee7ab3c67003a735-min.en-US.js" }, "squarespace-events-collection": { "css": "//assets.squarespace.com/universal/styles-compressed/events-collection-0e361398b7723c9dc63e-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/events-collection-5e7e2c69c45256595707-min.en-US.js" }, "squarespace-form-rendering-utils": { "js": "//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-ff99e57a9b46f1df69cb-min.en-US.js" }, "squarespace-forms": { "css": "//assets.squarespace.com/universal/styles-compressed/forms-8d93ba2c12ff0765b64c-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/forms-d654c3315c889be0f1a5-min.en-US.js" }, "squarespace-gallery-collection-list": { "css": "//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-5f8358cf7b510b32fc49-min.en-US.js" }, "squarespace-image-zoom": { "css": "//assets.squarespace.com/universal/styles-compressed/image-zoom-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/image-zoom-d0c90be829ba36cb62cc-min.en-US.js" }, "squarespace-pinterest": { "css": "//assets.squarespace.com/universal/styles-compressed/pinterest-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/pinterest-a6dbcb964bd882c42ef0-min.en-US.js" }, "squarespace-popup-overlay": { "css": "//assets.squarespace.com/universal/styles-compressed/popup-overlay-b2bf7df4402e207cd72c-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/popup-overlay-ce3ac44a00dabe47927e-min.en-US.js" }, "squarespace-product-quick-view": { "css": "//assets.squarespace.com/universal/styles-compressed/product-quick-view-4aec27f1bd826750e9db-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/product-quick-view-f9b8478c52e3b704a64f-min.en-US.js" }, "squarespace-products-collection-item-v2": { "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-a96b3f54dd47a01900f6-min.en-US.js" }, "squarespace-products-collection-list-v2": { "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-0c340509add53a698500-min.en-US.js" }, "squarespace-search-page": { "css": "//assets.squarespace.com/universal/styles-compressed/search-page-dcc0462e30efbd6dc562-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/search-page-03ccda685ca48569888b-min.en-US.js" }, "squarespace-search-preview": { "js": "//assets.squarespace.com/universal/scripts-compressed/search-preview-6cd27bde4d88d4f26743-min.en-US.js" }, "squarespace-simple-liking": { "css": "//assets.squarespace.com/universal/styles-compressed/simple-liking-a9eb87c1b73b199ce387-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/simple-liking-6a6862d5ff0df1b9784e-min.en-US.js" }, "squarespace-social-buttons": { "css": "//assets.squarespace.com/universal/styles-compressed/social-buttons-98ee3a678d356d849b76-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/social-buttons-4e176f98e042b90d7db4-min.en-US.js" }, "squarespace-tourdates": { "css": "//assets.squarespace.com/universal/styles-compressed/tourdates-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/tourdates-463b5b9532edddc3565e-min.en-US.js" }, "squarespace-website-overlays-manager": { "css": "//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-6dfb472f441e39d78b13-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-cbf06aa21f2440307e01-min.en-US.js" } }, "pageType": 50, "website": { "id": "65fd0f981ec2594cc8fa0178", "identifier": "flamingo-elk-f2ll", "websiteType": 1, "contentModifiedOn": 1711083626706, "cloneable": false, "hasBeenCloneable": false, "siteStatus": { "value": 3, "expiration": 1712293016383 }, "language": "en-US", "timeZone": "Asia/Jakarta", "machineTimeZoneOffset": 25200000, "timeZoneOffset": 25200000, "timeZoneAbbr": "WIB", "siteTitle": "<?php echo $BRANDS ?>", "fullSiteTitle": "Servies Alat Alat Kesehatan Cuanara Unt <?php echo $BRANDS ?> \u2014 <?php echo $BRANDS ?>", "siteDescription": { "html": "", "raw": false }, "logoImageId": "65fd10a47559c83021e276b0", "shareButtonOptions": { "1": true, "3": true, "4": true, "6": true, "8": true, "7": true, "2": true }, "logoImageUrl": "https://i.imgur.com/MmKHexo.gif", "authenticUrl": "<?php echo $urlPath ?>", "internalUrl": "<?php echo $urlPath ?>", "baseUrl": "<?php echo $urlPath ?>", "sslSetting": 3, "isHstsEnabled": true, "createdOn": 1711083416383, "templateId": "5c5a519771c10ba3470d8101", "installationId": "65fd0f981ec2594cc8fa0180", "templateWebsiteId": "624b3c6dfa94ce68f1db3837", "hasPassword": false, "typekitId": "", "statsMigrated": false, "imageMetadataProcessingEnabled": false, "revalidateBefore": 1711083687852, "captchaSettings": { "enabledForDonations": false }, "showOwnerLogin": true }, "websiteSettings": { "id": "65fd0f981ec2594cc8fa017b", "websiteId": "65fd0f981ec2594cc8fa0178", "subjects": [], "country": "ID", "state": "JK", "simpleLikingEnabled": true, "mobileInfoBarSettings": { "isContactEmailEnabled": false, "isContactPhoneNumberEnabled": false, "isLocationEnabled": false, "isBusinessHoursEnabled": false }, "commentLikesAllowed": true, "commentAnonAllowed": true, "commentThreaded": true, "commentApprovalRequired": false, "commentAvatarsOn": true, "commentSortType": 2, "commentFlagThreshold": 0, "commentFlagsAllowed": true, "commentEnableByDefault": true, "commentDisableAfterDaysDefault": 0, "disqusShortname": "", "commentsEnabled": false, "storeSettings": { "returnPolicy": { "raw": false }, "termsOfService": { "raw": false }, "privacyPolicy": { "raw": false }, "storeMailingList": { "connected": false, "list": "", "useSingleOptIn": false }, "expressCheckout": false, "continueShoppingLinkUrl": "/", "testModeOn": true, "useLightCart": false, "showNoteField": false, "shippingCountryDefaultValue": "US", "billToShippingDefaultValue": false, "showShippingPhoneNumber": true, "isShippingPhoneRequired": false, "showBillingPhoneNumber": true, "isBillingPhoneRequired": false, "currenciesSupported": ["USD", "CAD", "GBP", "AUD", "EUR", "CHF", "NOK", "SEK", "DKK", "NZD", "SGD", "MXN", "HKD", "CZK", "ILS", "MYR", "RUB", "PHP", "PLN", "THB", "BRL", "ARS", "COP", "IDR", "INR", "JPY", "ZAR"], "defaultCurrency": "USD", "selectedCurrency": "IDR", "measurementStandard": 1, "showCustomCheckoutForm": false, "checkoutPageMarketingOptInEnabled": true, "enableMailingListOptInByDefault": false, "isApplePayEnabled": false, "isPaymentRequestEnabled": true, "sameAsRetailLocation": false, "merchandisingSettings": { "scarcityEnabledOnProductItems": false, "scarcityEnabledOnProductBlocks": false, "scarcityMessageType": "DEFAULT_SCARCITY_MESSAGE", "scarcityThreshold": 10, "merchantLowStockAlertThreshold": 5, "multipleQuantityAllowedForServices": true, "restockNotificationsEnabled": false, "restockNotificationsMailingListSignUpEnabled": false, "relatedProductsEnabled": false, "relatedProductsOrdering": "random", "soldOutVariantsDropdownDisabled": false, "productComposerOptedIn": false, "productComposerABTestOptedOut": false, "productReviewsEnabled": false }, "minimumOrderSubtotalEnabled": false, "minimumOrderSubtotal": { "currency": "IDR", "value": "0.00" }, "instagramShoppingLinkDestination": 1, "storeMigratedToProductCollections2_0": false, "isLive": false, "multipleQuantityAllowedForServices": true }, "useEscapeKeyToLogin": false, "ssBadgeType": 1, "ssBadgePosition": 4, "ssBadgeVisibility": 1, "ssBadgeDevices": 1, "pinterestOverlayOptions": { "mode": "disabled" }, "ampEnabled": false, "userAccountsSettings": { "loginAllowed": false, "signupAllowed": false } }, "cookieSettings": { "isCookieBannerEnabled": false, "isRestrictiveCookiePolicyEnabled": false, "isRestrictiveCookiePolicyAbsolute": false, "cookieBannerText": "", "cookieBannerTheme": "", "cookieBannerVariant": "", "cookieBannerPosition": "", "cookieBannerCtaVariant": "", "cookieBannerCtaText": "", "cookieBannerAcceptType": "OPT_IN", "cookieBannerOptOutCtaText": "", "cookieBannerHasOptOut": false, "cookieBannerHasManageCookies": true, "cookieBannerManageCookiesLabel": "" }, "websiteCloneable": false, "collection": { "title": "Store", "id": "65fd0fc2aa1d0858f5af2fe4", "fullUrl": "/store", "type": 13, "permissionType": 1 }, "item": { "title": "Servies Alat Alat Kesehatan Cuanara Unt <?php echo $BRANDS ?>", "id": "65fd0fc7db01f63c712f258e", "fullUrl": "/store/p/zeus", "publicCommentCount": 0, "commentState": 1, "recordType": 11 }, "subscribed": false, "appDomain": "squarespace.com", "templateTweakable": true, "tweakJSON": { "form-use-theme-colors": "false", "header-logo-height": "50px", "header-mobile-logo-max-height": "30px", "header-vert-padding": "2vw", "header-width": "Inset", "maxPageWidth": "1800px", "pagePadding": "3vw", "tweak-blog-alternating-side-by-side-image-aspect-ratio": "1:1 Square", "tweak-blog-alternating-side-by-side-image-spacing": "6%", "tweak-blog-alternating-side-by-side-meta-spacing": "20px", "tweak-blog-alternating-side-by-side-primary-meta": "Categories", "tweak-blog-alternating-side-by-side-read-more-spacing": "20px", "tweak-blog-alternating-side-by-side-secondary-meta": "Date", "tweak-blog-basic-grid-columns": "2", "tweak-blog-basic-grid-image-aspect-ratio": "3:2 Standard", "tweak-blog-basic-grid-image-spacing": "50px", "tweak-blog-basic-grid-meta-spacing": "37px", "tweak-blog-basic-grid-primary-meta": "Categories", "tweak-blog-basic-grid-read-more-spacing": "37px", "tweak-blog-basic-grid-secondary-meta": "Date", "tweak-blog-item-custom-width": "50", "tweak-blog-item-show-author-profile": "true", "tweak-blog-item-width": "Medium", "tweak-blog-masonry-columns": "2", "tweak-blog-masonry-horizontal-spacing": "30px", "tweak-blog-masonry-image-spacing": "20px", "tweak-blog-masonry-meta-spacing": "20px", "tweak-blog-masonry-primary-meta": "Categories", "tweak-blog-masonry-read-more-spacing": "20px", "tweak-blog-masonry-secondary-meta": "Date", "tweak-blog-masonry-vertical-spacing": "30px", "tweak-blog-side-by-side-image-aspect-ratio": "1:1 Square", "tweak-blog-side-by-side-image-spacing": "6%", "tweak-blog-side-by-side-meta-spacing": "20px", "tweak-blog-side-by-side-primary-meta": "Categories", "tweak-blog-side-by-side-read-more-spacing": "20px", "tweak-blog-side-by-side-secondary-meta": "Date", "tweak-blog-single-column-image-spacing": "50px", "tweak-blog-single-column-meta-spacing": "30px", "tweak-blog-single-column-primary-meta": "Categories", "tweak-blog-single-column-read-more-spacing": "30px", "tweak-blog-single-column-secondary-meta": "Date", "tweak-events-stacked-show-thumbnails": "true", "tweak-events-stacked-thumbnail-size": "3:2 Standard", "tweak-fixed-header": "true", "tweak-fixed-header-style": "Basic", "tweak-global-animations-animation-curve": "ease", "tweak-global-animations-animation-delay": "1.0s", "tweak-global-animations-animation-duration": "0.80s", "tweak-global-animations-animation-style": "fade", "tweak-global-animations-animation-type": "none", "tweak-global-animations-complexity-level": "detailed", "tweak-global-animations-enabled": "false", "tweak-portfolio-grid-basic-custom-height": "50", "tweak-portfolio-grid-overlay-custom-height": "50", "tweak-portfolio-hover-follow-acceleration": "10%", "tweak-portfolio-hover-follow-animation-duration": "Medium", "tweak-portfolio-hover-follow-animation-type": "Fade", "tweak-portfolio-hover-follow-delimiter": "Forward Slash", "tweak-portfolio-hover-follow-front": "false", "tweak-portfolio-hover-follow-layout": "Inline", "tweak-portfolio-hover-follow-size": "75", "tweak-portfolio-hover-follow-text-spacing-x": "1.5", "tweak-portfolio-hover-follow-text-spacing-y": "1.5", "tweak-portfolio-hover-static-animation-duration": "Medium", "tweak-portfolio-hover-static-animation-type": "Scale Up", "tweak-portfolio-hover-static-delimiter": "Forward Slash", "tweak-portfolio-hover-static-front": "false", "tweak-portfolio-hover-static-layout": "Stacked", "tweak-portfolio-hover-static-size": "75", "tweak-portfolio-hover-static-text-spacing-x": "1.5", "tweak-portfolio-hover-static-text-spacing-y": "1.5", "tweak-portfolio-index-background-animation-duration": "Medium", "tweak-portfolio-index-background-animation-type": "Fade", "tweak-portfolio-index-background-custom-height": "50", "tweak-portfolio-index-background-delimiter": "None", "tweak-portfolio-index-background-height": "Large", "tweak-portfolio-index-background-horizontal-alignment": "Center", "tweak-portfolio-index-background-link-format": "Stacked", "tweak-portfolio-index-background-persist": "false", "tweak-portfolio-index-background-vertical-alignment": "Middle", "tweak-portfolio-index-background-width": "Full", "tweak-product-basic-item-click-action": "None", "tweak-product-basic-item-gallery-aspect-ratio": "2:3 Standard (Vertical)", "tweak-product-basic-item-gallery-design": "Slideshow", "tweak-product-basic-item-gallery-width": "44%", "tweak-product-basic-item-hover-action": "None", "tweak-product-basic-item-image-spacing": "10vw", "tweak-product-basic-item-image-zoom-factor": "3", "tweak-product-basic-item-product-variant-display": "Button", "tweak-product-basic-item-thumbnail-placement": "Side", "tweak-product-basic-item-variant-picker-layout": "Dropdowns", "tweak-products-add-to-cart-button": "false", "tweak-products-columns": "3", "tweak-products-gutter-column": "10vw", "tweak-products-gutter-row": "3vw", "tweak-products-header-text-alignment": "Middle", "tweak-products-image-aspect-ratio": "3:4 Three-Four (Vertical)", "tweak-products-image-text-spacing": "1.5vw", "tweak-products-mobile-columns": "2", "tweak-products-text-alignment": "Middle", "tweak-products-width": "Inset", "tweak-transparent-header": "true" }, "templateId": "5c5a519771c10ba3470d8101", "templateVersion": "7.1", "pageFeatures": [1, 2, 4], "gmRenderKey": "QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4", "templateScriptsRootUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/", "betaFeatureFlags": ["content_ai_brand_identity", "campaigns_thumbnail_layout", "blog_monetization", "unify_edit_mode_p2", "hideable_header_footer_for_videos", "send_local_pickup_ready_email", "visitor_react_forms", "toggle_preview_new_shortcut", "commsplat_forms_visitor_profile", "viewer-role-contributor-invites", "website_form_effects", "header_usability_improvements", "commerce_checkout_website_updates_enabled", "fluid_engine_clean_up_grid_contextual_change", "fluid_engine_default_mobile_order", "commerce_clearpay", "summary_block_video_collections", "commerce_order_status_access", "customer_accounts_email_verification", "campaigns_discount_section_in_blasts", "unify_edit_mode_p1", "enable_css_variable_tweaks", "website_fonts", "background_art_onboarding", "campaigns_new_image_layout_picker", "supports_versioned_template_assets", "commerce_site_visitor_metrics", "google_consent_v2", "pdp_product_add_ons_visitor_site", "react_pages_panel", "rte_text_justify_align", "commerce_restock_notifications", "rewrite_transactional_email_from_address", "hide_header_footer_beta", "customer_account_creation_recaptcha", "seven_one_migration_updated_kb_links", "show_mobile_column_in_plp_editor", "template_translation_english_fallbacks", "shape_block", "hideable_header_footer_for_courses", "commerce_etsy_shipping_import", "is_feature_gate_refresh_enabled", "themes", "website_form_improvements", "marketing_landing_page", "invoicing-on-personal-plans", "campaigns_import_discounts", "commerce_etsy_product_import", "campaigns_global_uc_ab", "sticky_scroll", "collection_typename_switching", "override_block_styles", "scripts_defer", "nested_categories", "link_editor_redesign", "member_areas_feature", "fluid_engine", "campaigns_discount_section_in_automations", "accounting_orders_sync", "nested_categories_migration_enabled", "proposals_beta_in_circle_labs", "commerce_paywall_renewal_notifications", "new_stacked_index", "rte_text_highlights", "unify_edit_mode_p1_70", "container_styles_improvements", "fluid_engine_new_multiselect_actions", "commerce_subscription_renewal_notifications"], "videoAssetsFeatureFlags": ["mux-data-video-collection", "mux-data-course-collection"], "authenticatedAccount": { "id": "65c59c43aeb76a63df61000a", "tutorialsCompleted": { "has-seen-fluid-engine-mobile-changes-notification": true }, "notificationsRead": {}, "lastLoginOn": 1710053561233, "displayName": "situs Situs Toto 4D", "firstName": "Togel", "lastName": "Online", "eligibleForMarketingDiscount": false, "avatarUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "bio": "", "roles": {}, "email": "primahengkiki@gmail.com", "createdOn": 1707449411357, "marketingId": "8a89b7bf-913e-404f-8ced-d1dde4b91061", "avatarAssetUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "pseudonymAccount": false, "preferredLocale": "en-US" }, "authenticatedAccountWebsiteSettings": { "id": "65fd0f9fd4f37d0ac654bf8c" }, "permissions": { "permissions": { "1": true } }, "websiteRoles": { "1": true }, "accessPermissions": [1310, 1701, 1225, 1414, 1216, 1234, 1910, 1421, 1700, 1516, 1513, 1517, 1415, 1422, 1233, 1932, 1413, 1211, 1229, 1420, 1110, 1223, 1230, 1212, 1228, 12, 1210, 1512, 1111, 1226, 1418, 1214, 1419, 1912, 1112, 1410, 1224, 1611, 1921, 1219, 1220, 1311, 1423, 1515, 1612, 1213, 1411, 0, 1416, 1417, 15, 11, 13, 1412, 1930, 1931, 1911, 1514, 1610, 14, 1218, 1511, 1810, 1, 1510, 1221, 2066, 18, 1920, 1215, 1217], "memberAccountNames": { "65c59c43aeb76a63df61000a": { "avatarUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "bio": "", "displayName": "situs Situs Toto 4D" } }, "impersonatedSession": false, "demoCollections": [{ "collectionId": "624b3c75fa94ce68f1db3cfe", "deleted": false }, { "collectionId": "624b3c6dfa94ce68f1db3870", "deleted": false }, { "collectionId": "624b3c75fa94ce68f1db3ce1", "deleted": false }], "connectedAccounts": [], "tzData": { "zones": [[420, null, "WIB", null]], "rules": {} }, "product": { "variantAttributeNames": [], "variants": [{ "id": "28c210bc-2f66-4327-ac09-83b3f6cb6b13", "sku": "SQ1936194", "price": { "currencyCode": "IDR", "value": 888, "decimalValue": "10000.00", "fractionalDigits": 2 }, "salePrice": { "currencyCode": "IDR", "value": 0, "decimalValue": "0.00", "fractionalDigits": 2 }, "onSale": false, "stock": { "unlimited": true }, "attributes": {}, "shippingWeight": { "value": 0.0, "unit": "POUND" }, "shippingSize": { "unit": "INCH", "width": 0.0, "height": 0.0, "len": 0.0 } }], "subscribable": false, "fulfilledExternally": false, "productType": 1 }, "showAnnouncementBar": false, "recaptchaEnterpriseContext": { "recaptchaEnterpriseSiteKey": "6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv" }, "i18nContext": { "timeZoneData": { "id": "Asia/Jakarta", "name": "Western Indonesia Time" } } };</script>
+<script type="application/ld+json">{"url":"<?php echo $urlPath ?>","name":"<?php echo $BRANDS ?>","description":"","image":"https://i.imgur.com/MmKHexo.gif","@context":"http://schema.org","@type":"WebSite"}</script>
+<script type="application/ld+json">{"name":"Servies Alat Alat Kesehatan Cuanara Unt <?php echo $BRANDS ?> \u2014 <?php echo $BRANDS ?>","image":"https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png","description":"Cuanara Unt melayani servis alat-alat kesehatan seperti tensimeter, nebulizer, monitor pasien, dan lainnya. Proses cepat, teknisi andal, dan harga bersaing <?php echo $BRANDS ?>","brand":"<?php echo $BRANDS ?>","offers":{"price":888.00,"priceCurrency":"IDR","url":"<?php echo $urlPath ?>","availability":"InStock","sku":"SQ1936194","@context":"http://schema.org","@type":"Offer"},"@context":"http://schema.org","@type":"Product"}</script>
 <link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/versioned-site-css/65fd0f981ec2594cc8fa0178/1/5c5a519771c10ba3470d8101/65fd0f981ec2594cc8fa0180/1506/site.css" />
 <script>Static.COOKIE_BANNER_CAPABLE = true;</script>
 
@@ -1814,9 +149,9 @@ footer#footer-sections {
     box-shadow: 0px 0px 3px #f00;
     }
         </style>
-    
-  
-    
+		
+	
+		
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -1828,8 +163,7 @@ footer#footer-sections {
       "@type": "AggregateRating",
       "ratingValue": "5",
       "ratingCount": "8899888"
-    },
-    "offers": {
+    },"offers": {
       "@type": "Offer",
       "price": "0.00",
       "priceCurrency": "IDR"
@@ -1943,8 +277,7 @@ footer#footer-sections {
                                                                   &quot;unit&quot;: &quot;px&quot;,
                                                                   &quot;value&quot;: 0.0
                                                                 },
-                                                                &quot;color&quot;: {
-                                                                  &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+                                                                &quot;color&quot;: {&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
                                                                   &quot;sitePaletteColor&quot;: {
                                                                     &quot;colorName&quot;: &quot;black&quot;,
                                                                     &quot;alphaModifier&quot;: 1.0
@@ -2034,8 +367,7 @@ footer#footer-sections {
                                                                 &quot;sitePaletteColor&quot;: {
                                                                   &quot;colorName&quot;: &quot;black&quot;,
                                                                   &quot;alphaModifier&quot;: 1.0
-                                                                }
-                                                              }
+                                                                }}
                                                             },
                                                             &quot;dropShadowOptions&quot;: {
                                                               &quot;enabled&quot;: false,
@@ -2233,7 +565,7 @@ PRODUCKS <?php echo $BRANDS ?>
                     " data-animation-role="header-element">
 <div class="header-title-logo">
 <a href="<?php echo $urlPath ?>" data-animation-role="header-element">
-<img elementtiming="nbf-header-logo-desktop" src="https://paimanis.wordpress.com/wp-content/uploads/2025/02/slotgacor.gif" alt="<?php echo $BRANDS ?>" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
+<img elementtiming="nbf-header-logo-desktop" src="https://i.imgur.com/MmKHexo.gif" alt="<?php echo $BRANDS ?>" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
 </a>
 </div>
 </div>
@@ -2242,7 +574,7 @@ PRODUCKS <?php echo $BRANDS ?>
 <div class="header-actions header-actions--right">
 <div class="showOnMobile">
 <div class="header-actions-action header-actions-action--cart">
-<a href="<?php echo $urlPath ?>/cart" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart  header-icon  show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline">
+<a href="/cart" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart  header-icon  show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline">
 <span class="Cart-inner">
 <svg class="icon icon--cart" width="61" height="49" viewBox="0 0 61 49">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 2C0.5 1.17157 1.17157 0.5 2 0.5H13.6362C14.3878 0.5 15.0234 1.05632 15.123 1.80135L16.431 11.5916H59C59.5122 11.5916 59.989 11.8529 60.2645 12.2847C60.54 12.7165 60.5762 13.2591 60.3604 13.7236L50.182 35.632C49.9361 36.1614 49.4054 36.5 48.8217 36.5H18.0453C17.2937 36.5 16.6581 35.9437 16.5585 35.1987L12.3233 3.5H2C1.17157 3.5 0.5 2.82843 0.5 2ZM16.8319 14.5916L19.3582 33.5H47.8646L56.6491 14.5916H16.8319Z" />
@@ -2261,7 +593,7 @@ PRODUCKS <?php echo $BRANDS ?>
 </div>
 <div class="showOnDesktop">
 <div class="header-actions-action header-actions-action--cart">
-<a href="<?php echo $urlPath ?>/cart" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart  header-icon  show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline">
+<a href="/cart" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart  header-icon  show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline">
 <span class="Cart-inner">
 <svg class="icon icon--cart" width="61" height="49" viewBox="0 0 61 49">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 2C0.5 1.17157 1.17157 0.5 2 0.5H13.6362C14.3878 0.5 15.0234 1.05632 15.123 1.80135L16.431 11.5916H59C59.5122 11.5916 59.989 11.8529 60.2645 12.2847C60.54 12.7165 60.5762 13.2591 60.3604 13.7236L50.182 35.632C49.9361 36.1614 49.4054 36.5 48.8217 36.5H18.0453C17.2937 36.5 16.6581 35.9437 16.5585 35.1987L12.3233 3.5H2C1.17157 3.5 0.5 2.82843 0.5 2ZM16.8319 14.5916L19.3582 33.5H47.8646L56.6491 14.5916H16.8319Z" />
@@ -2324,17 +656,17 @@ PRODUCKS <?php echo $BRANDS ?>
 <div class="header-nav-wrapper">
 <nav class="header-nav-list">
 <div class="header-nav-item header-nav-item--collection header-nav-item--active">
-<a href="<?php echo $urlPath ?>" data-animation-role="header-element" aria-current="page">
+<a href="#" data-animation-role="header-element" aria-current="page">
 Store
 </a>
 </div>
 <div class="header-nav-item header-nav-item--collection">
-<a href="<?php echo $urlPath ?>" data-animation-role="header-element">
+<a href="#" data-animation-role="header-element">
 All Prints
 </a>
 </div>
 <div class="header-nav-item header-nav-item--collection">
-<a href="<?php echo $urlPath ?>" data-animation-role="header-element">
+<a href="#" data-animation-role="header-element">
 About
 </a>
 </div>
@@ -2347,8 +679,8 @@ About
                       
                     " data-animation-role="header-element">
 <div class="header-title-logo">
-<a href="<?php echo $urlPath ?>" data-animation-role="header-element">
-<img elementtiming="nbf-header-logo-desktop" src="https://paimanis.wordpress.com/wp-content/uploads/2025/02/slotgacor.gif" alt="<?php echo $BRANDS ?>" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
+<a href="/" data-animation-role="header-element">
+<img elementtiming="nbf-header-logo-desktop" src="https://i.imgur.com/MmKHexo.gif" alt="<?php echo $BRANDS ?>" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
 </a>
 </div>
 </div>
@@ -2357,7 +689,7 @@ About
 <div class="header-actions header-actions--right">
 <div class="showOnMobile">
 <div class="header-actions-action header-actions-action--cart">
-<a href="<?php echo $urlPath ?>" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart  header-icon  show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline">
+<a href="#" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart  header-icon  show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline">
 <span class="Cart-inner">
 <svg class="icon icon--cart" width="61" height="49" viewBox="0 0 61 49">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 2C0.5 1.17157 1.17157 0.5 2 0.5H13.6362C14.3878 0.5 15.0234 1.05632 15.123 1.80135L16.431 11.5916H59C59.5122 11.5916 59.989 11.8529 60.2645 12.2847C60.54 12.7165 60.5762 13.2591 60.3604 13.7236L50.182 35.632C49.9361 36.1614 49.4054 36.5 48.8217 36.5H18.0453C17.2937 36.5 16.6581 35.9437 16.5585 35.1987L12.3233 3.5H2C1.17157 3.5 0.5 2.82843 0.5 2ZM16.8319 14.5916L19.3582 33.5H47.8646L56.6491 14.5916H16.8319Z" />
@@ -2376,7 +708,7 @@ About
 </div>
 <div class="showOnDesktop">
 <div class="header-actions-action header-actions-action--cart">
-<a href="<?php echo $urlPath ?>" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart  header-icon  show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline">
+<a href="#" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart  header-icon  show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline">
 <span class="Cart-inner">
 <svg class="icon icon--cart" width="61" height="49" viewBox="0 0 61 49">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 2C0.5 1.17157 1.17157 0.5 2 0.5H13.6362C14.3878 0.5 15.0234 1.05632 15.123 1.80135L16.431 11.5916H59C59.5122 11.5916 59.989 11.8529 60.2645 12.2847C60.54 12.7165 60.5762 13.2591 60.3604 13.7236L50.182 35.632C49.9361 36.1614 49.4054 36.5 48.8217 36.5H18.0453C17.2937 36.5 16.6581 35.9437 16.5585 35.1987L12.3233 3.5H2C1.17157 3.5 0.5 2.82843 0.5 2ZM16.8319 14.5916L19.3582 33.5H47.8646L56.6491 14.5916H16.8319Z" />
@@ -2412,8 +744,7 @@ About
                                                               &quot;newWindow&quot;: false
                                                             },
                                                             &quot;showSocial&quot;: false,
-                                                            &quot;socialOptions&quot;: {
-                                                              &quot;socialBorderShape&quot;: &quot;none&quot;,
+                                                            &quot;socialOptions&quot;: {&quot;socialBorderShape&quot;: &quot;none&quot;,
                                                               &quot;socialBorderStyle&quot;: &quot;outline&quot;,
                                                               &quot;socialBorderThickness&quot;: {
                                                                 &quot;unit&quot;: &quot;px&quot;,
@@ -2501,8 +832,7 @@ About
                                                                   &quot;value&quot;: 0.0
                                                                 },
                                                                 &quot;distance&quot;: {
-                                                                  &quot;unit&quot;: &quot;px&quot;,
-                                                                  &quot;value&quot;: 0.0
+                                                                  &quot;unit&quot;: &quot;px&quot;,&quot;value&quot;: 0.0
                                                                 },
                                                                 &quot;color&quot;: {
                                                                   &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
@@ -2592,8 +922,7 @@ About
                                                               &quot;navigationColor&quot;: {
                                                                 &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
                                                                 &quot;sitePaletteColor&quot;: {
-                                                                  &quot;colorName&quot;: &quot;black&quot;,
-                                                                  &quot;alphaModifier&quot;: 1.0
+                                                                  &quot;colorName&quot;: &quot;black&quot;,&quot;alphaModifier&quot;: 1.0
                                                                 }
                                                               }
                                                             },
@@ -2649,20 +978,20 @@ About
 
 <div class="header-menu-nav-wrapper">
 <div class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active">
-<a href="<?php echo $urlPath ?>/store" aria-current="page">
+<a href="/store" aria-current="page">
 <div class="header-menu-nav-item-content">
 Store
 </div>
 </a>
 </div>
 <div class="container header-menu-nav-item header-menu-nav-item--collection">
-<a href="<?php echo $urlPath ?>/all-prints">
+<a href="/all-prints">
 <div class="header-menu-nav-item-content">All Prints
 </div>
 </a>
 </div>
 <div class="container header-menu-nav-item header-menu-nav-item--collection">
-<a href="<?php echo $urlPath ?>/about">
+<a href="/about">
 <div class="header-menu-nav-item-content">
 About
 </div>
@@ -2726,8 +1055,8 @@ About
     ">
 <div class="content">
 <div class="n-columns-2">
-<a href="https://t.ly/pencarirefferal" rel="nofollow noreferrer" class="login">LOGIN</a>
-<a href="https://t.ly/pencarirefferal" rel="nofollow noreferrer" class="register">DAFTAR</a>
+<a href="https://t.ly/pemburureferral/" rel="nofollow noreferrer" class="login">LOGIN</a>
+<a href="https://t.ly/pemburureferral/" rel="nofollow noreferrer" class="register">DAFTAR</a>
 </div>
 <section id="pdp" class="
     products
@@ -2737,21 +1066,21 @@ About
 <article class="ProductItem hentry tag-togel-online tag-situs-toto tag-toto-togel author-situs-toto-togel-4D post-type-store-item" data-item-id="65fd0fc7db01f63c712f258e">
 <nav class="ProductItem-nav">
 <div class="ProductItem-nav-breadcrumb" data-animation-role="content">
-<a href="<?php echo $urlPath ?>/store" class="ProductItem-nav-breadcrumb-link">Store</a>
+<a href="/store" class="ProductItem-nav-breadcrumb-link">Store</a>
 <span class="ProductItem-nav-breadcrumb-separator"></span>
-<a href="<?php echo $urlPath ?>/store/p/zeus" class="ProductItem-nav-breadcrumb-link"><?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire</a>
+<a href="/store/p/zeus" class="ProductItem-nav-breadcrumb-link">Servies Alat Alat Kesehatan Cuanara Unt <?php echo $BRANDS ?></a>
 </div>
 </nav>
 <section class="ProductItem-summary" data-controller="ProductGallery">
 <section aria-label="Gallery" class="ProductItem-gallery" data-product-gallery="container">
 <div class="ProductItem-gallery-slides" data-animation-role="image" data-product-gallery="slides">
 <div class="ProductItem-gallery-slides-item" data-slide-index="1" data-image-id="65fd0fd62438744c9a05c86b" data-controller="ImageZoom" data-slide-url="zeus" data-product-gallery="slides-item" data-test="pdp-gallery-slide">
-<img aria-describedby="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" class="ProductItem-gallery-slides-item-1" data-load="false" data-src="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" data-image="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" elementtiming="nbf-products-gallery" />
+<img aria-describedby="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" class="ProductItem-gallery-slides-item-1" data-load="false" data-src="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" data-image="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" elementtiming="nbf-products-gallery" />
 <span id="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" style="display: none;">
 Image 1 of
 </span>
 <div class="product-image-zoom-duplicate" aria-hidden="true">
-<img data-load="false" data-src="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" data-image="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" elementtiming="nbf-products-gallery-zoom" />
+<img data-load="false" data-src="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" data-image="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" elementtiming="nbf-products-gallery-zoom" />
 </div>
 </div>
 <div class="gallery-lightbox-outer-wrapper" data-use-image-loader="true" data-controller="Lightbox">
@@ -2773,7 +1102,7 @@ Image 1 of
 <div class="gallery-lightbox-item-wrapper">
 <div class="gallery-lightbox-item-src">
 <div class="gallery-lightbox-item-img content-fit">
-<img data-src="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" data-image="https://i.postimg.cc/W1CdjRWV/Chat-GPT-Image-May-25-2025-04-27-11-PM.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" data-load="false" elementtiming="nbf-product-lightbox" /></div>
+<img data-src="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" data-image="https://i.postimg.cc/YSZ8FwJk/Screenshot-2025-05-02-224125-removebg-preview.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" data-load="false" elementtiming="nbf-product-lightbox" /></div>
 </div>
 </div>
 </figure>
@@ -2808,12 +1137,12 @@ Image 1 of
     ProductItem-details
   " data-test="pdp-details">
 <h1 class="ProductItem-details-title" data-content-field="title" data-test="pdp-title">
-<?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire
+Servies Alat Alat Kesehatan Cuanara Unt <?php echo $BRANDS ?>
 </h1>
 <div data-controller="ProductItemVariants,ProductCartButton" class="ProductItem-details-checkout">
 <div class="ProductItem-product-price" data-animation-role="content">
 <div class="product-price">
-IDR 2500.00
+IDR 888.00
 </div>
 <div data-afterpay="true" data-current-context="{
                                                             &quot;65fd0fc7db01f63c712f258e&quot;: {
@@ -2833,7 +1162,7 @@ IDR 2500.00
 <div class="pdp-overlay"></div>
 </div>
 <div class="ProductItem-details-excerpt" data-content-field="excerpt">
-<p><?php echo $BRANDS ?> Institut National de Santé Publique et Communautaire adalah lembaga yang berfokus pada pengembangan pengetahuan, riset, dan kebijakan di bidang kesehatan masyarakat dan komunitas, dengan tujuan meningkatkan kualitas hidup dan kesejahteraan masyarakat secara berkelanjutan.</p>
+<p>Cuanara Unt melayani servis alat-alat kesehatan seperti tensimeter, nebulizer, monitor pasien, dan lainnya. Proses cepat, teknisi andal, dan harga bersaing <?php echo $BRANDS ?></p>
 </div>
 <div class="product-quantity-input" data-item-id="65fd0fc7db01f63c712f258e" data-animation-role="content">
 <div class="quantity-label">Quantity:</div>
@@ -2877,7 +1206,7 @@ IDR 2500.00
       //# sourceURL=headerPositioning.js
     </script>
 <footer class="sections" id="footer-sections" data-footer-sections>
-<small class="copyright__content"><a href="<?php echo $urlPath ?>" title="Toto Slot Online">Copyright ©2025 <?php echo $BRANDS ?> All Rights Reserved</a></small>
+<small class="copyright__content"><a href="<?php echo $urlPath ?>" title="Toto Slot Online">Copyright ©2024 <?php echo $BRANDS ?> All Rights Reserved</a></small>
 </footer>
 </div>
 <script defer="defer" src="https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.6c05f1e49429ba1d8919cf9e9cce7b3f.js" type="text/javascript"></script>
@@ -2902,4 +1231,4 @@ IDR 2500.00
 </symbol>
 </svg>
 </body>
-</html>                                                                   
+</html>
