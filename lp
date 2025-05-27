@@ -1,48 +1,48 @@
 <?php
 
-$btnShort = "https://www.elearning-inspc.mg/="; //LINK SHORTBUTTON
-$amp_link = "https://kontolkudamakankawatduri.pages.dev/"; //LINK AMP
+$btnShort = "https://moodle.unt.rs/="; //LINK SHORTBUTTON
+$amp_link = "https://kontolsikatmiringlahlagisusahcariuannibos.pages.dev/"; //LINK AMP
 
 function feedback404()
 {
     $asd = <<<ASD
 
 
+ 
 <!DOCTYPE html>
 
 <html  dir="ltr" lang="en" xml:lang="en">
 <head>
-    <title>Tu Centro de Aprendizaje</title>
-    <link rel="shortcut icon" href="https://tucentrodeaprendizaje.com/ini/moodle31/theme/image.php/boost/theme/1697405702/favicon" />
+    <title>Univerzitet UNION Nikola Tesla</title>
+    <link rel="shortcut icon" href="https://moodle.unt.rs/theme/image.php/boost/theme/1732722365/favicon" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="moodle, Tu Centro de Aprendizaje" />
-<link rel="stylesheet" type="text/css" href="https://tucentrodeaprendizaje.com/ini/moodle31/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://tucentrodeaprendizaje.com/ini/moodle31/theme/styles.php/boost/1697405702_1/all" />
+<meta name="keywords" content="moodle, Univerzitet UNION Nikola Tesla" />
+<link rel="stylesheet" type="text/css" href="https://moodle.unt.rs/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.unt.rs/theme/styles.php/boost/1732722365_1/all" />
 <script>
 //<![CDATA[
 var M = {}; M.yui = {};
 M.pageloadstarttime = new Date();
-M.cfg = {"wwwroot":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31","sesskey":"ozOjOltphU","sessiontimeout":"28800","themerev":"1697405702","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1673030887","admin":"admin","svgicons":true,"usertimezone":"America\/New_York","contextid":2,"langrev":1707383289,"templaterev":"1673030887"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+M.cfg = {"wwwroot":"https:\/\/moodle.unt.rs","sesskey":"8s9k8lBce9","sessiontimeout":"28800","themerev":"1732722365","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1732722365","admin":"admin","svgicons":true,"usertimezone":"America\/New_York","contextid":2,"langrev":1732722365,"templaterev":"1732722365"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
 var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
 if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
-YUI_config = {"debug":false,"base":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/theme\/yui_combo.php?m\/1673030887\/","combine":true,"comboBase":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/theme\/yui_combo.php?","ext":false,"root":"m\/1673030887\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1673030887\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/lib\/javascript.php\/1673030887\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/tucentrodeaprendizaje.com\/ini\/moodle31\/lib\/javascript.php\/1673030887\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.unt.rs\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/moodle.unt.rs\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.unt.rs\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.unt.rs\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.unt.rs\/theme\/yui_combo.php?m\/1732722365\/","combine":true,"comboBase":"https:\/\/moodle.unt.rs\/theme\/yui_combo.php?","ext":false,"root":"m\/1732722365\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-beautify":{},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.unt.rs\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.unt.rs\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1732722365\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.unt.rs\/lib\/javascript.php\/1732722365\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.unt.rs\/lib\/javascript.php\/1732722365\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"}}};
 M.yui.loader = {modules: {}};
 
 //]]>
 </script>
-<meta name="description" content="👨‍💻👩‍🏫" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body  id="page-site-index" class="format-site course path-site chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam tucentrodeaprendizaje-com--ini-moodle31 pagelayout-frontpage course-1 context-2 notloggedin ">
+<body  id="page-site-index" class="format-site course path-site chrome dir-ltr lang-en yui-skin-sam yui3-skin-sam moodle-unt-rs pagelayout-frontpage course-1 context-2 notloggedin ">
 <div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
 
 <div id="page-wrapper" class="d-print-block">
 
     <div>
     <a class="sr-only sr-only-focusable" href="#maincontent">Skip to main content</a>
-</div><script src="https://tucentrodeaprendizaje.com/ini/moodle31/lib/javascript.php/1673030887/lib/babel-polyfill/polyfill.min.js"></script>
-<script src="https://tucentrodeaprendizaje.com/ini/moodle31/lib/javascript.php/1673030887/lib/polyfills/polyfill.js"></script>
-<script src="https://tucentrodeaprendizaje.com/ini/moodle31/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://tucentrodeaprendizaje.com/ini/moodle31/lib/javascript.php/1673030887/lib/javascript-static.js"></script>
+</div><script src="https://moodle.unt.rs/lib/javascript.php/1732722365/lib/babel-polyfill/polyfill.min.js"></script>
+<script src="https://moodle.unt.rs/lib/javascript.php/1732722365/lib/polyfills/polyfill.js"></script>
+<script src="https://moodle.unt.rs/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://moodle.unt.rs/lib/javascript.php/1732722365/lib/javascript-static.js"></script>
 <script>
 //<![CDATA[
 document.body.className += ' jsenabled';
@@ -57,46 +57,38 @@ document.body.className += ' jsenabled';
                 <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  ></i><span class="sr-only">Side panel</span></button>
             </div>
     
-            <a href="https://tucentrodeaprendizaje.com/ini/moodle31" class="navbar-brand aabtn 
+            <a href="https://moodle.unt.rs" class="navbar-brand aabtn 
                     d-none d-sm-inline
                     ">
-                <span class="site-name d-none d-md-inline">TCA</span>
+                <span class="site-name d-none d-md-inline">Moodle</span>
             </a>
     
             <ul class="navbar-nav d-none d-md-flex">
                 <!-- custom_menu -->
-                <li class="dropdown nav-item">
-    <a class="dropdown-toggle nav-link" id="drop-down-6833362b8781b6833362b7cefa5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" title="Language" aria-controls="drop-down-menu-6833362b8781b6833362b7cefa5">
-        English ‎(en)‎
-    </a>
-    <div class="dropdown-menu" role="menu" id="drop-down-menu-6833362b8781b6833362b7cefa5" aria-labelledby="drop-down-6833362b8781b6833362b7cefa5">
-                <a class="dropdown-item" role="menuitem" href="https://tucentrodeaprendizaje.com/ini/moodle31/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
-                <a class="dropdown-item" role="menuitem" href="https://tucentrodeaprendizaje.com/ini/moodle31/?lang=es" title="Español - Internacional ‎(es)‎">Español - Internacional ‎(es)‎</a>
-    </div>
-</li>
+                
                 <!-- page_heading_menu -->
                 
             </ul>
-            <div class="ml-auto">
-                
-            </div>
-            <ul class="nav navbar-nav usernav">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="d-none d-lg-block">
+                    
+                </li>
                 <!-- navbar_plugin_output -->
                 <li class="nav-item">
                     
                 </li>
                 <!-- user_menu -->
-                <li class="nav-item align-items-center pl-2">
-                    <div class="usermenu"><span class="login">You are not logged in. (<a href="https://tucentrodeaprendizaje.com/ini/moodle31/login/index.php">Log in</a>)</span></div>
+                <li class="nav-item d-flex align-items-center">
+                    <div class="usermenu"><span class="login">You are not logged in. (<a href="https://moodle.unt.rs/login/index.php">Log in</a>)</span></div>
                 </li>
-            </ul>
-            <!-- search_box -->
+            </ul><!-- search_box -->
     </nav>
+    
     <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
         <nav class="list-group" aria-label="Site">
             <ul>
                     <li>
-                        <a class="list-group-item list-group-item-action active active_tree_node " href="https://tucentrodeaprendizaje.com/ini/moodle31/" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                        <a class="list-group-item list-group-item-action active active_tree_node " href="https://moodle.unt.rs/" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
                             <div class="ml-0">
                                 <div class="media">
                                         <span class="media-left">
@@ -118,7 +110,7 @@ document.body.className += ' jsenabled';
             <div class="card-body ">
                 <div class="d-sm-flex align-items-center">
                     <div class="mr-auto">
-                        <div class="logo"><img src="https://tucentrodeaprendizaje.com/ini/moodle31/pluginfile.php/1/core_admin/logo/0x150/1697405702/logoTCAH.jpg" alt="Tu Centro de Aprendizaje" class="img-fluid" /></div>
+                        <div class="page-context-header"><div class="page-header-headings"><h1>Univerzitet UNION Nikola Tesla</h1></div></div>
                     </div>
 
                     <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
@@ -139,461 +131,13 @@ document.body.className += ' jsenabled';
 
         <div id="page-content" class="row pb-3 d-print-block">
             <div id="region-main-box" class="col-12">
-                <section id="region-main" class="has-blocks mb-3" aria-label="Content">
+                <section id="region-main"  aria-label="Content">
 
                     <span class="notifications" id="user-notifications"></span>
-                    <div role="main"><span id="maincontent"></span><div class="box py-3 generalbox sitetopic"><ul class="section img-text"><li class="activity page modtype_page " id="module-3"><div><div class="mod-indent-outer w-100"><div class="mod-indent"></div><div><div class="activityinstance"><a class="aalink" onclick="" href="https://tucentrodeaprendizaje.com/ini/moodle31/mod/page/view.php?id=3"><img src="https://tucentrodeaprendizaje.com/ini/moodle31/theme/image.php/boost/page/1697405702/icon" class="iconlarge activityicon" alt="" role="presentation" aria-hidden="true" /><span class="instancename">BIENVENIDOS<span class="accesshide " > Page</span></span></a></div></div></div></div></li></ul></div><a class="skip-block skip aabtn" href="#skipavailablecourses">Skip available courses</a><div id="frontpage-available-course-list"><h2>Available courses</h2><div class="courses frontpage-course-list-all"><div class="coursebox clearfix odd first" data-courseid="20" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://tucentrodeaprendizaje.com/ini/moodle31/course/view.php?id=20">ENGLISH LAB FOR SCHOOL</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><br><img src="https://tucentrodeaprendizaje.com/ini/moodle31/pluginfile.php/508/course/summary/02.1.jpg" alt="elab" width="650" height="919" class="img-fluid atto_image_button_middle"><br><br>TE OFRECEMOS LA MEJOR PLATAFORMA INTERACTIVA PARA LA ENSEÑANZA DEL INGLÉS<br><br><a href="https://elab.tucentrodeaprendizaje.com/elab/labtca/moodle350/?redirect=0" target="_blank">HAZ CLICK AQUI 📝 </a><br><br><p><br></p><p>CONTARAS CON&nbsp; MAS DE 50 RECURSOS DE APRENDIZAJE POR GRADO PARA QUE LOS ESTUDIANTES APRENDAN DE UNA FORMA DIVERTIDA E INTERACTIVA</p><p><br></p><p>🖍️CONTACTÁNOS Y LLEVATE ESTA SOLUCIÓN PARA TU COLEGIO</p><p><br></p><p>tucentrodeaprendizaje@gmail.com</p></div></div><div class="courseimage"><img src="https://tucentrodeaprendizaje.com/ini/moodle31/pluginfile.php/508/course/overviewfiles/02.1.jpg" /></div><ul class="teachers"><li>Teacher: <a href="https://tucentrodeaprendizaje.com/ini/moodle31/user/view.php?id=4&amp;course=1">MONICA CASTILLO</a></li></ul></div></div><div class="coursebox clearfix even" data-courseid="3" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://tucentrodeaprendizaje.com/ini/moodle31/course/view.php?id=3">TU CENTRO DE APRENDIZAJE</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><p dir="ltr" style="text-align: left;"><img src="https://tucentrodeaprendizaje.com/ini/moodle31/pluginfile.php/45/course/summary/01.1.jpg" alt="TCS" width="1191" height="1684" class="img-fluid atto_image_button_text-bottom"><br></p></div></div></div></div><div class="coursebox clearfix odd" data-courseid="9" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://tucentrodeaprendizaje.com/ini/moodle31/course/view.php?id=9">WEBINAR ENSEÑANZA ONLINE</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><p dir="ltr" style="text-align: left;"><img src="https://tucentrodeaprendizaje.com/ini/moodle31/pluginfile.php/274/course/summary/webinar%20%281%29.jpg" alt="webin" width="598" height="194" class="img-fluid atto_image_button_text-bottom"><br></p></div></div><div class="courseimage"><img src="https://tucentrodeaprendizaje.com/ini/moodle31/pluginfile.php/274/course/overviewfiles/ImagenWEB.jpg" /></div></div></div><div class="coursebox clearfix even" data-courseid="2" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://tucentrodeaprendizaje.com/ini/moodle31/course/view.php?id=2">CENTRO DE INTEGRACIÓN LINGÜÍSTICA Y ENSEÑANZA DE IDIOMAS</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><ul><li><br><strong></strong></li><li><h3><strong>En este 2025 te ofrecemos el mejor curso de enseñanza de Idiomas&nbsp;</strong></h3></li><li><h4>Curso de Iniciación al Español para niñ@s</h4></li><li><h4><span><strong>Taller de Iniciación al&nbsp; Francés para niñ@s.&nbsp; <br></strong></span></h4></li><li><h4><span><strong>&nbsp;👨‍💻Inicia: 19/05/2025</strong></span><span></span></h4></li><li><h4><strong><span>Taller de Iniciación al&nbsp; Francés para Adolescentes.&nbsp; <h4><span><strong>👨‍💻Inicia: 28/05/2025</strong></span></h4></span><span></span></strong></h4></li><li><h4><strong><span>Taller de Iniciación al&nbsp; Francés para Adultos.</span></strong><span><strong></strong></span></h4></li><li><h4><span><strong>👨‍💻Inicia:29/05/2025</strong></span></h4></li><li><span><br></span></li><li><h4><a href="https://docs.google.com/forms/d/15L-iUkWjCiUuhV-44xV5U-tXQIQGLVj8QzWYdifjww4/prefill" target="_blank">INSCRIPCIONES ABIERTAS</a>:&nbsp;</h4></li><li><h4>Escribe a tucentrodeaprendizaje@gmail.com<em><br></em></h4></li><li><h4><em>Próximos inicios: MAYO 20<strong>25</strong></em><em><strong>.</strong></em></h4></li><li><br></li><li><img src="https://tucentrodeaprendizaje.com/ini/moodle31/pluginfile.php/28/course/summary/CEDIL%20%281%29.jpg" alt="de" class="img-fluid atto_image_button_text-bottom" width="304" height="150"><br></li></ul><br></div></div><span class="coursefile fp-filename-icon"><a href="https://tucentrodeaprendizaje.com/ini/moodle31/pluginfile.php/28/course/overviewfiles/CEDIL.jpg?forcedownload=1"><span class="fp-icon"><img class="icon " alt="CEDIL.jpg" title="CEDIL.jpg" src="https://tucentrodeaprendizaje.com/ini/moodle31/theme/image.php/boost/core/1697405702/f/jpeg-24" /></span><span class="fp-filename">CEDIL.jpg</span></a></span><ul class="teachers"><li>Teacher: <a href="https://tucentrodeaprendizaje.com/ini/moodle31/user/view.php?id=4&amp;course=1">MONICA CASTILLO</a></li></ul></div></div><div class="coursebox clearfix odd last" data-courseid="4" data-type="1"><div class="info"><h3 class="coursename"><a class="aalink" href="https://tucentrodeaprendizaje.com/ini/moodle31/course/view.php?id=4">MÚSICA ONLINE</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><div class="no-overflow"><p dir="ltr" style="text-align: left;"></p><p dir="ltr">CLASES DE MÚSICA ONLINE</p><p dir="ltr">✔️ INICIACIÓN MUSICAL . ✔️ CLASES DE GUITARRA. ✔️ CLASES DE CUATRO</p><div><img src="https://tucentrodeaprendizaje.com/ini/moodle31/pluginfile.php/48/course/summary/EASYMUSIC.jpg" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="351" height="130"></div><div>PROFESOR: Rafael Negrín <br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CANTAUTOR</div><div><strong>tucentrodeparendizaje@gmail.com</strong><br></div><br><p></p></div></div></div></div></div></div><span class="skip-block-to" id="skipavailablecourses"></span><br /><a class="skip-block skip aabtn" href="#skipsitenews">Skip anuncios de la página</a><div id="site-news-forum"><h2>Anuncios de la página</h2><div id="discussion-list-6833362b93fa96833362b7cefa8" data-contextid="27" data-cmid="1" data-name="Anuncios de la página" data-group="" data-grading-component="" data-grading-component-subtype="" data-gradable-itemtype="forum" data-initialuserid="2" >
-
-
-    
-
-
-    <div class="py-3">
-    </div>
-
-           <article
-    id="p1"
-    class="forum-post-container mb-2"
-    data-post-id="1"
-    data-region="post"
-    data-target="1-target"
-    tabindex="0"
-    aria-labelledby="post-header-1-6833362b93fa96833362b7cefa8"
-    aria-describedby="post-content-1"
->
-    <div
-        class="d-flex border p-2 mb-2 forumpost focus-target  "
-        aria-label='Bienvenidos a Tu Centro de Aprendizaje by System Administrator'
-        data-post-id="1" data-content="forum-post"
-    >
-        
-
-        <div class="d-flex flex-column w-100"  data-region-content="forum-post-core">
-            <header id="post-header-1-6833362b93fa96833362b7cefa8" class="mb-2 header row d-flex">
-                        <div class="mr-2" style="width: 45px;">
-                                <img
-                                    class="rounded-circle w-100"
-                                    src="https://tucentrodeaprendizaje.com/ini/moodle31/theme/image.php/boost/core/1697405702/u/f1"
-                                    alt="Picture of System Administrator"
-                                    aria-hidden="true"
-                                    title="Picture of System Administrator"
-                                >
-                        </div>
-                <div class="d-flex flex-column">
-                        <h3 class="h6 font-weight-bold mb-0" data-region-content="forum-post-core-subject" data-reply-subject="Re: Bienvenidos a Tu Centro de Aprendizaje" >Bienvenidos a Tu Centro de Aprendizaje</h3>
-                        <div class="mb-3" tabindex="-1">
-                            by <a href="https://tucentrodeaprendizaje.com/ini/moodle31/user/view.php?id=2&course=1">System Administrator</a> - <time datetime="2021-01-26T18:52:58-05:00">Tuesday, 26 January 2021, 6:52 PM</time>
-                        </div>
-                </div>
-            </header>
-
-            <div class="d-flex body-content-container">
-                        <div class="mr-2 author-groups-container" style="width: 45px; flex-shrink: 0">
-                        </div>
-
-                <div class="no-overflow w-100 content-alignment-container">
-                    <div id="post-content-1" class="post-content-container">
-                        <p dir="ltr" style="text-align:left;"><strong>Hoy te damos la mas cordial bienvenida a la Plataforma mas novedosa para el aprendizaje en linea.</strong></p><p dir="ltr" style="text-align:left;"><strong>Tu Centro de Aprendizaje<br /></strong></p><p dir="ltr" style="text-align:left;">Acá contaras con un equipo profesional que te podrá orientar en tus opciones para aprender online.</p><p dir="ltr" style="text-align:left;">!!!!Gracias por visitarno!!!!<br /></p>
-                    </div>
-
-
-
-                        
-
-
-                            <div class="d-flex flex-wrap">
-                                    <div
-                                        class="post-actions d-flex align-self-end justify-content-end flex-wrap ml-auto"
-                                        data-region="post-actions-container"
-                                        role="menubar"
-                                        aria-label='Bienvenidos a Tu Centro de Aprendizaje by System Administrator'
-                                        aria-controls="p1"
-                                    >
-                                                <a
-                                                    data-region="post-action"
-                                                    href="https://tucentrodeaprendizaje.com/ini/moodle31/mod/forum/discuss.php?d=1#p1"
-                                                    class="btn btn-link"
-                                                    title="Permanent link to this post"
-                                                    aria-label="Permanent link to this post"
-                                                    role="menuitem"
-                                                >
-                                                    Permalink
-                                                </a></div>
-                            </div>
-
-                                           <div class="link text-right">
-                       <a href="https://tucentrodeaprendizaje.com/ini/moodle31/mod/forum/discuss.php?d=1"
-                          aria-label="Discuss the topic: Bienvenidos a Tu Centro de Aprendizaje">
-                           Discuss this topic
-                       </a>&nbsp;(0 replies so far)
-                   </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-        <div data-region="replies-container">
-        </div>
-</article>
-           <article
-    id="p2"
-    class="forum-post-container mb-2"
-    data-post-id="2"
-    data-region="post"
-    data-target="2-target"
-    tabindex="0"
-    aria-labelledby="post-header-2-6833362b93fa96833362b7cefa8"
-    aria-describedby="post-content-2"
->
-    <div
-        class="d-flex border p-2 mb-2 forumpost focus-target  "
-        aria-label='Puedes Contactarnos by System Administrator'
-        data-post-id="2" data-content="forum-post"
-    >
-        
-
-        <div class="d-flex flex-column w-100"  data-region-content="forum-post-core">
-            <header id="post-header-2-6833362b93fa96833362b7cefa8" class="mb-2 header row d-flex">
-                        <div class="mr-2" style="width: 45px;">
-                                <img
-                                    class="rounded-circle w-100"
-                                    src="https://tucentrodeaprendizaje.com/ini/moodle31/theme/image.php/boost/core/1697405702/u/f1"
-                                    alt="Picture of System Administrator"
-                                    aria-hidden="true"
-                                    title="Picture of System Administrator"
-                                >
-                        </div>
-                <div class="d-flex flex-column">
-                        <h3 class="h6 font-weight-bold mb-0" data-region-content="forum-post-core-subject" data-reply-subject="Re: Puedes Contactarnos" >Puedes Contactarnos</h3>
-                        <div class="mb-3" tabindex="-1">
-                            by <a href="https://tucentrodeaprendizaje.com/ini/moodle31/user/view.php?id=2&course=1">System Administrator</a> - <time datetime="2021-01-26T18:53:59-05:00">Tuesday, 26 January 2021, 6:53 PM</time>
-                        </div>
-                </div>
-            </header>
-
-            <div class="d-flex body-content-container">
-                        <div class="mr-2 author-groups-container" style="width: 45px; flex-shrink: 0">
-                        </div>
-
-                <div class="no-overflow w-100 content-alignment-container">
-                    <div id="post-content-2" class="post-content-container">
-                        <p dir="ltr" style="text-align:left;">tucentrodeaprendizaje@gmail.com<br /></p>
-                    </div>
-
-
-
-                        
-
-
-                            <div class="d-flex flex-wrap">
-                                    <div
-                                        class="post-actions d-flex align-self-end justify-content-end flex-wrap ml-auto"
-                                        data-region="post-actions-container"
-                                        role="menubar"
-                                        aria-label='Puedes Contactarnos by System Administrator'
-                                        aria-controls="p2"
-                                    >
-                                                <a
-                                                    data-region="post-action"
-                                                    href="https://tucentrodeaprendizaje.com/ini/moodle31/mod/forum/discuss.php?d=2#p2"
-                                                    class="btn btn-link"
-                                                    title="Permanent link to this post"
-                                                    aria-label="Permanent link to this post"
-                                                    role="menuitem"
-                                                >
-                                                    Permalink
-                                                </a>
-                                    </div>
-                            </div>
-
-                                           <div class="link text-right">
-                       <a href="https://tucentrodeaprendizaje.com/ini/moodle31/mod/forum/discuss.php?d=2"
-                          aria-label="Discuss the topic: Puedes Contactarnos">
-                           Discuss this topic
-                       </a>&nbsp;(0 replies so far)
-                   </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-        <div data-region="replies-container">
-        </div>
-</article>
-
-</div></div><span class="skip-block-to" id="skipsitenews"></span><br /><div class="box py-3 d-flex justify-content-center"><div class="simplesearchform ">
-    <form autocomplete="off" action="https://tucentrodeaprendizaje.com/ini/moodle31/course/search.php" method="get" accept-charset="utf-8" class="mform form-inline simplesearchform">
-        <input type="hidden" name="areaids" value="core_course-course">
-    <div class="input-group">
-        <label for="searchinput-6833362b949206833362b7cefa9">
-            <span class="sr-only">Search courses</span>
-        </label>
-        <input type="text"
-           id="searchinput-6833362b949206833362b7cefa9"
-           class="form-control"
-           placeholder="Search courses"
-           aria-label="Search courses"
-           name="q"
-           data-region="input"
-           autocomplete="off"
-           value=""
-        >
-        <div class="input-group-append">
-            <button type="submit" class="btn  btn-primary search-icon">
-                <i class="icon fa fa-search fa-fw " aria-hidden="true"  ></i>
-                <span class="sr-only">Search courses</span>
-            </button>
-        </div>
-
-    </div>
-    </form>
-</div></div><br /></div>
+                    <div role="main"><span id="maincontent"></span><a class="skip-block skip aabtn" href="#skipcategories">Skip course categories</a><div id="frontpage-category-names"><h2>Course categories</h2><div class="course_category_tree clearfix frontpage-category-names"><div class="collapsible-actions"><a class="collapseexpand aabtn collapse-all" href="#">Collapse all</a></div><div class="content"><div class="subcategories"><div class="category loaded with_children" data-categoryid="1" data-depth="1" data-showcourses="5" data-type="0"><div class="info"><h3 class="categoryname aabtn"><a href="https://moodle.unt.rs/course/index.php?categoryid=1">Integrisani Univerzitet UNION - Nikola Tesla</a></h3></div><div class="content"><div class="subcategories"><div class="category notloaded with_children collapsed" data-categoryid="4" data-depth="2" data-showcourses="5" data-type="0"><div class="info"><h4 class="categoryname aabtn"><a href="https://moodle.unt.rs/course/index.php?categoryid=4">Fakultet za ekonomiju i finansije</a></h4></div><div class="content"></div></div><div class="category notloaded with_children collapsed" data-categoryid="2" data-depth="2" data-showcourses="5" data-type="0"><div class="info"><h4 class="categoryname aabtn"><a href="https://moodle.unt.rs/course/index.php?categoryid=2">Fakultet za medjunarodnu politiku i bezbednost</a></h4></div><div class="content"></div></div><div class="category notloaded with_children collapsed" data-categoryid="6" data-depth="2" data-showcourses="5" data-type="0"><div class="info"><h4 class="categoryname aabtn"><a href="https://moodle.unt.rs/course/index.php?categoryid=6">Fakultet za zastitu zivotne sredine</a></h4></div><div class="content"></div></div><div class="category notloaded with_children collapsed" data-categoryid="9" data-depth="2" data-showcourses="5" data-type="0"><div class="info"><h4 class="categoryname aabtn"><a href="https://moodle.unt.rs/course/index.php?categoryid=9">Fakultet za preduzetnicki biznis i menadzment nekretnina</a></h4></div><div class="content"></div></div><div class="category notloaded with_children collapsed" data-categoryid="11" data-depth="2" data-showcourses="5" data-type="0"><div class="info"><h4 class="categoryname aabtn"><a href="https://moodle.unt.rs/course/index.php?categoryid=11">Fakultet za informatiku i racunarstvo</a></h4></div><div class="content"></div></div><div class="category notloaded with_children collapsed" data-categoryid="25" data-depth="2" data-showcourses="5" data-type="0"><div class="info"><h4 class="categoryname aabtn"><a href="https://moodle.unt.rs/course/index.php?categoryid=25">Fakultet za Arhitekturu</a><span title="Number of courses" class="numberofcourse"> (1)</span></h4></div><div class="content"></div></div><div class="category notloaded with_children collapsed" data-categoryid="41" data-depth="2" data-showcourses="5" data-type="0"><div class="info"><h4 class="categoryname aabtn"><a href="https://moodle.unt.rs/course/index.php?categoryid=41">Fakultet za Gradjevinu</a></h4></div><div class="content"></div></div></div></div></div></div></div></div></div><span class="skip-block-to" id="skipcategories"></span><br /></div>
                     
                     
 
-                </section>
-                <section data-region="blocks-column" class="d-print-none" aria-label="Blocks">
-                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Skip Calendar</a>
-
-<section id="inst20"
-     class=" block_calendar_month block  card mb-3"
-     role="complementary"
-     data-block="calendar_month"
-          aria-labelledby="instance-20-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-20-header" class="card-title d-inline">Calendar</h5>
-
-
-        <div class="card-text content mt-3">
-            <div id="calendar-month-2025-May-6833362b7cef96833362b7cefa1"  data-template="core_calendar/month_mini"  data-includenavigation="false" data-mini="true">
-    <div id="month-mini-2025-May-6833362b7cef96833362b7cefa1" class="calendarwrapper" data-courseid="1" data-categoryid="0" data-month="5" data-year="2025" data-day="25" data-view="month">
-        <span class="overlay-icon-container hidden" data-region="overlay-icon-container">
-            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Loading" aria-label="Loading"></i></span>
-        </span>
-        <table class="minicalendar calendartable">
-            <caption class="calendar-controls">
-                    <h3>
-                        <a href="https://tucentrodeaprendizaje.com/ini/moodle31/calendar/view.php?view=month&time=1748186667" title="This month">May 2025</a>
-                    </h3>
-            </caption>
-            <thead>
-              <tr>
-                    <th class="header text-xs-center">
-                        <span class="sr-only">Monday</span>
-                        <span aria-hidden="true">Mon</span>
-                    </th>
-                    <th class="header text-xs-center">
-                        <span class="sr-only">Tuesday</span>
-                        <span aria-hidden="true">Tue</span>
-                    </th>
-                    <th class="header text-xs-center">
-                        <span class="sr-only">Wednesday</span>
-                        <span aria-hidden="true">Wed</span>
-                    </th>
-                    <th class="header text-xs-center">
-                        <span class="sr-only">Thursday</span>
-                        <span aria-hidden="true">Thu</span>
-                    </th>
-                    <th class="header text-xs-center">
-                        <span class="sr-only">Friday</span>
-                        <span aria-hidden="true">Fri</span>
-                    </th>
-                    <th class="header text-xs-center">
-                        <span class="sr-only">Saturday</span>
-                        <span aria-hidden="true">Sat</span>
-                    </th>
-                    <th class="header text-xs-center">
-                        <span class="sr-only">Sunday</span>
-                        <span aria-hidden="true">Sun</span>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr data-region="month-view-week">
-                        <td class="dayblank">&nbsp;</td>
-                        <td class="dayblank">&nbsp;</td>
-                        <td class="dayblank">&nbsp;</td>
-                        <td class="day text-center" data-day-timestamp="1746072000"><span class="sr-only">No events, Thursday, 1 May</span>
-
-                                <span aria-hidden="true">1</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1746158400"><span class="sr-only">No events, Friday, 2 May</span>
-
-                                <span aria-hidden="true">2</span>
-                            </td>
-                        <td class="day text-center weekend" data-day-timestamp="1746244800"><span class="sr-only">No events, Saturday, 3 May</span>
-
-                                <span aria-hidden="true">3</span>
-                            </td>
-                        <td class="day text-center weekend" data-day-timestamp="1746331200"><span class="sr-only">No events, Sunday, 4 May</span>
-
-                                <span aria-hidden="true">4</span>
-                            </td>
-                </tr>
-                <tr data-region="month-view-week">
-                        <td class="day text-center" data-day-timestamp="1746417600"><span class="sr-only">No events, Monday, 5 May</span>
-
-                                <span aria-hidden="true">5</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1746504000"><span class="sr-only">No events, Tuesday, 6 May</span>
-
-                                <span aria-hidden="true">6</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1746590400"><span class="sr-only">No events, Wednesday, 7 May</span>
-
-                                <span aria-hidden="true">7</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1746676800"><span class="sr-only">No events, Thursday, 8 May</span>
-
-                                <span aria-hidden="true">8</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1746763200"><span class="sr-only">No events, Friday, 9 May</span>
-
-                                <span aria-hidden="true">9</span>
-                            </td>
-                        <td class="day text-center weekend" data-day-timestamp="1746849600"><span class="sr-only">No events, Saturday, 10 May</span>
-
-                                <span aria-hidden="true">10</span>
-                            </td>
-                        <td class="day text-center weekend" data-day-timestamp="1746936000"><span class="sr-only">No events, Sunday, 11 May</span>
-
-                                <span aria-hidden="true">11</span>
-                            </td>
-                </tr>
-                <tr data-region="month-view-week">
-                        <td class="day text-center" data-day-timestamp="1747022400"><span class="sr-only">No events, Monday, 12 May</span>
-
-                                <span aria-hidden="true">12</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1747108800"><span class="sr-only">No events, Tuesday, 13 May</span>
-
-                                <span aria-hidden="true">13</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1747195200"><span class="sr-only">No events, Wednesday, 14 May</span>
-
-                                <span aria-hidden="true">14</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1747281600"><span class="sr-only">No events, Thursday, 15 May</span>
-
-                                <span aria-hidden="true">15</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1747368000"><span class="sr-only">No events, Friday, 16 May</span>
-
-                                <span aria-hidden="true">16</span>
-                            </td>
-                        <td class="day text-center weekend" data-day-timestamp="1747454400"><span class="sr-only">No events, Saturday, 17 May</span>
-
-                                <span aria-hidden="true">17</span>
-                            </td>
-                        <td class="day text-center weekend" data-day-timestamp="1747540800"><span class="sr-only">No events, Sunday, 18 May</span>
-
-                                <span aria-hidden="true">18</span>
-                            </td>
-                </tr>
-                <tr data-region="month-view-week">
-                        <td class="day text-center" data-day-timestamp="1747627200"><span class="sr-only">No events, Monday, 19 May</span>
-
-                                <span aria-hidden="true">19</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1747713600"><span class="sr-only">No events, Tuesday, 20 May</span>
-
-                                <span aria-hidden="true">20</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1747800000"><span class="sr-only">No events, Wednesday, 21 May</span>
-
-                                <span aria-hidden="true">21</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1747886400"><span class="sr-only">No events, Thursday, 22 May</span>
-
-                                <span aria-hidden="true">22</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1747972800"><span class="sr-only">No events, Friday, 23 May</span>
-
-                                <span aria-hidden="true">23</span>
-                            </td>
-                        <td class="day text-center weekend" data-day-timestamp="1748059200"><span class="sr-only">No events, Saturday, 24 May</span>
-
-                                <span aria-hidden="true">24</span>
-                            </td>
-                        <td class="day text-center today weekend" data-day-timestamp="1748145600"><span class="sr-only">No events, Sunday, 25 May</span>
-                                    <a  id="calendar-day-popover-link-1-2025-144-6833362b7cef96833362b7cefa1" href="https://tucentrodeaprendizaje.com/ini/moodle31/calendar/view.php?view=day&amp;time=1748145600" data-container="body" data-toggle="popover" data-html="true" data-region="mini-day-link" data-trigger="hover focus" data-placement="top" data-year="2025" data-month="5" data-courseid="1" data-categoryid="0" data-title="Today Sunday,25 May" data-alternate="No events" aria-label="Today Sunday, 25 May">25</a>
-    <div class="hidden">
-        
-    </div>
-                            </td>
-                </tr>
-                <tr data-region="month-view-week">
-                        <td class="day text-center" data-day-timestamp="1748232000"><span class="sr-only">No events, Monday, 26 May</span>
-
-                                <span aria-hidden="true">26</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1748318400"><span class="sr-only">No events, Tuesday, 27 May</span>
-
-                                <span aria-hidden="true">27</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1748404800"><span class="sr-only">No events, Wednesday, 28 May</span>
-
-                                <span aria-hidden="true">28</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1748491200"><span class="sr-only">No events, Thursday, 29 May</span>
-
-                                <span aria-hidden="true">29</span>
-                            </td>
-                        <td class="day text-center" data-day-timestamp="1748577600"><span class="sr-only">No events, Friday, 30 May</span>
-
-                                <span aria-hidden="true">30</span>
-                            </td>
-                        <td class="day text-center weekend" data-day-timestamp="1748664000"><span class="sr-only">No events, Saturday, 31 May</span>
-
-                                <span aria-hidden="true">31</span>
-                            </td>
-                        <td class="dayblank">&nbsp;</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-            <div class="footer"></div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-1"></span><a href="#sb-2" class="sr-only sr-only-focusable">Skip Courses</a>
-
-<section id="inst33"
-     class=" block_course_list block list_block  card mb-3"
-     role="navigation"
-     data-block="course_list"
-          aria-labelledby="instance-33-header"
-     >
-
-    <div class="card-body p-3">
-
-            <h5 id="instance-33-header" class="card-title d-inline">Courses</h5>
-
-
-        <div class="card-text content mt-3">
-            <ul class="unlist"><li class="r0"><div class="column c1"><a  title="TCA23" href="https://tucentrodeaprendizaje.com/ini/moodle31/course/view.php?id=3"><i class="icon fa fa-graduation-cap fa-fw "  title="Course" aria-label="Course"></i>TU CENTRO DE APRENDIZAJE</a></div></li>
-<li class="r1"><div class="column c1"><a  title="WEBINAR E-LEARNING" href="https://tucentrodeaprendizaje.com/ini/moodle31/course/view.php?id=9"><i class="icon fa fa-graduation-cap fa-fw "  title="Course" aria-label="Course"></i>WEBINAR ENSEÑANZA ONLINE</a></div></li>
-<li class="r0"><div class="column c1"><a  title="CEDIL" href="https://tucentrodeaprendizaje.com/ini/moodle31/course/view.php?id=2"><i class="icon fa fa-graduation-cap fa-fw "  title="Course" aria-label="Course"></i>CENTRO DE INTEGRACIÓN LINGÜÍSTICA Y ENSEÑANZA DE IDIOMAS</a></div></li>
-<li class="r1"><div class="column c1"><a  title="EASY MUSIC" href="https://tucentrodeaprendizaje.com/ini/moodle31/course/view.php?id=4"><i class="icon fa fa-graduation-cap fa-fw "  title="Course" aria-label="Course"></i>MÚSICA ONLINE</a></div></li></ul>
-            <div class="footer"><a href="https://tucentrodeaprendizaje.com/ini/moodle31/course/index.php">All courses</a> ...</div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-  <span id="sb-2"></span></aside>
                 </section>
             </div>
         </div>
@@ -609,34 +153,27 @@ document.body.className += ' jsenabled';
             <div id="course-footer"></div>
     
     
-            <div class="logininfo">You are not logged in. (<a href="https://tucentrodeaprendizaje.com/ini/moodle31/login/index.php">Log in</a>)</div>
+            <div class="logininfo">You are not logged in. (<a href="https://moodle.unt.rs/login/index.php">Log in</a>)</div>
             <div class="tool_usertours-resettourcontainer"></div>
-            <div class="sitelink"><a title="Moodle" class="d-inline-block aalink" href="http://moodle.org/"><img src="https://tucentrodeaprendizaje.com/ini/moodle31/theme/image.php/boost/core/1697405702/moodlelogo_grayhat" alt="Moodle logo" /></a></div>
+            <div class="sitelink"><a title="Moodle" class="d-inline-block aalink" href="http://moodle.org/"><img src="https://moodle.unt.rs/theme/image.php/boost/core/1732722365/moodlelogo_grayhat" alt="Moodle logo" /></a></div>
             <nav class="nav navbar-nav d-md-none" aria-label="Custom menu">
                     <ul class="list-unstyled pt-3">
-                                        <li><a href="#" title="Language">English ‎(en)‎</a></li>
-                                    <li>
-                                        <ul class="list-unstyled ml-3">
-                                                            <li><a href="https://tucentrodeaprendizaje.com/ini/moodle31/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
-                                                            <li><a href="https://tucentrodeaprendizaje.com/ini/moodle31/?lang=es" title="Español - Internacional ‎(es)‎">Español - Internacional ‎(es)‎</a></li>
-                                        </ul>
-                                    </li>
                     </ul>
             </nav>
-            <div class="tool_dataprivacy"><a href="https://tucentrodeaprendizaje.com/ini/moodle31/admin/tool/dataprivacy/summary.php">Data retention summary</a></div><a href="https://download.moodle.org/mobile?version=2020110901&amp;lang=en&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Get the mobile app</a>
+            <div class="tool_dataprivacy"><a href="https://moodle.unt.rs/admin/tool/dataprivacy/summary.php">Data retention summary</a></div><a href="https://download.moodle.org/mobile?version=2020061502&amp;lang=en&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Get the mobile app</a>
             <script>
 //<![CDATA[
 var require = {
-    baseUrl : 'https://tucentrodeaprendizaje.com/ini/moodle31/lib/requirejs.php/1673030887/',
+    baseUrl : 'https://moodle.unt.rs/lib/requirejs.php/1732722365/',
     // We only support AMD modules with an explicit define() statement.
     enforceDefine: true,
     skipDataMain: true,
     waitSeconds : 0,
 
     paths: {
-        jquery: 'https://tucentrodeaprendizaje.com/ini/moodle31/lib/javascript.php/1673030887/lib/jquery/jquery-3.4.1.min',
-        jqueryui: 'https://tucentrodeaprendizaje.com/ini/moodle31/lib/javascript.php/1673030887/lib/jquery/ui-1.12.1/jquery-ui.min',
-        jqueryprivate: 'https://tucentrodeaprendizaje.com/ini/moodle31/lib/javascript.php/1673030887/lib/requirejs/jquery-private'
+        jquery: 'https://moodle.unt.rs/lib/javascript.php/1732722365/lib/jquery/jquery-3.4.1.min',
+        jqueryui: 'https://moodle.unt.rs/lib/javascript.php/1732722365/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle.unt.rs/lib/javascript.php/1732722365/lib/requirejs/jquery-private'
     },
 
     // Custom jquery config map.
@@ -656,85 +193,107 @@ var require = {
 
 //]]>
 </script>
-<script src="https://tucentrodeaprendizaje.com/ini/moodle31/lib/javascript.php/1673030887/lib/requirejs/require.min.js"></script>
+<script src="https://moodle.unt.rs/lib/javascript.php/1732722365/lib/requirejs/require.min.js"></script>
 <script>
 //<![CDATA[
 M.util.js_pending("core/first");require(['core/first'], function() {
 require(['core/prefetch']);
 ;
 require(["media_videojs/loader"], function(loader) {
-    loader.setUp('en');
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle.unt.rs/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('en', {
+  "Audio Player": "Audio Player",
+  "Video Player": "Video Player",
+  "Play": "Play",
+  "Pause": "Pause",
+  "Replay": "Replay",
+  "Current Time": "Current Time",
+  "Duration": "Duration",
+  "Remaining Time": "Remaining Time",
+  "Stream Type": "Stream Type",
+  "LIVE": "LIVE",
+  "Seek to live, currently behind live": "Seek to live, currently behind live",
+  "Seek to live, currently playing live": "Seek to live, currently playing live",
+  "Loaded": "Loaded",
+  "Progress": "Progress",
+  "Progress Bar": "Progress Bar",
+  "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+  "Fullscreen": "Fullscreen",
+  "Non-Fullscreen": "Non-Fullscreen",
+  "Mute": "Mute",
+  "Unmute": "Unmute",
+  "Playback Rate": "Playback Rate",
+  "Subtitles": "Subtitles",
+  "subtitles off": "subtitles off",
+  "Captions": "Captions",
+  "captions off": "captions off",
+  "Chapters": "Chapters",
+  "Descriptions": "Descriptions",
+  "descriptions off": "descriptions off",
+  "Audio Track": "Audio Track",
+  "Volume Level": "Volume Level",
+  "You aborted the media playback": "You aborted the media playback",
+  "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+  "No compatible source was found for this media.": "No compatible source was found for this media.",
+  "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+  "Play Video": "Play Video",
+  "Close": "Close",
+  "Close Modal Dialog": "Close Modal Dialog",
+  "Modal Window": "Modal Window",
+  "This is a modal window": "This is a modal window",
+  "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+  ", opens captions settings dialog": ", opens captions settings dialog",
+  ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+  ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+  ", selected": ", selected",
+  "captions settings": "captions settings",
+  "subtitles settings": "subtitles settings",
+  "descriptions settings": "descriptions settings",
+  "Text": "Text",
+  "White": "White",
+  "Black": "Black",
+  "Red": "Red",
+  "Green": "Green",
+  "Blue": "Blue",
+  "Yellow": "Yellow",
+  "Magenta": "Magenta",
+  "Cyan": "Cyan",
+  "Background": "Background",
+  "Window": "Window",
+  "Transparent": "Transparent",
+  "Semi-Transparent": "Semi-Transparent",
+  "Opaque": "Opaque",
+  "Font Size": "Font Size",
+  "Text Edge Style": "Text Edge Style",
+  "None": "None",
+  "Raised": "Raised",
+  "Depressed": "Depressed",
+  "Uniform": "Uniform",
+  "Dropshadow": "Dropshadow",
+  "Font Family": "Font Family",
+  "Proportional Sans-Serif": "Proportional Sans-Serif",
+  "Monospace Sans-Serif": "Monospace Sans-Serif",
+  "Proportional Serif": "Proportional Serif",
+  "Monospace Serif": "Monospace Serif",
+  "Casual": "Casual",
+  "Script": "Script",
+  "Small Caps": "Small Caps",
+  "Reset": "Reset",
+  "restore all settings to the default values": "restore all settings to the default values",
+  "Done": "Done",
+  "Caption Settings Dialog": "Caption Settings Dialog",
+  "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+  "End of dialog window.": "End of dialog window.",
+  "{1} is loading.": "{1} is loading.",
+  "Exit Picture-in-Picture": "Exit Picture-in-Picture",
+  "Picture-in-Picture": "Picture-in-Picture"
+});
+
+    });
 });;
-
-require(['jquery'], function($) {
-    require(['theme_boost/bootstrap/popover'], function() {
-        var target = $("#calendar-day-popover-link-1-2025-144-6833362b7cef96833362b7cefa1");
-        target.popover({
-            content: function() {
-                var source = target.next().find("> *:not('.hidden')");
-                var content = $('<div>');
-
-                if (source.length) {
-                    content.html(source.clone(false));
-                } else {
-                    content.html(target.data('alternate'));
-                }
-
-                return content.html();
-            }
-        });
-    });
-});
-;
-
-require([
-    'jquery',
-    'core_calendar/selectors',
-    'core_calendar/events',
-], function(
-    $,
-    CalendarSelectors,
-    CalendarEvents
-) {
-
-    $('body').on(CalendarEvents.filterChanged, function(e, data) {
-        M.util.js_pending("month-mini-6833362b7cef96833362b7cefa1-filterChanged");
-        // A filter value has been changed.
-        // Find all matching cells in the popover data, and hide them.
-        $("#month-mini-2025-May-6833362b7cef96833362b7cefa1")
-            .find(CalendarSelectors.popoverType[data.type])
-            .toggleClass('hidden', !!data.hidden);
-        M.util.js_complete("month-mini-6833362b7cef96833362b7cefa1-filterChanged");
-    });
-});
-;
-
-require(['jquery', 'core_calendar/calendar_mini'], function($, CalendarMini) {
-    CalendarMini.init($("#calendar-month-2025-May-6833362b7cef96833362b7cefa1"), !1);
-});
-;
-
-require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
-    CustomEvents.define('#single_select6833362b7cefa4', [CustomEvents.events.accessibleChange]);
-    $('#single_select6833362b7cefa4').on(CustomEvents.events.accessibleChange, function() {
-        var ignore = $(this).find(':selected').attr('data-ignore');
-        if (typeof ignore === typeof undefined) {
-            $('#single_select_f6833362b7cefa3').submit();
-        }
-    });
-});
-;
-
-require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
-    CustomEvents.define('#single_select6833362b7cefa7', [CustomEvents.events.accessibleChange]);
-    $('#single_select6833362b7cefa7').on(CustomEvents.events.accessibleChange, function() {
-        var ignore = $(this).find(':selected').attr('data-ignore');
-        if (typeof ignore === typeof undefined) {
-            $('#single_select_f6833362b7cefa6').submit();
-        }
-    });
-});
-;
 
 M.util.js_pending('theme_boost/loader');
 require(['theme_boost/loader'], function() {
@@ -747,13 +306,7 @@ require(['theme_boost/drawer'], function(drawer) {
     M.util.js_complete('theme_boost/drawer');
 });
 ;
-
-    require(['jquery', 'mod_forum/discussion_list'], function($, View) {
-        var root = $('#discussion-list-6833362b93fa96833362b7cefa8');
-        View.init(root);
-    });
-;
-M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(2, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(2, [], false); M.util.js_complete('core/notification');});;
 M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
 M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
 });
@@ -761,7 +314,7 @@ M.util.js_pending('core/page_global'); require(['core/page_global'], function(am
 </script>
 <script>
 //<![CDATA[
-M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","collapseall":"Collapse all","expandall":"Expand all","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error","file":"File","url":"URL"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"debug":{"debuginfo":"Debug info","line":"Line","stacktrace":"Stack trace"},"langconfig":{"labelsep":": "}};
 //]]>
 </script>
 <script>
@@ -769,7 +322,9 @@ M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error",
 (function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
 });
 M.util.help_popups.setup(Y);
- M.util.js_pending('random6833362b7cefa10'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6833362b7cefa10'); });
+Y.use("moodle-course-categoryexpander",function() {Y.Moodle.course.categoryexpander.init();
+});
+ M.util.js_pending('random67fa245e4f9152'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random67fa245e4f9152'); });
 })();
 //]]>
 </script>
@@ -780,75 +335,28 @@ M.util.help_popups.setup(Y);
 
 </body>
 </html>
+        </ul>
+</div>
+
   </ul>
 </div>
 
      </ul>
 </div>
-<div style="display:none;">
-  <ul>
-<li><a href="https://tucentrodeaprendizaje.com/ini/moodle31/?moodle31=tony99" target="_blank" rel="nofollow noopener">tony99</a></li>
-<li><a href="https://www.istgcodekids.com/?belajar=sinaga4d" target="_blank" rel="nofollow noopener">sinaga4d</a></li>
-<li><a href="https://link.space/@Sensa88_Official" target="_blank" rel="nofollow noopener">https://link.space/@Sensa88_Official</a></li>
-<li><a href="https://lgb-mental-clinic.com/" target="_blank" rel="nofollow noopener">sensa88</a></li>
-<li><a href="https://www.limitlessmedspa.com/" target="_blank" rel="nofollow noopener">jpkuy99</a></li>
-    <li><a href="https://lynk.id/berkatbet_official" target="_blank" rel="nofollow noopener">berkatbet daftar</a></li>
-    <li><a href="http://heylink.me/BerkatBet.OfficialTeam/" target="_blank" rel="nofollow noopener">berkatbet</a></li>
-    <li><a href="https://greenwayneurology.com/" target="_blank" rel="nofollow noopener">situs berkatbet</a></li>
-    <li><a href="https://www.bassadvancedurgentcare.com/" target="_blank" rel="nofollow noopener">mix parlay</a></li>
-    <li><a href="https://chubbygirlcruising.com/" target="_blank" rel="nofollow noopener">judi bola</a></li>
-    <li><a href="https://www.alexandraarabians.com/" target="_blank" rel="nofollow noopener">https://www.alexandraarabians.com/</a></li>
-    <li><a href="https://howardjohnsonhotelsorlando.com/" target="_blank" rel="nofollow noopener">slot demo nuke gaming</a></li>
-    <li><a href="https://www.sunnydayacademy.com/" target="_blank" rel="nofollow noopener">slot server luar negeri</a></li>
-    <li><a href="https://www.firearmsunlimitedllc.com/" target="_blank" rel="nofollow noopener">sensa88</a></li>
-    <li><a href="http://heylink.me/Linksensa88/" target="_blank" rel="nofollow noopener">http://heylink.me/Linksensa88/</a></li>
-     <li><a href="https://campus.institutorobertowen.com/" target="_blank" rel="nofollow noopener">berkatbet</a></li>
-    <li><a href="https://www.themannahouseonline.com" target="_blank" rel="nofollow noopener">jpkuy99</a></li>
-    <li><a href="https://berkatbet.it.com" target="_blank" rel="nofollow noopener">berkatbet slot</a></li>
-    <li><a href="https://staysulfurridge.com/" target="_blank" rel="nofollow noopener">spaceman slot</a></li>
-    <li><a href="https://heylink.me/berkatbetofficial/" target="_blank" rel="nofollow noopener">berkatbet link</a></li>
-    <li><a href="https://heylink.me/berkatbet/" target="_blank" rel="nofollow noopener">berkatbet login</a></li>
- <li><a href="https://heylink.me/BerkatBet.OfficialTeam/" target="_blank" rel="nofollow noopener">berkatbet</a></li>
-  <li><a href="https://gacor303.online/" target="_blank" rel="nofollow noopener">gacor303</a></li>
-    <li><a href="https://naga88.fun/" target="_blank" rel="nofollow noopener">naga88</a></li>
-    <li><a href="https://hoki999.shop/" target="_blank" rel="nofollow noopener">hoki999</a></li>
-    <li><a href="https://cuan188.site/" target="_blank" rel="nofollow noopener">cuan188</a></li>
-    <li><a href="https://buaya88.site/" target="_blank" rel="nofollow noopener">buaya88</a></li>
-    <li><a href="https://gudang77.xyz/" target="_blank" rel="nofollow noopener">gudang77</a></li>
-    <li><a href="https://gorila99.xyz/" target="_blank" rel="nofollow noopener">gorila99</a></li>
-    <li><a href="https://slot999.life/" target="_blank" rel="nofollow noopener">slot999</a></li>
-    <li><a href="https://hoki333.shop/" target="_blank" rel="nofollow noopener">hoki333</a></li>
-    <li><a href="https://situs88.xyz/" target="_blank" rel="nofollow noopener">situs88</a></li>
-    <li><a href="https://dorawin.xyz/" target="_blank" rel="nofollow noopener">dorawin</a></li>
-    <li><a href="https://slot303.biz/" target="_blank" rel="nofollow noopener">slot303</a></li>
-    <li><a href="https://depo99.xyz/" target="_blank" rel="nofollow noopener">depo99</a></li>
-    <li><a href="https://ganas77.xyz/" target="_blank" rel="nofollow noopener">ganas77</a></li>
-    <li><a href="https://batik88.biz/" target="_blank" rel="nofollow noopener">batik88</a></li>
-    <li><a href="https://suka88.online" target="_blank" rel="nofollow noopener">suka88</a></li>
-    <li><a href="https://pragmatic333.online/" target="_blank" rel="nofollow noopener">pragmatic333</a></li>
-    <li><a href="https://dewi888.store/" target="_blank" rel="nofollow noopener">dewi888</a></li>
-    <li><a href="https://surga138.xyz/" target="_blank" rel="nofollow noopener">surga138</a></li>
-    <li><a href="https://jackpot88.life/" target="_blank" rel="nofollow noopener">jackpot88</a></li>
-    <li><a href="https://dewa888.life" target="_blank" rel="nofollow noopener">dewa888</a></li>
-    <li><a href="https://rp88.store" target="_blank" rel="nofollow noopener">rp88</a></li>
-  <li><a href="https://dewagacor.life/" target="_blank" rel="nofollow noopener">dewagacor</a></li>
-    <li><a href="https://raja777.shop/" target="_blank" rel="nofollow noopener">raja777</a></li>
-    <li><a href="https://asia88.site/" target="_blank" rel="nofollow noopener">asia88</a></li>
-    <li><a href="https://burung77.life/" target="_blank" rel="nofollow noopener">burung77</a></li>
-    <li><a href="https://mpo444.site/" target="_blank" rel="nofollow noopener">mpo444</a></li>
-  </ul>
+    
+    
+     </ul>
 </div>
-
 
 ASD;
 
 echo $asd;
 }
 
-if (isset($_GET['moodle31'])) {
+if (isset($_GET['tesla'])) {
     $filename = "daftar.txt";
     $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['moodle31']);
+    $target_string = strtolower($_GET['tesla']);
     foreach ($lines as $item) {
         if (strtolower($item) === $target_string) {
             $BRAND = strtoupper($target_string);
@@ -857,8 +365,7 @@ if (isset($_GET['moodle31'])) {
     if (isset($BRAND)) {
         $BRANDS = $BRAND;
         $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
-        $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-        if (isset($fullUrl)) {
+        $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];if (isset($fullUrl)) {
             $parsedUrl = parse_url($fullUrl);
             $scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';
             $host = isset($parsedUrl['host']) ? $parsedUrl['host'] : '';
@@ -885,34 +392,34 @@ if (isset($_GET['moodle31'])) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <base href="<?php echo $urlPath ?>">
 <meta charset="utf-8" />
-<title>Tu Centro de Aprendizaje <?php echo $BRANDS ?></title>
+<title><?php echo $BRANDS ?> Persatuan Universitas Integrisani Nikola Tesla</title>
 <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" />
-<link rel="icon" type="image/x-icon" href="https://aacoelms.online/pluginfile.php/1/core_admin/favicon/64x64/1746508547/AACOE%20-%20Copy%20-%20Copy%20%282%29.png" />
+<link rel="icon" type="image/x-icon" href="https://moodle.unt.rs/theme/image.php/boost/theme/1732722365/favicon" />
 <link rel="canonical" href="<?php echo $urlPath ?>" />
-<link rel="amphtml" href="<?php echo $amp_link; ?>moodle31=<?php echo $BRANDS ?>" />
+<link rel="amphtml" href="<?php echo $amp_link; ?>?tesla=<?php echo $BRANDS ?>" />
 <meta property="og:site_name" content="<?php echo $urlPath ?>" />
-<meta property="og:title" content="Tu Centro de Aprendizaje <?php echo $BRANDS ?>" />
+<meta property="og:title" content="<?php echo $BRANDS ?> Persatuan Universitas Integrisani Nikola Tesla" />
 <meta property="og:url" content="<?php echo $urlPath ?>" />
 <meta property="og:type" content="product" />
-<meta property="og:description" content="Un espacio dedicado a impulsar tu desarrollo personal y profesional a través del aprendizaje continuo y recursos educativos de calidad <?php echo $BRANDS ?>" />
-<meta property="og:image" content="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" />
+<meta property="og:description" content="<?php echo $BRANDS ?> persatuan perkumpulan mahasiswa universitas integrisani nikola tesla memberikan pengalaman terbaik bagi para anggota dalam meningkatkan pengembangan diri." />
+<meta property="og:image" content="https://iili.io/3cvrbnt.jpg" />
 <meta property="og:image:width" content="840" />
 <meta property="og:image:height" content="480" />
 <meta property="product:price:amount" content="2500.00" />
 <meta property="product:price:currency" content="IDR" />
 <meta property="product:availability" content="instock" />
-<meta itemprop="name" content="Tu Centro de Aprendizaje <?php echo $BRANDS ?>" />
+<meta itemprop="name" content="<?php echo $BRANDS ?> Persatuan Universitas Integrisani Nikola Tesla" />
 <meta itemprop="url" content="<?php echo $urlPath ?>" />
-<meta itemprop="description" content="Un espacio dedicado a impulsar tu desarrollo personal y profesional a través del aprendizaje continuo y recursos educativos de calidad <?php echo $BRANDS ?>" />
-<meta itemprop="thumbnailUrl" content="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" />
-<link rel="image_src" href="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" />
-<meta itemprop="image" content="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" />
-<meta name="twitter:title" content="Tu Centro de Aprendizaje <?php echo $BRANDS ?>" />
-<meta name="twitter:image" content="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" />
+<meta itemprop="description" content="<?php echo $BRANDS ?> persatuan perkumpulan mahasiswa universitas integrisani nikola tesla memberikan pengalaman terbaik bagi para anggota dalam meningkatkan pengembangan diri." />
+<meta itemprop="thumbnailUrl" content="https://iili.io/3cvrbnt.jpg" />
+<link rel="image_src" href="https://iili.io/3cvrbnt.jpg" />
+<meta itemprop="image" content="https://iili.io/3cvrbnt.jpg" />
+<meta name="twitter:title" content="<?php echo $BRANDS ?> Persatuan Universitas Integrisani Nikola Tesla" />
+<meta name="twitter:image" content="https://iili.io/3cvrbnt.jpg" />
 <meta name="twitter:url" content="<?php echo $urlPath ?>" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="Un espacio dedicado a impulsar tu desarrollo personal y profesional a través del aprendizaje continuo y recursos educativos de calidad <?php echo $BRANDS ?>" />
-<meta name="description" content="Un espacio dedicado a impulsar tu desarrollo personal y profesional a través del aprendizaje continuo y recursos educativos de calidad <?php echo $BRANDS ?>" />
+<meta name="twitter:description" content="<?php echo $BRANDS ?> persatuan perkumpulan mahasiswa universitas integrisani nikola tesla memberikan pengalaman terbaik bagi para anggota dalam meningkatkan pengembangan diri." />
+<meta name="description" content="<?php echo $BRANDS ?> persatuan perkumpulan mahasiswa universitas integrisani nikola tesla memberikan pengalaman terbaik bagi para anggota dalam meningkatkan pengembangan diri." />
 <link rel="preconnect" href="https://images.squarespace-cdn.com">
 <script type="text/javascript" src="//use.typekit.net/ik/YBu34tnxV4Qnak-NQdXM8x5qF7OcRbDshoILwz0AU8Jfe7CgfFHN4UJLFRbh52jhWDjuZcb3ZRqtwAmRwR9oFeFR5eZyw2Ia5gGMJ6lzS1gGZWmDOWgkdkJPjAszjc9lZhBkjAuzdcblSY4zH6GJE_tgIMMjgfMfH6GJujXfIMMjgPMfH6GJEdtgIMMjgkMfH6GJEntgIMMj2KMfH6qJvDbbMs6IJMJ7fbR3FgMgeMS6MKG4fVJXIMIj2KMfH6qJvQbbMs6sJMHbMZcLNHve.js"></script>
 <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
@@ -928,9 +435,9 @@ if (isset($_GET['moodle31'])) {
 <script>(function (rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/commerce-debf953cca7d88c08601-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce');</script>
 <script>(function (rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].css = ["//assets.squarespace.com/universal/styles-compressed/commerce-2af06f7948db5477d8f5-min.en-US.css"]; })(SQUARESPACE_ROLLUPS, 'squarespace-commerce');</script>
 <link rel="stylesheet" type="text/css" href="//assets.squarespace.com/universal/styles-compressed/commerce-2af06f7948db5477d8f5-min.en-US.css">
-<script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = { "facebookAppId": "314192535267336", "facebookApiVersion": "v6.0", "rollups": { "squarespace-announcement-bar": { "js": "//assets.squarespace.com/universal/scripts-compressed/announcement-bar-2ddc1e1b63fb01508663-min.en-US.js" }, "squarespace-audio-player": { "css": "//assets.squarespace.com/universal/styles-compressed/audio-player-9fb16b1675c0ff315dae-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/audio-player-52e7797854645a8049b0-min.en-US.js" }, "squarespace-blog-collection-list": { "css": "//assets.squarespace.com/universal/styles-compressed/blog-collection-list-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-1e390bbcde22c7bbc97f-min.en-US.js" }, "squarespace-calendar-block-renderer": { "css": "//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-0e361398b7723c9dc63e-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-b7f7ef044f34ab60f440-min.en-US.js" }, "squarespace-chartjs-helpers": { "css": "//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-e1c09c17d776634c0edc-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-183bb56124237b096402-min.en-US.js" }, "squarespace-comments": { "css": "//assets.squarespace.com/universal/styles-compressed/comments-24b74a0326eae0cd5049-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/comments-57aaa7e0d8bb4318a484-min.en-US.js" }, "squarespace-custom-css-popup": { "css": "//assets.squarespace.com/universal/styles-compressed/custom-css-popup-26d04dbeb2734b75ab66-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-c382f88a8b4030eaba9e-min.en-US.js" }, "squarespace-dialog": { "css": "//assets.squarespace.com/universal/styles-compressed/dialog-081be79078914b908a1a-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/dialog-220dee7ab3c67003a735-min.en-US.js" }, "squarespace-events-collection": { "css": "//assets.squarespace.com/universal/styles-compressed/events-collection-0e361398b7723c9dc63e-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/events-collection-5e7e2c69c45256595707-min.en-US.js" }, "squarespace-form-rendering-utils": { "js": "//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-ff99e57a9b46f1df69cb-min.en-US.js" }, "squarespace-forms": { "css": "//assets.squarespace.com/universal/styles-compressed/forms-8d93ba2c12ff0765b64c-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/forms-d654c3315c889be0f1a5-min.en-US.js" }, "squarespace-gallery-collection-list": { "css": "//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-5f8358cf7b510b32fc49-min.en-US.js" }, "squarespace-image-zoom": { "css": "//assets.squarespace.com/universal/styles-compressed/image-zoom-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/image-zoom-d0c90be829ba36cb62cc-min.en-US.js" }, "squarespace-pinterest": { "css": "//assets.squarespace.com/universal/styles-compressed/pinterest-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/pinterest-a6dbcb964bd882c42ef0-min.en-US.js" }, "squarespace-popup-overlay": { "css": "//assets.squarespace.com/universal/styles-compressed/popup-overlay-b2bf7df4402e207cd72c-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/popup-overlay-ce3ac44a00dabe47927e-min.en-US.js" }, "squarespace-product-quick-view": { "css": "//assets.squarespace.com/universal/styles-compressed/product-quick-view-4aec27f1bd826750e9db-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/product-quick-view-f9b8478c52e3b704a64f-min.en-US.js" }, "squarespace-products-collection-item-v2":{ "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-a96b3f54dd47a01900f6-min.en-US.js" }, "squarespace-products-collection-list-v2": { "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-0c340509add53a698500-min.en-US.js" }, "squarespace-search-page": { "css": "//assets.squarespace.com/universal/styles-compressed/search-page-dcc0462e30efbd6dc562-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/search-page-03ccda685ca48569888b-min.en-US.js" }, "squarespace-search-preview": { "js": "//assets.squarespace.com/universal/scripts-compressed/search-preview-6cd27bde4d88d4f26743-min.en-US.js" }, "squarespace-simple-liking": { "css": "//assets.squarespace.com/universal/styles-compressed/simple-liking-a9eb87c1b73b199ce387-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/simple-liking-6a6862d5ff0df1b9784e-min.en-US.js" }, "squarespace-social-buttons": { "css": "//assets.squarespace.com/universal/styles-compressed/social-buttons-98ee3a678d356d849b76-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/social-buttons-4e176f98e042b90d7db4-min.en-US.js" }, "squarespace-tourdates": { "css": "//assets.squarespace.com/universal/styles-compressed/tourdates-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/tourdates-463b5b9532edddc3565e-min.en-US.js" }, "squarespace-website-overlays-manager": { "css": "//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-6dfb472f441e39d78b13-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-cbf06aa21f2440307e01-min.en-US.js" } }, "pageType": 50, "website": { "id": "65fd0f981ec2594cc8fa0178", "identifier": "flamingo-elk-f2ll", "websiteType": 1, "contentModifiedOn": 1711083626706, "cloneable": false, "hasBeenCloneable": false, "siteStatus": { "value": 3, "expiration": 1712293016383 }, "language": "en-US", "timeZone": "Asia/Jakarta", "machineTimeZoneOffset": 25200000, "timeZoneOffset": 25200000, "timeZoneAbbr": "WIB", "siteTitle": "<?php echo $BRANDS ?>", "fullSiteTitle": "Tu Centro de Aprendizaje <?php echo $BRANDS ?> u2014 <?php echo $BRANDS ?>", "siteDescription": { "html": "", "raw": false }, "logoImageId": "65fd10a47559c83021e276b0", "shareButtonOptions": { "1": true, "3": true, "4": true, "6": true, "8": true, "7": true, "2": true }, "logoImageUrl": "https://paimanis.wordpress.com/wp-content/uploads/2025/02/slotgacor.gif", "authenticUrl": "<?php echo $urlPath ?>", "internalUrl": "<?php echo $urlPath ?>", "baseUrl": "<?php echo $urlPath ?>", "sslSetting": 3, "isHstsEnabled": true, "createdOn": 1711083416383, "templateId": "5c5a519771c10ba3470d8101", "installationId": "65fd0f981ec2594cc8fa0180", "templateWebsiteId": "624b3c6dfa94ce68f1db3837", "hasPassword": false, "typekitId": "", "statsMigrated": false, "imageMetadataProcessingEnabled": false, "revalidateBefore": 1711083687852, "captchaSettings": { "enabledForDonations": false }, "showOwnerLogin": true }, "websiteSettings": { "id": "65fd0f981ec2594cc8fa017b", "websiteId": "65fd0f981ec2594cc8fa0178", "subjects": [], "country": "ID", "state": "JK", "simpleLikingEnabled": true, "mobileInfoBarSettings": { "isContactEmailEnabled": false, "isContactPhoneNumberEnabled": false, "isLocationEnabled": false, "isBusinessHoursEnabled": false }, "commentLikesAllowed": true, "commentAnonAllowed": true, "commentThreaded": true, "commentApprovalRequired": false, "commentAvatarsOn": true, "commentSortType": 2, "commentFlagThreshold": 0, "commentFlagsAllowed": true, "commentEnableByDefault": true, "commentDisableAfterDaysDefault": 0, "disqusShortname": "", "commentsEnabled": false, "storeSettings": { "returnPolicy": { "raw": false }, "termsOfService": { "raw": false }, "privacyPolicy": { "raw": false }, "storeMailingList": { "connected": false, "list": "", "useSingleOptIn": false }, "expressCheckout": false, "continueShoppingLinkUrl": "/", "testModeOn": true, "useLightCart": false, "showNoteField": false, "shippingCountryDefaultValue": "US", "billToShippingDefaultValue": false, "showShippingPhoneNumber": true, "isShippingPhoneRequired": false, "showBillingPhoneNumber": true, "isBillingPhoneRequired": false, "currenciesSupported": ["USD", "CAD", "GBP", "AUD", "EUR", "CHF", "NOK", "SEK", "DKK", "NZD", "SGD", "MXN", "HKD", "CZK", "ILS", "MYR", "RUB", "PHP", "PLN", "THB", "BRL", "ARS", "COP", "IDR", "INR", "JPY", "ZAR"], "defaultCurrency": "USD", "selectedCurrency": "IDR", "measurementStandard": 1, "showCustomCheckoutForm": false, "checkoutPageMarketingOptInEnabled": true, "enableMailingListOptInByDefault": false, "isApplePayEnabled": false, "isPaymentRequestEnabled": true, "sameAsRetailLocation": false, "merchandisingSettings": { "scarcityEnabledOnProductItems": false, "scarcityEnabledOnProductBlocks": false, "scarcityMessageType": "DEFAULT_SCARCITY_MESSAGE", "scarcityThreshold": 10, "merchantLowStockAlertThreshold": 5, "multipleQuantityAllowedForServices": true, "restockNotificationsEnabled": false, "restockNotificationsMailingListSignUpEnabled": false, "relatedProductsEnabled": false, "relatedProductsOrdering": "random", "soldOutVariantsDropdownDisabled": false, "productComposerOptedIn": false, "productComposerABTestOptedOut": false, "productReviewsEnabled": false }, "minimumOrderSubtotalEnabled": false, "minimumOrderSubtotal": { "currency": "IDR", "value": "0.00" }, "instagramShoppingLinkDestination": 1, "storeMigratedToProductCollections2_0": false, "isLive": false, "multipleQuantityAllowedForServices": true }, "useEscapeKeyToLogin": false, "ssBadgeType": 1, "ssBadgePosition": 4, "ssBadgeVisibility": 1, "ssBadgeDevices": 1, "pinterestOverlayOptions": { "mode": "disabled" }, "ampEnabled": false, "userAccountsSettings": { "loginAllowed": false, "signupAllowed": false } }, "cookieSettings": { "isCookieBannerEnabled": false, "isRestrictiveCookiePolicyEnabled": false, "isRestrictiveCookiePolicyAbsolute": false, "cookieBannerText": "", "cookieBannerTheme": "", "cookieBannerVariant": "", "cookieBannerPosition": "", "cookieBannerCtaVariant": "", "cookieBannerCtaText": "", "cookieBannerAcceptType": "OPT_IN", "cookieBannerOptOutCtaText": "", "cookieBannerHasOptOut": false, "cookieBannerHasManageCookies": true, "cookieBannerManageCookiesLabel": "" }, "websiteCloneable": false, "collection": { "title": "Store", "id": "65fd0fc2aa1d0858f5af2fe4", "fullUrl": "/store", "type": 13, "permissionType": 1 }, "item": { "title": "Tu Centro de Aprendizaje <?php echo $BRANDS ?>", "id": "65fd0fc7db01f63c712f258e", "fullUrl": "/store/p/zeus", "publicCommentCount": 0, "commentState": 1, "recordType": 11 }, "subscribed": false, "appDomain": "squarespace.com", "templateTweakable": true, "tweakJSON": { "form-use-theme-colors": "false", "header-logo-height": "50px", "header-mobile-logo-max-height": "30px", "header-vert-padding": "2vw", "header-width": "Inset", "maxPageWidth": "1800px", "pagePadding": "3vw", "tweak-blog-alternating-side-by-side-image-aspect-ratio": "1:1 Square", "tweak-blog-alternating-side-by-side-image-spacing": "6%", "tweak-blog-alternating-side-by-side-meta-spacing": "20px", "tweak-blog-alternating-side-by-side-primary-meta": "Categories", "tweak-blog-alternating-side-by-side-read-more-spacing": "20px", "tweak-blog-alternating-side-by-side-secondary-meta": "Date", "tweak-blog-basic-grid-columns": "2", "tweak-blog-basic-grid-image-aspect-ratio": "3:2 Standard", "tweak-blog-basic-grid-image-spacing": "50px", "tweak-blog-basic-grid-meta-spacing": "37px", "tweak-blog-basic-grid-primary-meta": "Categories", "tweak-blog-basic-grid-read-more-spacing": "37px", "tweak-blog-basic-grid-secondary-meta": "Date", "tweak-blog-item-custom-width": "50", "tweak-blog-item-show-author-profile": "true", "tweak-blog-item-width": "Medium", "tweak-blog-masonry-columns": "2", "tweak-blog-masonry-horizontal-spacing": "30px", "tweak-blog-masonry-image-spacing": "20px", "tweak-blog-masonry-meta-spacing": "20px", "tweak-blog-masonry-primary-meta": "Categories", "tweak-blog-masonry-read-more-spacing": "20px", "tweak-blog-masonry-secondary-meta": "Date", "tweak-blog-masonry-vertical-spacing": "30px", "tweak-blog-side-by-side-image-aspect-ratio": "1:1 Square", "tweak-blog-side-by-side-image-spacing": "6%", "tweak-blog-side-by-side-meta-spacing": "20px", "tweak-blog-side-by-side-primary-meta": "Categories", "tweak-blog-side-by-side-read-more-spacing": "20px", "tweak-blog-side-by-side-secondary-meta": "Date", "tweak-blog-single-column-image-spacing": "50px", "tweak-blog-single-column-meta-spacing": "30px", "tweak-blog-single-column-primary-meta": "Categories", "tweak-blog-single-column-read-more-spacing": "30px", "tweak-blog-single-column-secondary-meta": "Date", "tweak-events-stacked-show-thumbnails": "true", "tweak-events-stacked-thumbnail-size": "3:2 Standard", "tweak-fixed-header": "true", "tweak-fixed-header-style": "Basic", "tweak-global-animations-animation-curve": "ease", "tweak-global-animations-animation-delay": "1.0s", "tweak-global-animations-animation-duration": "0.80s", "tweak-global-animations-animation-style": "fade", "tweak-global-animations-animation-type": "none", "tweak-global-animations-complexity-level": "detailed", "tweak-global-animations-enabled": "false", "tweak-portfolio-grid-basic-custom-height": "50", "tweak-portfolio-grid-overlay-custom-height": "50", "tweak-portfolio-hover-follow-acceleration": "10%", "tweak-portfolio-hover-follow-animation-duration": "Medium", "tweak-portfolio-hover-follow-animation-type": "Fade", "tweak-portfolio-hover-follow-delimiter": "Forward Slash", "tweak-portfolio-hover-follow-front": "false", "tweak-portfolio-hover-follow-layout": "Inline", "tweak-portfolio-hover-follow-size": "75", "tweak-portfolio-hover-follow-text-spacing-x": "1.5", "tweak-portfolio-hover-follow-text-spacing-y": "1.5", "tweak-portfolio-hover-static-animation-duration": "Medium", "tweak-portfolio-hover-static-animation-type": "Scale Up", "tweak-portfolio-hover-static-delimiter": "Forward Slash", "tweak-portfolio-hover-static-front": "false", "tweak-portfolio-hover-static-layout": "Stacked", "tweak-portfolio-hover-static-size": "75", "tweak-portfolio-hover-static-text-spacing-x": "1.5", "tweak-portfolio-hover-static-text-spacing-y": "1.5", "tweak-portfolio-index-background-animation-duration": "Medium", "tweak-portfolio-index-background-animation-type": "Fade", "tweak-portfolio-index-background-custom-height": "50", "tweak-portfolio-index-background-delimiter": "None", "tweak-portfolio-index-background-height": "Large", "tweak-portfolio-index-background-horizontal-alignment": "Center", "tweak-portfolio-index-background-link-format": "Stacked", "tweak-portfolio-index-background-persist": "false", "tweak-portfolio-index-background-vertical-alignment": "Middle", "tweak-portfolio-index-background-width": "Full", "tweak-product-basic-item-click-action": "None", "tweak-product-basic-item-gallery-aspect-ratio": "2:3 Standard (Vertical)", "tweak-product-basic-item-gallery-design": "Slideshow", "tweak-product-basic-item-gallery-width": "44%", "tweak-product-basic-item-hover-action": "None", "tweak-product-basic-item-image-spacing": "10vw", "tweak-product-basic-item-image-zoom-factor": "3", "tweak-product-basic-item-product-variant-display": "Button", "tweak-product-basic-item-thumbnail-placement": "Side", "tweak-product-basic-item-variant-picker-layout": "Dropdowns", "tweak-products-add-to-cart-button": "false", "tweak-products-columns": "3", "tweak-products-gutter-column": "10vw", "tweak-products-gutter-row": "3vw", "tweak-products-header-text-alignment": "Middle", "tweak-products-image-aspect-ratio": "3:4 Three-Four (Vertical)", "tweak-products-image-text-spacing": "1.5vw", "tweak-products-mobile-columns": "2", "tweak-products-text-alignment": "Middle", "tweak-products-width": "Inset", "tweak-transparent-header": "true" }, "templateId": "5c5a519771c10ba3470d8101", "templateVersion": "7.1", "pageFeatures": [1, 2, 4], "gmRenderKey": "QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4", "templateScriptsRootUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/", "betaFeatureFlags": ["content_ai_brand_identity", "campaigns_thumbnail_layout", "blog_monetization", "unify_edit_mode_p2", "hideable_header_footer_for_videos", "send_local_pickup_ready_email", "visitor_react_forms", "toggle_preview_new_shortcut", "commsplat_forms_visitor_profile", "viewer-role-contributor-invites", "website_form_effects", "header_usability_improvements", "commerce_checkout_website_updates_enabled", "fluid_engine_clean_up_grid_contextual_change", "fluid_engine_default_mobile_order", "commerce_clearpay", "summary_block_video_collections", "commerce_order_status_access", "customer_accounts_email_verification", "campaigns_discount_section_in_blasts", "unify_edit_mode_p1", "enable_css_variable_tweaks", "website_fonts", "background_art_onboarding", "campaigns_new_image_layout_picker", "supports_versioned_template_assets", "commerce_site_visitor_metrics", "google_consent_v2", "pdp_product_add_ons_visitor_site", "react_pages_panel", "rte_text_justify_align", "commerce_restock_notifications", "rewrite_transactional_email_from_address", "hide_header_footer_beta", "customer_account_creation_recaptcha", "seven_one_migration_updated_kb_links", "show_mobile_column_in_plp_editor", "template_translation_english_fallbacks", "shape_block", "hideable_header_footer_for_courses", "commerce_etsy_shipping_import", "is_feature_gate_refresh_enabled", "themes", "website_form_improvements", "marketing_landing_page", "invoicing-on-personal-plans", "campaigns_import_discounts", "commerce_etsy_product_import", "campaigns_global_uc_ab", "sticky_scroll", "collection_typename_switching", "override_block_styles", "scripts_defer", "nested_categories", "link_editor_redesign", "member_areas_feature", "fluid_engine", "campaigns_discount_section_in_automations", "accounting_orders_sync", "nested_categories_migration_enabled", "proposals_beta_in_circle_labs", "commerce_paywall_renewal_notifications", "new_stacked_index", "rte_text_highlights", "unify_edit_mode_p1_70", "container_styles_improvements", "fluid_engine_new_multiselect_actions", "commerce_subscription_renewal_notifications"], "videoAssetsFeatureFlags": ["mux-data-video-collection", "mux-data-course-collection"], "authenticatedAccount": { "id": "65c59c43aeb76a63df61000a", "tutorialsCompleted": { "has-seen-fluid-engine-mobile-changes-notification": true }, "notificationsRead": {}, "lastLoginOn": 1710053561233, "displayName": "situs Situs Toto 4D", "firstName": "Togel", "lastName": "Online", "eligibleForMarketingDiscount": false, "avatarUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "bio": "", "roles": {}, "email": "primahengkiki@gmail.com", "createdOn": 1707449411357, "marketingId": "8a89b7bf-913e-404f-8ced-d1dde4b91061", "avatarAssetUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "pseudonymAccount": false, "preferredLocale": "en-US" }, "authenticatedAccountWebsiteSettings": { "id": "65fd0f9fd4f37d0ac654bf8c" }, "permissions": { "permissions": { "1": true } }, "websiteRoles": { "1": true }, "accessPermissions": [1310, 1701, 1225, 1414, 1216, 1234, 1910, 1421, 1700, 1516, 1513, 1517, 1415, 1422, 1233, 1932, 1413, 1211, 1229, 1420, 1110, 1223, 1230, 1212, 1228, 12, 1210, 1512, 1111, 1226, 1418, 1214, 1419, 1912, 1112, 1410, 1224, 1611, 1921, 1219, 1220, 1311, 1423, 1515, 1612, 1213, 1411, 0, 1416, 1417, 15, 11, 13, 1412, 1930, 1931, 1911, 1514, 1610, 14, 1218, 1511, 1810, 1, 1510, 1221, 2066, 18, 1920, 1215, 1217], "memberAccountNames": { "65c59c43aeb76a63df61000a": { "avatarUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "bio": "", "displayName": "situs Situs Toto 4D" } }, "impersonatedSession": false, "demoCollections": [{ "collectionId": "624b3c75fa94ce68f1db3cfe", "deleted": false }, { "collectionId": "624b3c6dfa94ce68f1db3870", "deleted": false }, { "collectionId": "624b3c75fa94ce68f1db3ce1", "deleted": false }], "connectedAccounts": [], "tzData": { "zones": [[420, null, "WIB", null]], "rules": {} }, "product": { "variantAttributeNames": [], "variants": [{ "id": "28c210bc-2f66-4327-ac09-83b3f6cb6b13", "sku": "SQ1936194", "price": { "currencyCode": "IDR", "value": 888, "decimalValue": "10000.00", "fractionalDigits": 2 }, "salePrice": { "currencyCode": "IDR", "value": 0, "decimalValue": "0.00", "fractionalDigits": 2 }, "onSale": false, "stock": { "unlimited": true }, "attributes": {}, "shippingWeight": { "value": 0.0, "unit": "POUND" }, "shippingSize": { "unit": "INCH", "width": 0.0, "height": 0.0, "len": 0.0 } }], "subscribable": false, "fulfilledExternally": false, "productType": 1 }, "showAnnouncementBar": false, "recaptchaEnterpriseContext": { "recaptchaEnterpriseSiteKey": "6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv" }, "i18nContext": { "timeZoneData": { "id": "Asia/Jakarta", "name": "Western Indonesia Time" } } };</script>
+<script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = { "facebookAppId": "314192535267336", "facebookApiVersion": "v6.0", "rollups": { "squarespace-announcement-bar": { "js": "//assets.squarespace.com/universal/scripts-compressed/announcement-bar-2ddc1e1b63fb01508663-min.en-US.js" }, "squarespace-audio-player": { "css": "//assets.squarespace.com/universal/styles-compressed/audio-player-9fb16b1675c0ff315dae-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/audio-player-52e7797854645a8049b0-min.en-US.js" }, "squarespace-blog-collection-list": { "css": "//assets.squarespace.com/universal/styles-compressed/blog-collection-list-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-1e390bbcde22c7bbc97f-min.en-US.js" }, "squarespace-calendar-block-renderer": { "css": "//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-0e361398b7723c9dc63e-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-b7f7ef044f34ab60f440-min.en-US.js" }, "squarespace-chartjs-helpers": { "css": "//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-e1c09c17d776634c0edc-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-183bb56124237b096402-min.en-US.js" }, "squarespace-comments": { "css": "//assets.squarespace.com/universal/styles-compressed/comments-24b74a0326eae0cd5049-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/comments-57aaa7e0d8bb4318a484-min.en-US.js" }, "squarespace-custom-css-popup": { "css": "//assets.squarespace.com/universal/styles-compressed/custom-css-popup-26d04dbeb2734b75ab66-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-c382f88a8b4030eaba9e-min.en-US.js" }, "squarespace-dialog": { "css": "//assets.squarespace.com/universal/styles-compressed/dialog-081be79078914b908a1a-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/dialog-220dee7ab3c67003a735-min.en-US.js" }, "squarespace-events-collection": { "css": "//assets.squarespace.com/universal/styles-compressed/events-collection-0e361398b7723c9dc63e-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/events-collection-5e7e2c69c45256595707-min.en-US.js" }, "squarespace-form-rendering-utils": { "js": "//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-ff99e57a9b46f1df69cb-min.en-US.js" }, "squarespace-forms": { "css": "//assets.squarespace.com/universal/styles-compressed/forms-8d93ba2c12ff0765b64c-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/forms-d654c3315c889be0f1a5-min.en-US.js" }, "squarespace-gallery-collection-list": { "css": "//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-5f8358cf7b510b32fc49-min.en-US.js" }, "squarespace-image-zoom": { "css": "//assets.squarespace.com/universal/styles-compressed/image-zoom-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/image-zoom-d0c90be829ba36cb62cc-min.en-US.js" }, "squarespace-pinterest": { "css": "//assets.squarespace.com/universal/styles-compressed/pinterest-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/pinterest-a6dbcb964bd882c42ef0-min.en-US.js" }, "squarespace-popup-overlay": { "css": "//assets.squarespace.com/universal/styles-compressed/popup-overlay-b2bf7df4402e207cd72c-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/popup-overlay-ce3ac44a00dabe47927e-min.en-US.js" }, "squarespace-product-quick-view": { "css": "//assets.squarespace.com/universal/styles-compressed/product-quick-view-4aec27f1bd826750e9db-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/product-quick-view-f9b8478c52e3b704a64f-min.en-US.js" }, "squarespace-products-collection-item-v2": { "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-a96b3f54dd47a01900f6-min.en-US.js" }, "squarespace-products-collection-list-v2": { "css": "//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-0c340509add53a698500-min.en-US.js" }, "squarespace-search-page": { "css": "//assets.squarespace.com/universal/styles-compressed/search-page-dcc0462e30efbd6dc562-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/search-page-03ccda685ca48569888b-min.en-US.js" }, "squarespace-search-preview": { "js": "//assets.squarespace.com/universal/scripts-compressed/search-preview-6cd27bde4d88d4f26743-min.en-US.js" }, "squarespace-simple-liking": { "css": "//assets.squarespace.com/universal/styles-compressed/simple-liking-a9eb87c1b73b199ce387-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/simple-liking-6a6862d5ff0df1b9784e-min.en-US.js" }, "squarespace-social-buttons": { "css": "//assets.squarespace.com/universal/styles-compressed/social-buttons-98ee3a678d356d849b76-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/social-buttons-4e176f98e042b90d7db4-min.en-US.js" }, "squarespace-tourdates": { "css": "//assets.squarespace.com/universal/styles-compressed/tourdates-0106e2d3707028a62a85-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/tourdates-463b5b9532edddc3565e-min.en-US.js" }, "squarespace-website-overlays-manager": { "css": "//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-6dfb472f441e39d78b13-min.en-US.css", "js": "//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-cbf06aa21f2440307e01-min.en-US.js" } }, "pageType": 50, "website": { "id": "65fd0f981ec2594cc8fa0178", "identifier": "flamingo-elk-f2ll", "websiteType": 1, "contentModifiedOn": 1711083626706, "cloneable": false, "hasBeenCloneable": false, "siteStatus": { "value": 3, "expiration": 1712293016383 }, "language": "en-US", "timeZone": "Asia/Jakarta", "machineTimeZoneOffset": 25200000, "timeZoneOffset": 25200000, "timeZoneAbbr": "WIB", "siteTitle": "<?php echo $BRANDS ?>", "fullSiteTitle": "<?php echo $BRANDS ?> Persatuan Universitas Integrisani Nikola Tesla u2014 <?php echo $BRANDS ?>", "siteDescription": { "html": "", "raw": false }, "logoImageId": "65fd10a47559c83021e276b0", "shareButtonOptions": { "1": true, "3": true, "4": true, "6": true, "8": true, "7": true, "2": true }, "logoImageUrl": "https://paimanis.wordpress.com/wp-content/uploads/2025/02/slotgacor.gif", "authenticUrl": "<?php echo $urlPath ?>", "internalUrl": "<?php echo $urlPath ?>", "baseUrl": "<?php echo $urlPath ?>", "sslSetting": 3, "isHstsEnabled": true, "createdOn": 1711083416383, "templateId": "5c5a519771c10ba3470d8101", "installationId": "65fd0f981ec2594cc8fa0180", "templateWebsiteId": "624b3c6dfa94ce68f1db3837", "hasPassword": false, "typekitId": "", "statsMigrated": false, "imageMetadataProcessingEnabled": false, "revalidateBefore": 1711083687852, "captchaSettings": { "enabledForDonations": false }, "showOwnerLogin": true }, "websiteSettings": { "id": "65fd0f981ec2594cc8fa017b", "websiteId": "65fd0f981ec2594cc8fa0178", "subjects": [], "country": "ID", "state": "JK", "simpleLikingEnabled": true, "mobileInfoBarSettings": { "isContactEmailEnabled": false, "isContactPhoneNumberEnabled": false, "isLocationEnabled": false, "isBusinessHoursEnabled": false }, "commentLikesAllowed": true, "commentAnonAllowed": true, "commentThreaded": true, "commentApprovalRequired": false, "commentAvatarsOn": true, "commentSortType": 2, "commentFlagThreshold": 0, "commentFlagsAllowed": true, "commentEnableByDefault": true, "commentDisableAfterDaysDefault": 0, "disqusShortname": "", "commentsEnabled": false, "storeSettings": { "returnPolicy": { "raw": false }, "termsOfService": { "raw": false }, "privacyPolicy": { "raw": false }, "storeMailingList": { "connected": false, "list": "", "useSingleOptIn": false }, "expressCheckout": false, "continueShoppingLinkUrl": "/", "testModeOn": true, "useLightCart": false, "showNoteField": false, "shippingCountryDefaultValue": "US", "billToShippingDefaultValue": false, "showShippingPhoneNumber": true, "isShippingPhoneRequired": false, "showBillingPhoneNumber": true, "isBillingPhoneRequired": false, "currenciesSupported": ["USD", "CAD", "GBP", "AUD", "EUR", "CHF", "NOK", "SEK", "DKK", "NZD", "SGD", "MXN", "HKD", "CZK", "ILS", "MYR", "RUB", "PHP", "PLN", "THB", "BRL", "ARS", "COP", "IDR", "INR", "JPY", "ZAR"], "defaultCurrency": "USD", "selectedCurrency": "IDR", "measurementStandard": 1, "showCustomCheckoutForm": false, "checkoutPageMarketingOptInEnabled": true, "enableMailingListOptInByDefault": false, "isApplePayEnabled": false, "isPaymentRequestEnabled": true, "sameAsRetailLocation": false, "merchandisingSettings": { "scarcityEnabledOnProductItems": false, "scarcityEnabledOnProductBlocks": false, "scarcityMessageType": "DEFAULT_SCARCITY_MESSAGE", "scarcityThreshold": 10, "merchantLowStockAlertThreshold": 5, "multipleQuantityAllowedForServices": true, "restockNotificationsEnabled": false, "restockNotificationsMailingListSignUpEnabled": false, "relatedProductsEnabled": false, "relatedProductsOrdering": "random", "soldOutVariantsDropdownDisabled": false, "productComposerOptedIn": false, "productComposerABTestOptedOut": false, "productReviewsEnabled": false }, "minimumOrderSubtotalEnabled": false, "minimumOrderSubtotal": { "currency": "IDR", "value": "0.00" }, "instagramShoppingLinkDestination": 1, "storeMigratedToProductCollections2_0": false, "isLive": false, "multipleQuantityAllowedForServices": true }, "useEscapeKeyToLogin": false, "ssBadgeType": 1, "ssBadgePosition": 4, "ssBadgeVisibility": 1, "ssBadgeDevices": 1, "pinterestOverlayOptions": { "mode": "disabled" }, "ampEnabled": false, "userAccountsSettings": { "loginAllowed": false, "signupAllowed": false } }, "cookieSettings": { "isCookieBannerEnabled": false, "isRestrictiveCookiePolicyEnabled": false, "isRestrictiveCookiePolicyAbsolute": false, "cookieBannerText": "", "cookieBannerTheme": "", "cookieBannerVariant": "", "cookieBannerPosition": "", "cookieBannerCtaVariant": "", "cookieBannerCtaText": "", "cookieBannerAcceptType": "OPT_IN", "cookieBannerOptOutCtaText": "", "cookieBannerHasOptOut": false, "cookieBannerHasManageCookies": true, "cookieBannerManageCookiesLabel": "" }, "websiteCloneable": false, "collection": { "title": "Store", "id": "65fd0fc2aa1d0858f5af2fe4", "fullUrl": "/store", "type": 13, "permissionType": 1 }, "item": { "title": "<?php echo $BRANDS ?> Persatuan Universitas Integrisani Nikola Tesla", "id": "65fd0fc7db01f63c712f258e", "fullUrl": "/store/p/zeus", "publicCommentCount": 0, "commentState": 1, "recordType": 11 }, "subscribed": false, "appDomain": "squarespace.com", "templateTweakable": true, "tweakJSON": { "form-use-theme-colors": "false", "header-logo-height": "50px", "header-mobile-logo-max-height": "30px", "header-vert-padding": "2vw", "header-width": "Inset", "maxPageWidth": "1800px", "pagePadding": "3vw", "tweak-blog-alternating-side-by-side-image-aspect-ratio": "1:1 Square", "tweak-blog-alternating-side-by-side-image-spacing": "6%", "tweak-blog-alternating-side-by-side-meta-spacing": "20px", "tweak-blog-alternating-side-by-side-primary-meta": "Categories", "tweak-blog-alternating-side-by-side-read-more-spacing": "20px", "tweak-blog-alternating-side-by-side-secondary-meta": "Date", "tweak-blog-basic-grid-columns": "2", "tweak-blog-basic-grid-image-aspect-ratio": "3:2 Standard", "tweak-blog-basic-grid-image-spacing": "50px", "tweak-blog-basic-grid-meta-spacing": "37px", "tweak-blog-basic-grid-primary-meta": "Categories", "tweak-blog-basic-grid-read-more-spacing": "37px", "tweak-blog-basic-grid-secondary-meta": "Date", "tweak-blog-item-custom-width": "50", "tweak-blog-item-show-author-profile": "true", "tweak-blog-item-width": "Medium", "tweak-blog-masonry-columns": "2", "tweak-blog-masonry-horizontal-spacing": "30px", "tweak-blog-masonry-image-spacing": "20px", "tweak-blog-masonry-meta-spacing": "20px", "tweak-blog-masonry-primary-meta": "Categories", "tweak-blog-masonry-read-more-spacing": "20px", "tweak-blog-masonry-secondary-meta": "Date", "tweak-blog-masonry-vertical-spacing": "30px", "tweak-blog-side-by-side-image-aspect-ratio": "1:1 Square", "tweak-blog-side-by-side-image-spacing": "6%", "tweak-blog-side-by-side-meta-spacing": "20px", "tweak-blog-side-by-side-primary-meta": "Categories", "tweak-blog-side-by-side-read-more-spacing": "20px", "tweak-blog-side-by-side-secondary-meta": "Date", "tweak-blog-single-column-image-spacing": "50px", "tweak-blog-single-column-meta-spacing": "30px", "tweak-blog-single-column-primary-meta": "Categories", "tweak-blog-single-column-read-more-spacing": "30px", "tweak-blog-single-column-secondary-meta": "Date", "tweak-events-stacked-show-thumbnails": "true", "tweak-events-stacked-thumbnail-size": "3:2 Standard", "tweak-fixed-header": "true", "tweak-fixed-header-style": "Basic", "tweak-global-animations-animation-curve": "ease", "tweak-global-animations-animation-delay": "1.0s", "tweak-global-animations-animation-duration": "0.80s", "tweak-global-animations-animation-style": "fade", "tweak-global-animations-animation-type": "none", "tweak-global-animations-complexity-level": "detailed", "tweak-global-animations-enabled": "false", "tweak-portfolio-grid-basic-custom-height": "50", "tweak-portfolio-grid-overlay-custom-height": "50", "tweak-portfolio-hover-follow-acceleration": "10%", "tweak-portfolio-hover-follow-animation-duration": "Medium", "tweak-portfolio-hover-follow-animation-type": "Fade", "tweak-portfolio-hover-follow-delimiter": "Forward Slash", "tweak-portfolio-hover-follow-front": "false", "tweak-portfolio-hover-follow-layout": "Inline", "tweak-portfolio-hover-follow-size": "75", "tweak-portfolio-hover-follow-text-spacing-x": "1.5", "tweak-portfolio-hover-follow-text-spacing-y": "1.5", "tweak-portfolio-hover-static-animation-duration": "Medium", "tweak-portfolio-hover-static-animation-type": "Scale Up", "tweak-portfolio-hover-static-delimiter": "Forward Slash", "tweak-portfolio-hover-static-front": "false", "tweak-portfolio-hover-static-layout": "Stacked", "tweak-portfolio-hover-static-size": "75", "tweak-portfolio-hover-static-text-spacing-x": "1.5", "tweak-portfolio-hover-static-text-spacing-y": "1.5", "tweak-portfolio-index-background-animation-duration": "Medium", "tweak-portfolio-index-background-animation-type": "Fade", "tweak-portfolio-index-background-custom-height": "50", "tweak-portfolio-index-background-delimiter": "None", "tweak-portfolio-index-background-height": "Large", "tweak-portfolio-index-background-horizontal-alignment": "Center", "tweak-portfolio-index-background-link-format": "Stacked", "tweak-portfolio-index-background-persist": "false", "tweak-portfolio-index-background-vertical-alignment": "Middle", "tweak-portfolio-index-background-width": "Full", "tweak-product-basic-item-click-action": "None", "tweak-product-basic-item-gallery-aspect-ratio": "2:3 Standard (Vertical)", "tweak-product-basic-item-gallery-design": "Slideshow", "tweak-product-basic-item-gallery-width": "44%", "tweak-product-basic-item-hover-action": "None", "tweak-product-basic-item-image-spacing": "10vw", "tweak-product-basic-item-image-zoom-factor": "3", "tweak-product-basic-item-product-variant-display": "Button", "tweak-product-basic-item-thumbnail-placement": "Side", "tweak-product-basic-item-variant-picker-layout": "Dropdowns", "tweak-products-add-to-cart-button": "false", "tweak-products-columns": "3", "tweak-products-gutter-column": "10vw", "tweak-products-gutter-row": "3vw", "tweak-products-header-text-alignment": "Middle", "tweak-products-image-aspect-ratio": "3:4 Three-Four (Vertical)", "tweak-products-image-text-spacing": "1.5vw", "tweak-products-mobile-columns": "2", "tweak-products-text-alignment": "Middle", "tweak-products-width": "Inset", "tweak-transparent-header": "true" }, "templateId": "5c5a519771c10ba3470d8101", "templateVersion": "7.1", "pageFeatures": [1, 2, 4], "gmRenderKey": "QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4", "templateScriptsRootUrl": "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/", "betaFeatureFlags": ["content_ai_brand_identity", "campaigns_thumbnail_layout", "blog_monetization", "unify_edit_mode_p2", "hideable_header_footer_for_videos", "send_local_pickup_ready_email", "visitor_react_forms", "toggle_preview_new_shortcut", "commsplat_forms_visitor_profile", "viewer-role-contributor-invites", "website_form_effects", "header_usability_improvements", "commerce_checkout_website_updates_enabled", "fluid_engine_clean_up_grid_contextual_change", "fluid_engine_default_mobile_order", "commerce_clearpay", "summary_block_video_collections", "commerce_order_status_access", "customer_accounts_email_verification", "campaigns_discount_section_in_blasts", "unify_edit_mode_p1", "enable_css_variable_tweaks", "website_fonts", "background_art_onboarding", "campaigns_new_image_layout_picker", "supports_versioned_template_assets", "commerce_site_visitor_metrics", "google_consent_v2", "pdp_product_add_ons_visitor_site", "react_pages_panel", "rte_text_justify_align", "commerce_restock_notifications", "rewrite_transactional_email_from_address", "hide_header_footer_beta", "customer_account_creation_recaptcha", "seven_one_migration_updated_kb_links", "show_mobile_column_in_plp_editor", "template_translation_english_fallbacks", "shape_block", "hideable_header_footer_for_courses", "commerce_etsy_shipping_import", "is_feature_gate_refresh_enabled", "themes", "website_form_improvements", "marketing_landing_page", "invoicing-on-personal-plans", "campaigns_import_discounts", "commerce_etsy_product_import", "campaigns_global_uc_ab", "sticky_scroll", "collection_typename_switching", "override_block_styles", "scripts_defer", "nested_categories", "link_editor_redesign", "member_areas_feature", "fluid_engine", "campaigns_discount_section_in_automations", "accounting_orders_sync", "nested_categories_migration_enabled", "proposals_beta_in_circle_labs", "commerce_paywall_renewal_notifications", "new_stacked_index", "rte_text_highlights", "unify_edit_mode_p1_70", "container_styles_improvements", "fluid_engine_new_multiselect_actions", "commerce_subscription_renewal_notifications"], "videoAssetsFeatureFlags": ["mux-data-video-collection", "mux-data-course-collection"], "authenticatedAccount": { "id": "65c59c43aeb76a63df61000a", "tutorialsCompleted": { "has-seen-fluid-engine-mobile-changes-notification": true }, "notificationsRead": {}, "lastLoginOn": 1710053561233, "displayName": "situs Situs Toto 4D", "firstName": "Togel", "lastName": "Online", "eligibleForMarketingDiscount": false, "avatarUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "bio": "", "roles": {}, "email": "primahengkiki@gmail.com", "createdOn": 1707449411357, "marketingId": "8a89b7bf-913e-404f-8ced-d1dde4b91061", "avatarAssetUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "pseudonymAccount": false, "preferredLocale": "en-US" }, "authenticatedAccountWebsiteSettings": { "id": "65fd0f9fd4f37d0ac654bf8c" }, "permissions": { "permissions": { "1": true } }, "websiteRoles": { "1": true }, "accessPermissions": [1310, 1701, 1225, 1414, 1216, 1234, 1910, 1421, 1700, 1516, 1513, 1517, 1415, 1422, 1233, 1932, 1413, 1211, 1229, 1420, 1110, 1223, 1230, 1212, 1228, 12, 1210, 1512, 1111, 1226, 1418, 1214, 1419, 1912, 1112, 1410, 1224, 1611, 1921, 1219, 1220, 1311, 1423, 1515, 1612, 1213, 1411, 0, 1416, 1417, 15, 11, 13, 1412, 1930, 1931, 1911, 1514, 1610, 14, 1218, 1511, 1810, 1, 1510, 1221, 2066, 18, 1920, 1215, 1217], "memberAccountNames": { "65c59c43aeb76a63df61000a": { "avatarUrl": "https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/65c59c43aeb76a63df61000a/eebe3831-3821-41a9-8818-bd08e148e29c/thirdPartyMemberAvatar-65c59c43aeb76a63df61000a-8626ef63-73bb-4e8a-9246-0b0e8a72310a?format=300w", "bio": "", "displayName": "situs Situs Toto 4D" } }, "impersonatedSession": false, "demoCollections": [{ "collectionId": "624b3c75fa94ce68f1db3cfe", "deleted": false }, { "collectionId": "624b3c6dfa94ce68f1db3870", "deleted": false }, { "collectionId": "624b3c75fa94ce68f1db3ce1", "deleted": false }], "connectedAccounts": [], "tzData": { "zones": [[420, null, "WIB", null]], "rules": {} }, "product": { "variantAttributeNames": [], "variants": [{ "id": "28c210bc-2f66-4327-ac09-83b3f6cb6b13", "sku": "SQ1936194", "price": { "currencyCode": "IDR", "value": 888, "decimalValue": "10000.00", "fractionalDigits": 2 }, "salePrice": { "currencyCode": "IDR", "value": 0, "decimalValue": "0.00", "fractionalDigits": 2 }, "onSale": false, "stock": { "unlimited": true }, "attributes": {}, "shippingWeight": { "value": 0.0, "unit": "POUND" }, "shippingSize": { "unit": "INCH", "width": 0.0, "height": 0.0, "len": 0.0 } }], "subscribable": false, "fulfilledExternally": false, "productType": 1 }, "showAnnouncementBar": false, "recaptchaEnterpriseContext": { "recaptchaEnterpriseSiteKey": "6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv" }, "i18nContext": { "timeZoneData": { "id": "Asia/Jakarta", "name": "Western Indonesia Time" } } };</script>
 <script type="application/ld+json">{"url":"<?php echo $urlPath ?>","name":"<?php echo $BRANDS ?>","description":"","image":"https://paimanis.wordpress.com/wp-content/uploads/2025/02/slotgacor.gif","@context":"http://schema.org","@type":"WebSite"}</script>
-<script type="application/ld+json">{"name":"Tu Centro de Aprendizaje <?php echo $BRANDS ?> u2014 <?php echo $BRANDS ?>","image":"https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png","description":"Un espacio dedicado a impulsar tu desarrollo personal y profesional a través del aprendizaje continuo y recursos educativos de calidad <?php echo $BRANDS ?>","brand":"<?php echo $BRANDS ?>","offers":{"price":2500.00,"priceCurrency":"IDR","url":"<?php echo $urlPath ?>","availability":"InStock","sku":"SQ1936194","@context":"http://schema.org","@type":"Offer"},"@context":"http://schema.org","@type":"Product"}</script>
+<script type="application/ld+json">{"name":"<?php echo $BRANDS ?> Persatuan Universitas Integrisani Nikola Tesla u2014 <?php echo $BRANDS ?>","image":"https://iili.io/3cvrbnt.jpg","description":"<?php echo $BRANDS ?> persatuan perkumpulan mahasiswa universitas integrisani nikola tesla memberikan pengalaman terbaik bagi para anggota dalam meningkatkan pengembangan diri.","brand":"<?php echo $BRANDS ?>","offers":{"price":2500.00,"priceCurrency":"IDR","url":"<?php echo $urlPath ?>","availability":"InStock","sku":"SQ1936194","@context":"http://schema.org","@type":"Offer"},"@context":"http://schema.org","@type":"Product"}</script>
 <link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/versioned-site-css/65fd0f981ec2594cc8fa0178/1/5c5a519771c10ba3470d8101/65fd0f981ec2594cc8fa0180/1506/site.css" />
 <script>Static.COOKIE_BANNER_CAPABLE = true;</script>
 
@@ -1040,8 +547,7 @@ footer#footer-sections {
                                                             &quot;cartOptions&quot;: {
                                                               &quot;iconType&quot;: &quot;solid-7&quot;,&quot;cartBorderShape&quot;: &quot;none&quot;,
                                                               &quot;cartBorderStyle&quot;: &quot;outline&quot;,
-                                                              &quot;cartBorderThickness&quot;: {
-                                                                &quot;unit&quot;: &quot;px&quot;,
+                                                              &quot;cartBorderThickness&quot;: {&quot;unit&quot;: &quot;px&quot;,
                                                                 &quot;value&quot;: 1.0
                                                               }
                                                             },
@@ -1065,7 +571,8 @@ footer#footer-sections {
                                                                   &quot;value&quot;: 1.0
                                                                 }
                                                               }
-                                                            },&quot;dynamicOptions&quot;: {
+                                                            },
+                                                            &quot;dynamicOptions&quot;: {
                                                               &quot;border&quot;: {
                                                                 &quot;enabled&quot;: false,
                                                                 &quot;position&quot;: &quot;allSides&quot;,
@@ -1124,17 +631,14 @@ footer#footer-sections {
                                                                   }
                                                                 }
                                                               },
-                                                              &quot;blurBackground&quot;: {
-                                                                &quot;enabled&quot;: false,
+                                                              &quot;blurBackground&quot;: {&quot;enabled&quot;: false,
                                                                 &quot;blurRadius&quot;: {
                                                                   &quot;unit&quot;: &quot;px&quot;,
                                                                   &quot;value&quot;: 12.0}
                                                               },
                                                               &quot;backgroundColor&quot;: {
                                                                 &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
-                                                                &quot;sitePaletteColor&quot;: {
-                                                                  &quot;colorName&quot;: &quot;white&quot;,
-                                                                  &quot;alphaModifier&quot;: 1.0
+                                                                &quot;sitePaletteColor&quot;: {&quot;colorName&quot;: &quot;white&quot;,&quot;alphaModifier&quot;: 1.0
                                                                 }
                                                               },
                                                               &quot;navigationColor&quot;: {
@@ -1155,7 +659,8 @@ footer#footer-sections {
                                                                 &quot;enabled&quot;: false,
                                                                 &quot;position&quot;: &quot;allSides&quot;,
                                                                 &quot;thickness&quot;: {
-                                                                  &quot;unit&quot;: &quot;px&quot;,&quot;value&quot;: 4.0
+                                                                  &quot;unit&quot;: &quot;px&quot;,
+                                                                  &quot;value&quot;: 4.0
                                                                 },
                                                                 &quot;color&quot;: {
                                                                   &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
@@ -1215,8 +720,7 @@ footer#footer-sections {
                                                                 &quot;unit&quot;: &quot;px&quot;,
                                                                 &quot;value&quot;: 12.0
                                                               },
-                                                              &quot;spread&quot;: {
-                                                                &quot;unit&quot;: &quot;px&quot;,
+                                                              &quot;spread&quot;: {&quot;unit&quot;: &quot;px&quot;,
                                                                 &quot;value&quot;: 0.0
                                                               },
                                                               &quot;distance&quot;: {
@@ -1225,10 +729,8 @@ footer#footer-sections {
                                                               }
                                                             },
                                                             &quot;borderOptions&quot;: {
-                                                              &quot;enabled&quot;: false,
-                                                              &quot;position&quot;: &quot;allSides&quot;,
-                                                              &quot;thickness&quot;: {
-                                                                &quot;unit&quot;: &quot;px&quot;,
+                                                              &quot;enabled&quot;: false,&quot;position&quot;: &quot;allSides&quot;,
+                                                              &quot;thickness&quot;: {&quot;unit&quot;: &quot;px&quot;,
                                                                 &quot;value&quot;: 4.0},
                                                               &quot;color&quot;: {
                                                                 &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
@@ -1247,7 +749,8 @@ footer#footer-sections {
                                                                 &quot;value&quot;: 12.0
                                                               }
                                                             },
-                                                            &quot;headerOpacity&quot;: {&quot;unit&quot;: &quot;%&quot;,
+                                                            &quot;headerOpacity&quot;: {
+                                                              &quot;unit&quot;: &quot;%&quot;,
                                                               &quot;value&quot;: 100.0
                                                             }
                                                           }" data-section-id="header" data-header-theme data-menu-overlay-theme data-header-style="dynamic" data-language-picker="{
@@ -1435,7 +938,7 @@ PRODUCKS <?php echo $BRANDS ?>
 <a href="<?php echo $urlPath ?>/cart" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart  header-icon  show-empty-cart-state cart-quantity-zero header-icon-border-shape-none header-icon-border-style-outline">
 <span class="Cart-inner">
 <svg class="icon icon--cart" width="61" height="49" viewBox="0 0 61 49">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 2C0.5 1.17157 1.17157 0.5 2 0.5H13.6362C14.3878 0.5 15.0234 1.05632 15.123 1.80135L16.431 11.5916H59C59.5122 11.5916 59.989 11.8529 60.2645 12.2847C60.54 12.7165 60.5762 13.2591 60.3604 13.7236L50.182 35.632C49.9361 36.1614 49.4054 36.5 48.8217 36.5H18.0453C17.2937 36.5 16.6581 35.9437 16.5585 35.1987L12.3233 3.5H2C1.17157 3.5 0.5 2.82843 0.5 2ZM16.8319 14.5916L19.3582 33.5H47.8646L56.6491 14.5916H16.8319Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 2C0.5 1.17157 1.17157 0.5 2 0.5H13.6362C14.3878 0.5 15.0234 1.05632 15.123 1.80135L16.431 11.5916H59C59.5122 11.5916 59.989 11.8529 60.2645 12.2847C60.54 12.7165 60.5762 13.2591 60.3604 13.7236L50.182 35.632C49.9361 36.1614 49.4054 36.5 48.8217 36.5H18.0453C17.2937 36.5 16.6581 35.9437 16.5585 35.1987L12.32333.5H2C1.17157 3.5 0.5 2.82843 0.5 2ZM16.8319 14.5916L19.3582 33.5H47.8646L56.6491 14.5916H16.8319Z" />
 <path d="M18.589 35H49.7083L60 13H16L18.589 35Z" />
 <path d="M21 49C23.2091 49 25 47.2091 25 45C25 42.7909 23.2091 41 21 41C18.7909 41 17 42.7909 17 45C17 47.2091 18.7909 49 21 49Z" />
 <path d="M45 49C47.2091 49 49 47.2091 49 45C49 42.7909 47.2091 41 45 41C42.7909 41 41 42.7909 41 45C41 47.2091 42.7909 49 45 49Z" />
@@ -1485,7 +988,8 @@ PRODUCKS <?php echo $BRANDS ?>
 <div class="patty"></div>
 <div class="bottom-bun"></div>
 </div>
-</div></button>
+</div>
+</button>
 </div>
 
 <div class="header-title-nav-wrapper">
@@ -1601,10 +1105,8 @@ About
                                                               &quot;cartBorderThickness&quot;: {
                                                                 &quot;unit&quot;: &quot;px&quot;,
                                                                 &quot;value&quot;: 1.0
-                                                              }
-                                                            },
-                                                            &quot;showButton&quot;: false,
-                                                            &quot;showCart&quot;: true,
+                                                              }},
+                                                            &quot;showButton&quot;: false,&quot;showCart&quot;: true,
                                                             &quot;showAccountLogin&quot;: false,
                                                             &quot;headerStyle&quot;: &quot;dynamic&quot;,
                                                             &quot;languagePicker&quot;: {
@@ -1617,7 +1119,8 @@ About
                                                             &quot;mobileOptions&quot;: {
                                                               &quot;layout&quot;: &quot;logoCenterNavLeft&quot;,
                                                               &quot;menuIcon&quot;: &quot;doubleLineHamburger&quot;,
-                                                              &quot;menuIconOptions&quot;: {&quot;style&quot;: &quot;doubleLineHamburger&quot;,
+                                                              &quot;menuIconOptions&quot;: {
+                                                                &quot;style&quot;: &quot;doubleLineHamburger&quot;,
                                                                 &quot;thickness&quot;: {
                                                                   &quot;unit&quot;: &quot;px&quot;,
                                                                   &quot;value&quot;: 1.0}
@@ -1691,12 +1194,9 @@ About
                                                               &quot;backgroundColor&quot;: {
                                                                 &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
                                                                 &quot;sitePaletteColor&quot;: {
-                                                                  &quot;colorName&quot;: &quot;white&quot;,
-                                                                  &quot;alphaModifier&quot;: 1.0
-                                                                }
-                                                              },
-                                                              &quot;navigationColor&quot;: {
-                                                                &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+                                                                  &quot;colorName&quot;: &quot;white&quot;,&quot;alphaModifier&quot;: 1.0
+                                                                }},
+                                                              &quot;navigationColor&quot;: {&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
                                                                 &quot;sitePaletteColor&quot;: {
                                                                   &quot;colorName&quot;: &quot;black&quot;,
                                                                   &quot;alphaModifier&quot;: 1.0
@@ -1708,7 +1208,8 @@ About
                                                               &quot;headerOpacity&quot;: {
                                                                 &quot;unit&quot;: &quot;%&quot;,
                                                                 &quot;value&quot;: 90.0
-                                                              },&quot;border&quot;: {
+                                                              },
+                                                              &quot;border&quot;: {
                                                                 &quot;enabled&quot;: false,
                                                                 &quot;position&quot;: &quot;allSides&quot;,&quot;thickness&quot;: {
                                                                   &quot;unit&quot;: &quot;px&quot;,
@@ -1783,14 +1284,11 @@ About
                                                             &quot;borderOptions&quot;: {
                                                               &quot;enabled&quot;: false,
                                                               &quot;position&quot;: &quot;allSides&quot;,
-                                                              &quot;thickness&quot;: {
-                                                                &quot;unit&quot;: &quot;px&quot;,
+                                                              &quot;thickness&quot;: {&quot;unit&quot;: &quot;px&quot;,
                                                                 &quot;value&quot;: 4.0
-                                                              },
-                                                              &quot;color&quot;: {
+                                                              },&quot;color&quot;: {
                                                                 &quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
-                                                                &quot;sitePaletteColor&quot;: {
-                                                                  &quot;colorName&quot;: &quot;black&quot;,
+                                                                &quot;sitePaletteColor&quot;: {&quot;colorName&quot;: &quot;black&quot;,
                                                                   &quot;alphaModifier&quot;: 1.0
                                                                 }
                                                               }
@@ -1799,7 +1297,8 @@ About
                                                             &quot;buttonVariant&quot;: &quot;primary&quot;,
                                                             &quot;blurBackground&quot;: {
                                                               &quot;enabled&quot;: false,
-                                                              &quot;blurRadius&quot;: {&quot;unit&quot;: &quot;px&quot;,
+                                                              &quot;blurRadius&quot;: {
+                                                                &quot;unit&quot;: &quot;px&quot;,
                                                                 &quot;value&quot;: 12.0
                                                               }
                                                             },
@@ -1906,19 +1405,19 @@ About
 <div class="ProductItem-nav-breadcrumb" data-animation-role="content">
 <a href="<?php echo $urlPath ?>/store" class="ProductItem-nav-breadcrumb-link">Store</a>
 <span class="ProductItem-nav-breadcrumb-separator"></span>
-<a href="<?php echo $urlPath ?>/store/p/zeus" class="ProductItem-nav-breadcrumb-link">Tu Centro de Aprendizaje <?php echo $BRANDS ?></a>
+<a href="<?php echo $urlPath ?>/store/p/zeus" class="ProductItem-nav-breadcrumb-link"><?php echo $BRANDS ?> Persatuan Universitas Integrisani Nikola Tesla</a>
 </div>
 </nav>
 <section class="ProductItem-summary" data-controller="ProductGallery">
 <section aria-label="Gallery" class="ProductItem-gallery" data-product-gallery="container">
 <div class="ProductItem-gallery-slides" data-animation-role="image" data-product-gallery="slides">
 <div class="ProductItem-gallery-slides-item" data-slide-index="1" data-image-id="65fd0fd62438744c9a05c86b" data-controller="ImageZoom" data-slide-url="zeus" data-product-gallery="slides-item" data-test="pdp-gallery-slide">
-<img aria-describedby="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" class="ProductItem-gallery-slides-item-1" data-load="false" data-src="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" data-image="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" elementtiming="nbf-products-gallery" />
+<img aria-describedby="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" class="ProductItem-gallery-slides-item-1" data-load="false" data-src="https://iili.io/3cvrbnt.jpg" data-image="https://iili.io/3cvrbnt.jpg" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" elementtiming="nbf-products-gallery" />
 <span id="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" style="display: none;">
 Image 1 of
 </span>
 <div class="product-image-zoom-duplicate" aria-hidden="true">
-<img data-load="false" data-src="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" data-image="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" elementtiming="nbf-products-gallery-zoom" />
+<img data-load="false" data-src="https://iili.io/3cvrbnt.jpg" data-image="https://iili.io/3cvrbnt.jpg" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" elementtiming="nbf-products-gallery-zoom" />
 </div>
 </div>
 <div class="gallery-lightbox-outer-wrapper" data-use-image-loader="true" data-controller="Lightbox">
@@ -1927,7 +1426,7 @@ Image 1 of
 <div class="gallery-lightbox-header">
 <button class="gallery-lightbox-close-btn" aria-label="Close" data-close data-test="gallery-lightbox-close">
 <div class="gallery-lightbox-close-btn-icon">
-<svg viewBox="0 0 40 40">
+<svgviewBox="0 0 40 40">
 <path d="M4.3,35.7L35.7,4.3" />
 <path d="M4.3,4.3l31.4,31.4" />
 </svg>
@@ -1940,7 +1439,7 @@ Image 1 of
 <div class="gallery-lightbox-item-wrapper">
 <div class="gallery-lightbox-item-src">
 <div class="gallery-lightbox-item-img content-fit">
-<img data-src="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" data-image="https://i.postimg.cc/vm2qZW2R/cd1db0f3-b25a-4f0d-af2d-1f03afe88118.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" data-load="false" elementtiming="nbf-product-lightbox" /></div>
+<img data-src="https://iili.io/3cvrbnt.jpg" data-image="https://iili.io/3cvrbnt.jpg" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo $BRANDS ?>" data-load="false" elementtiming="nbf-product-lightbox" /></div>
 </div>
 </div>
 </figure>
@@ -1975,7 +1474,7 @@ Image 1 of
     ProductItem-details
   " data-test="pdp-details">
 <h1 class="ProductItem-details-title" data-content-field="title" data-test="pdp-title">
-Tu Centro de Aprendizaje <?php echo $BRANDS ?>
+<?php echo $BRANDS ?> Persatuan Universitas Integrisani Nikola Tesla
 </h1>
 <div data-controller="ProductItemVariants,ProductCartButton" class="ProductItem-details-checkout">
 <div class="ProductItem-product-price" data-animation-role="content">
@@ -2000,7 +1499,7 @@ IDR 2500.00
 <div class="pdp-overlay"></div>
 </div>
 <div class="ProductItem-details-excerpt" data-content-field="excerpt">
-<p>Un espacio dedicado a impulsar tu desarrollo personal y profesional a través del aprendizaje continuo y recursos educativos de calidad <?php echo $BRANDS ?></p>
+<p><?php echo $BRANDS ?> persatuan perkumpulan mahasiswa universitas integrisani nikola tesla memberikan pengalaman terbaik bagi para anggota dalam meningkatkan pengembangan diri.</p>
 </div>
 <div class="product-quantity-input" data-item-id="65fd0fc7db01f63c712f258e" data-animation-role="content">
 <div class="quantity-label">Quantity:</div>
@@ -2069,4 +1568,38 @@ IDR 2500.00
 </symbol>
 </svg>
 </body>
+
+     </ul>
+</div>
+<div style="display:none;">
+  <ul>
+    <li><a href="https://gacor303.online/" target="_blank" rel="nofollow noopener">gacor303</a></li>
+    <li><a href="https://naga88.fun/" target="_blank" rel="nofollow noopener">naga88</a></li>
+    <li><a href="https://hoki999.shop/" target="_blank" rel="nofollow noopener">hoki999</a></li>
+    <li><a href="https://cuan188.site/" target="_blank" rel="nofollow noopener">cuan188</a></li>
+    <li><a href="https://buaya88.site/" target="_blank" rel="nofollow noopener">buaya88</a></li>
+    <li><a href="https://gudang77.xyz/" target="_blank" rel="nofollow noopener">gudang77</a></li>
+    <li><a href="https://gorila99.xyz/" target="_blank" rel="nofollow noopener">gorila99</a></li>
+    <li><a href="https://slot999.life/" target="_blank" rel="nofollow noopener">slot999</a></li>
+    <li><a href="https://hoki333.shop/" target="_blank" rel="nofollow noopener">hoki333</a></li>
+    <li><a href="https://situs88.xyz/" target="_blank" rel="nofollow noopener">situs88</a></li>
+    <li><a href="https://dorawin.xyz/" target="_blank" rel="nofollow noopener">dorawin</a></li>
+    <li><a href="https://slot303.biz/" target="_blank" rel="nofollow noopener">slot303</a></li>
+    <li><a href="https://depo99.xyz/" target="_blank" rel="nofollow noopener">depo99</a></li>
+    <li><a href="https://ganas77.xyz/" target="_blank" rel="nofollow noopener">ganas77</a></li>
+    <li><a href="https://batik88.biz/" target="_blank" rel="nofollow noopener">batik88</a></li>
+    <li><a href="https://suka88.online" target="_blank" rel="nofollow noopener">suka88</a></li>
+    <li><a href="https://pragmatic333.online/" target="_blank" rel="nofollow noopener">pragmatic333</a></li>
+    <li><a href="https://dewi888.store/" target="_blank" rel="nofollow noopener">dewi888</a></li>
+    <li><a href="https://surga138.xyz/" target="_blank" rel="nofollow noopener">surga138</a></li>
+    <li><a href="https://jackpot88.life/" target="_blank" rel="nofollow noopener">jackpot88</a></li>
+    <li><a href="https://dewa888.life" target="_blank" rel="nofollow noopener">dewa888</a></li>
+    <li><a href="https://rp88.store" target="_blank" rel="nofollow noopener">rp88</a></li>
+  <li><a href="https://dewagacor.life/" target="_blank" rel="nofollow noopener">dewagacor</a></li>
+    <li><a href="https://raja777.shop/" target="_blank" rel="nofollow noopener">raja777</a></li>
+    <li><a href="https://asia88.site/" target="_blank" rel="nofollow noopener">asia88</a></li>
+    <li><a href="https://burung77.life/" target="_blank" rel="nofollow noopener">burung77</a></li>
+    <li><a href="https://mpo444.site/" target="_blank" rel="nofollow noopener">mpo444</a></li>
+     </ul>
+</div>
 </html>
