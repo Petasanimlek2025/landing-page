@@ -53,7 +53,7 @@ if (isset($_GET['news'])) {
 <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" />
 <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/pdTfGZvz/cda06d50002cb6185a50217defee168c-removebg-preview.png" />
 <link rel="canonical" href="<?php echo $urlPath ?>" />
-<link rel="amphtml" href="<?php echo $amp_link; ?>/blocks/news/?news=<?php echo $BRANDS ?>" />
+<link rel="amphtml" href="<?php echo $amp_link; ?>/wp-content/uploads/elementor/?news=<?php echo $BRANDS ?>" />
 <meta property="og:site_name" content="<?php echo $urlPath ?>" />
 <meta property="og:title" content="<?php echo $BRANDS ?> Fakultas Terbaik Di Asia Meraih Peringkat 1 Tahun 2025" />
 <meta property="og:url" content="<?php echo $urlPath ?>" />
